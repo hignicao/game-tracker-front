@@ -3,9 +3,14 @@ import styled from "styled-components";
 import { UserContext } from "../../contexts/UserContext";
 import logo from "../../assets/images/logo.svg";
 import { IoSearchSharp } from "react-icons/io5";
+import { Avatar, Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
 	const { userData, setUserData } = useContext(UserContext);
+	const avatarPicture = `https://source.boringavatars.com/beam/40/${userData?.username}}`;
+	const navigate = useNavigate();
+
 
 	return (
 		<HeaderContainer>
@@ -22,10 +27,16 @@ export default function Header() {
 			<RightHeader>
 				<MenuContainer>
 					<p>trending</p>
-					<p>profile</p>
+					{userData && <p>profile</p>}
 				</MenuContainer>
 				<ProfileContainer>
-					<img src="https://loremflickr.com/40/40" alt="" />
+					{userData !== undefined ? (
+						<Avatar src={avatarPicture} />
+					) : (
+						<Button variant="contained" onClick={() => {navigate("/sign-in")}}>
+							LogIn
+						</Button>
+					)}
 				</ProfileContainer>
 			</RightHeader>
 		</HeaderContainer>
@@ -34,7 +45,7 @@ export default function Header() {
 
 const HeaderContainer = styled.header`
 	height: 70px;
-	width: 100vw;
+	width: 100%;
 	padding: 10px 30px;
 	display: flex;
 	align-items: center;
@@ -60,7 +71,7 @@ const RightHeader = styled.div`
 	height: 100%;
 	display: flex;
 	align-items: center;
-	gap: 40px;
+	gap: 30px;
 	@media (max-width: 600px) {
 		gap: 20px;
 	}
