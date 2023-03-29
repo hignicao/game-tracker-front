@@ -35,12 +35,12 @@ export default function Header() {
 const HeaderContainer = styled.header`
 	height: 70px;
 	width: 100vw;
-	background-color: #1a2947;
 	padding: 10px 30px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	gap: 40px;
+	margin-bottom: 20px;
 	@media (max-width: 600px) {
 		padding: 10px 20px;
 	}
@@ -81,8 +81,9 @@ const LogoContainer = styled.div`
 		color: white;
 		font-family: "Audiowide", cursive;
 		font-size: 25px;
-		-webkit-text-stroke: 1px #1f292b;
-		text-shadow: 0px 0px 2px #1f292b;
+		font-weight: 600;
+		-webkit-text-stroke: 2px #0f0f0f;
+		text-shadow: 0px 0px 2px #0f0f0f;
 		@media (max-width: 600px) {
 			display: none;
 		}
@@ -92,7 +93,7 @@ const LogoContainer = styled.div`
 const SearchBarContainer = styled.div`
 	height: 40px;
 	max-width: 300px;
-	background-color: #06101f;
+	background-color: #151323;
 	border-radius: 8px;
 	color: white;
 	display: flex;
@@ -109,6 +110,7 @@ const SearchBarContainer = styled.div`
 		width: 100%;
 		background: none;
 		border: none;
+		outline: none;
 		font-family: "Roboto", sans-serif;
 		font-size: 18px;
 		padding: 0px;

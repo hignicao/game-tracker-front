@@ -28,8 +28,8 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1;
-    background-color: #06101F;
+    background-color: #1f1c33;
+    color: white;
   }
   * {
     box-sizing: border-box;
@@ -49,38 +49,6 @@ const GlobalStyle = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
-  button {
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 400;
-    background: #52B6FF;
-    border-radius: 5px;
-    border: none;
-    color: #FFFFFF;
-  }
-  input {
-    padding: 8px;
-    background: #FFFFFF;
-    border: 1px solid #D5D5D5;
-    border-radius: 5px;
-    outline: none;
-    font-family: 'Lexend Deca';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    color: #666666;
-    ::placeholder {
-      color: #DBDBDB;
-    }
-  }
-  h2 {
-    font-family: 'Playball', cursive;
-    color: #FFFFFF;
-    font-size: 40px;
-    line-height: 50px;
-  }
-
 `;
 
 export default GlobalStyle;
