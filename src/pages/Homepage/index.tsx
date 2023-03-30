@@ -3,8 +3,11 @@ import logo from "../../assets/images/logo.svg";
 import { VscCompass } from "react-icons/vsc";
 import { BsStarHalf } from "react-icons/bs";
 import { FaListUl } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 export default function Homepage() {
+	const navigate = useNavigate();
+
 	return (
 		<HomeBox>
 			<AppInfoContainer maxWidth="sm">
@@ -14,7 +17,14 @@ export default function Homepage() {
 				</LogoBox>
 				<h2>Descubra novos jogos, acompanhe os que deseja jogar e organize a sua coleção de um jeito fácil e intuitivo.</h2>
 				<p>Cadastre-se agora e começe a trackear!</p>
-				<Button variant="contained">Cadastrar</Button>
+				<Button
+					variant="contained"
+					onClick={() => {
+						navigate("/sign-up");
+					}}
+				>
+					Cadastrar
+				</Button>
 			</AppInfoContainer>
 			<AppFeaturesContainer maxWidth="md">
 				<FeaturePaper elevation={3}>
@@ -38,16 +48,15 @@ export default function Homepage() {
 }
 
 const HomeBox = styled(Box)`
-	/* border: 1px solid red; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	gap: 70px;
+	margin-bottom: 50px;
 `;
 
 const AppInfoContainer = styled(Container)`
-	/* border: 1px solid yellow; */
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -87,20 +96,19 @@ const LogoBox = styled(Box)`
 `;
 
 const AppFeaturesContainer = styled(Container)`
-	/* border: 1px solid green; */
 	display: flex;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
-  @media (max-width: 870px) {
-    flex-direction: column;
-  }
+	@media (max-width: 870px) {
+		flex-direction: column;
+	}
 `;
 
 const FeaturePaper = styled(Paper)`
 	width: 240px;
-  height: 200px;
+	height: 200px;
 	background-color: #ab99ca;
 	display: flex;
 	flex-direction: column;
@@ -109,13 +117,13 @@ const FeaturePaper = styled(Paper)`
 	gap: 10px;
 	text-align: center;
 	padding: 25px;
-  @media (max-width: 600px) {
-    width: 100%;
-    height: 180px;
-  }
+	@media (max-width: 600px) {
+		width: 100%;
+		height: 180px;
+	}
 	svg {
 		font-size: 35px;
-    margin-bottom: 15px;
+		margin-bottom: 15px;
 	}
 	h6 {
 		font-size: 20px;

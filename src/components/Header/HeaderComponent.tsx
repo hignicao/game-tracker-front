@@ -1,39 +1,68 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import styled from "styled-components";
 import { UserContext } from "../../contexts/UserContext";
 import logo from "../../assets/images/logo.svg";
 import { IoSearchSharp } from "react-icons/io5";
 import { Avatar, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+interface ShowSearchBar {
+	show: boolean;
+}
 
 export default function Header() {
-	const { userData, setUserData } = useContext(UserContext);
+	const { userData } = useContext(UserContext);
 	const avatarPicture = `https://source.boringavatars.com/beam/40/${userData?.username}}`;
+	const [showSearchBar, setShowSearchBar] = useState(false);
 	const navigate = useNavigate();
 
+	function handleSearchBar() {
+		if (showSearchBar) {
+			// search()
+			setShowSearchBar(false);
+		} else {
+			setShowSearchBar(true);
+		}
+	}
 
 	return (
 		<HeaderContainer>
 			<LeftHeader>
-				<LogoContainer>
+				<LogoContainer
+					onClick={() => {
+						navigate("/");
+					}}
+				>
 					<img src={logo} alt="" />
 					<p>GT</p>
 				</LogoContainer>
+				<HiddenSearchBar show={showSearchBar}>
+					<input type="text" placeholder="Pesquisar" />
+					<IoSearchSharp onClick={handleSearchBar} />
+				</HiddenSearchBar>
+				<DivCloseSearchBar show={showSearchBar} onClick={() => setShowSearchBar(false)} />
 				<SearchBarContainer>
-					<input type="text" placeholder="Search" />
-					<IoSearchSharp />
+					<input type="text" placeholder="Pesquisar" />
+					<IoSearchSharp onClick={() => alert("Pesquisar")} />
 				</SearchBarContainer>
+				<IoSearchSharp onClick={handleSearchBar} />
 			</LeftHeader>
 			<RightHeader>
 				<MenuContainer>
-					<p>trending</p>
-					{userData && <p>profile</p>}
+					<LinkText to={"/trending"}>trending</LinkText>
+					{userData && <LinkText to={"/profile"}>profile</LinkText>}
 				</MenuContainer>
 				<ProfileContainer>
 					{userData !== undefined ? (
 						<Avatar src={avatarPicture} />
 					) : (
-						<Button variant="contained" onClick={() => {navigate("/sign-in")}}>
+						<Button
+							variant="contained"
+							onClick={() => {
+								navigate("/sign-in");
+							}}
+						>
 							LogIn
 						</Button>
 					)}
@@ -62,8 +91,15 @@ const LeftHeader = styled.div`
 	display: flex;
 	align-items: center;
 	gap: 40px;
+	> svg {
+		display: none;
+	}
 	@media (max-width: 600px) {
-		gap: 20px;
+		gap: 10px;
+		> svg {
+			display: block;
+			font-size: 25px;
+		}
 	}
 `;
 
@@ -82,6 +118,7 @@ const LogoContainer = styled.div`
 	display: flex;
 	align-items: center;
 	gap: 5px;
+	cursor: pointer;
 	img {
 		height: 120%;
 		@media (max-width: 600px) {
@@ -135,10 +172,62 @@ const SearchBarContainer = styled.div`
 	}
 	svg {
 		font-size: 20px;
+		cursor: pointer;
 		@media (max-width: 600px) {
-			font-size: 25px;
+			display: none;
 		}
 	}
+`;
+
+const HiddenSearchBar = styled.div<ShowSearchBar>`
+	background-color: #312d5f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	z-index: 1;
+	top: -70px;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	padding: 0 20px;
+	input {
+		height: 35px;
+		width: 100%;
+		background: #262349;
+		border: none;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		outline: none;
+		font-family: "Roboto", sans-serif;
+		font-size: 18px;
+		padding: 10px;
+		color: white;
+		::placeholder {
+			color: #747474;
+		}
+	}
+	svg {
+		background-color: #262349;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		padding: 5px;
+		font-size: 35px;
+	}
+	@media (max-width: 600px) {
+		top: ${(props) => (props.show ? "0" : "-70px;")};
+		transition: top 0.5s ease-in-out;
+	}
+`;
+
+const DivCloseSearchBar = styled.div<ShowSearchBar>`
+	${(props) => !props.show && "display: none"};
+	height: calc(100vh - 70px);
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	left: 0;
+	top: 70px;
 `;
 
 const MenuContainer = styled.div`
@@ -151,6 +240,11 @@ const MenuContainer = styled.div`
 	@media (max-width: 600px) {
 		gap: 15px;
 	}
+`;
+
+const LinkText = styled(Link)`
+	text-decoration: none;
+	color: #ffffff;
 `;
 
 const ProfileContainer = styled.div`
