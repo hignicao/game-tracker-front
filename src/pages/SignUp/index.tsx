@@ -17,9 +17,6 @@ export default function SignUp() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const navigate = useNavigate();
 
-
-
-
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 

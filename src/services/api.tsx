@@ -1,7 +1,8 @@
-import axios from 'axios';
+import axios from "axios";
+import { BASE_URL } from "../constants/urls";
 
 const instance = axios.create({
-  baseURL: process.env.REACT_APP_API_BASE_URL
+	baseURL: BASE_URL,
 });
 
 export const externalInstance = axios.create();
