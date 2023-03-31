@@ -8,6 +8,7 @@ import Header from "./components/Header/HeaderComponent";
 import Homepage from "./pages/Homepage";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
+import Trending from "./pages/Trending";
 
 function App() {
 	return (
@@ -22,7 +23,7 @@ function App() {
 							<Route path="/sign-in" element={<SignIn />} />
 							<Route path="/sign-up" element={<SignUp />} />
 							<Route path="/profile" element={<h1>Profile</h1>} />
-							<Route path="/trending" element={<h1>Trending</h1>} />
+							<Route path="/trending" element={<Trending/>} />
 							<Route path="/search/:search" element={<h1>Search</h1>} />
 							<Route path="/game/:gameId" element={<h1>GamePage</h1>} />
 						</Routes>
