@@ -16,6 +16,7 @@ const GamePaper = styled(Paper)`
 	height: 216px;
 	width: 162px;
 	border-radius: 5px;
+	cursor: pointer;
 	img {
 		width: 100%;
 		height: 100%;
