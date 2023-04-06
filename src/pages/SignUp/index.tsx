@@ -11,6 +11,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import { AiFillEyeInvisible, AiFillEye } from "react-icons/ai";
 import styled from "styled-components";
+import { signUp } from "../../services/userApi";
 
 export default function SignUp() {
 	const [name, setName] = useState("");
@@ -23,7 +24,7 @@ export default function SignUp() {
 	const [disabled, setDisabled] = useState(false);
 	const navigate = useNavigate();
 
-	const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+	async function handleSubmit(event: FormEvent<HTMLFormElement>) {
 		event.preventDefault();
 
 		setDisabled(true);
@@ -46,7 +47,7 @@ export default function SignUp() {
 			}, 2500);
 		} else {
 			try {
-				// await signUp(name, username, email, password);
+				await signUp(name, username, email, password);
 				toast.success(`Cadastro criado com sucesso!`, {
 					position: "top-right",
 					autoClose: 2000,

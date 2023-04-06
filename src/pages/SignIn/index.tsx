@@ -5,25 +5,26 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import { UserContext } from "../../contexts/UserContext";
+import { signIn } from "../../services/authApi";
 
 export default function SignIn() {
-	const { userData, setUserData } = useContext(UserContext);
+	const { setUserData } = useContext(UserContext);
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 	const [disabled, setDisabled] = useState(false);
 	const navigate = useNavigate();
 
-	const handleLogIn = (event: FormEvent<HTMLFormElement>) => {
+	async function handleLogIn(event: FormEvent<HTMLFormElement>) {
 		event.preventDefault();
 
 		setDisabled(true);
 
 		try {
-			// const userData = await signIn(username, password);
+			const userData = await signIn(username, password);
 			setUserData(userData);
 			navigate("/profile");
 		} catch (err) {
-			toast.error("Não foi possível fazer o cadastro, tente novamente!", {
+			toast.error("Não foi possível fazer o login, tente novamente!", {
 				position: "top-right",
 				autoClose: 2000,
 				hideProgressBar: true,

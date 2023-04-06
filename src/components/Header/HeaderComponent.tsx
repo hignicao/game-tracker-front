@@ -13,7 +13,7 @@ interface ShowSearchBar {
 
 export default function Header() {
 	const { userData } = useContext(UserContext);
-	const avatarPicture = `https://source.boringavatars.com/beam/40/${userData?.username}}`;
+	const avatarPicture = `https://source.boringavatars.com/beam/40/${userData?.user.username}}`;
 	const [showSearchBar, setShowSearchBar] = useState(false);
 	const navigate = useNavigate();
 

@@ -43,6 +43,32 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 5670,
+				image_id: "o7q3ikzmkjxbftrd64ok",
+			},
+			{
+				id: 5671,
+				image_id: "vfdeo6kgu0o4cyzd0sng",
+			},
+			{
+				id: 5672,
+				image_id: "eepecmqsq6uqxiaukar1",
+			},
+			{
+				id: 5673,
+				image_id: "hjnzngnrtwr82jzmmkef",
+			},
+			{
+				id: 5674,
+				image_id: "glvmulyejlde31q8b70z",
+			},
+			{
+				id: 6913,
+				image_id: "n3t2agwuxlqggp3kryf9",
+			},
+		],
 		summary:
 			"Grand Theft Auto V is a vast open world game set in Los Santos, a sprawling sun-soaked metropolis struggling to stay afloat in an era of economic uncertainty and cheap reality TV. The game blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.",
 	},
@@ -91,6 +117,48 @@ const games = [
 				name: "Xbox Series X|S",
 			},
 		],
+		screenshots: [
+			{
+				id: 9742,
+				image_id: "mnljdjtrh44x4snmierh",
+			},
+			{
+				id: 9743,
+				image_id: "em1y2ugcwy2myuhvb9db",
+			},
+			{
+				id: 9744,
+				image_id: "usxccsncekxg0wd1v6ee",
+			},
+			{
+				id: 9745,
+				image_id: "z5t0yuhyiiui1ickwhgj",
+			},
+			{
+				id: 21107,
+				image_id: "farvemmmxav0bgt6wx7t",
+			},
+			{
+				id: 853177,
+				image_id: "sciabd",
+			},
+			{
+				id: 853178,
+				image_id: "sciabe",
+			},
+			{
+				id: 853179,
+				image_id: "sciabf",
+			},
+			{
+				id: 853180,
+				image_id: "sciabg",
+			},
+			{
+				id: 853181,
+				image_id: "sciabh",
+			},
+		],
 		summary:
 			"RPG and sequel to The Witcher 2 (2011), The Witcher 3 follows witcher Geralt of Rivia as he seeks out his former lover and his young subject while intermingling with the political workings of the wartorn Northern Kingdoms. Geralt has to fight monsters and deal with people of all sorts in order to solve complex problems and settle contentious disputes, each ranging from the personal to the world-changing.",
 	},
@@ -125,6 +193,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 345,
+				image_id: "muv70yw3rds1cw8ymr5v",
+			},
+			{
+				id: 346,
+				image_id: "xzk2h41fiye7uwbhc6ub",
+			},
+			{
+				id: 347,
+				image_id: "urqw7ltwmhr39gkidsih",
+			},
+			{
+				id: 348,
+				image_id: "t0mus35qrgclafo1ql8k",
+			},
+			{
+				id: 349,
+				image_id: "x5bbaqvgbpaz4hzlfeqb",
 			},
 		],
 		summary:
@@ -179,6 +269,52 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 214060,
+				image_id: "quphnww1axg2mmsvxfux",
+			},
+			{
+				id: 214061,
+				image_id: "jmi4y3q12o4uitdcaf7i",
+			},
+			{
+				id: 214062,
+				image_id: "c6ruovzsugjlnlcmm8b0",
+			},
+			{
+				id: 214063,
+				image_id: "ydyq0pixly7vt29fnzci",
+			},
+			{
+				id: 214064,
+				image_id: "lelfskpwy4slftl3qdeb",
+			},
+			{
+				id: 214066,
+				image_id: "c7usjg7gpo8rs0bfjkph",
+			},
+			{
+				id: 214067,
+				image_id: "ybliaszwqkwui7djaou4",
+			},
+			{
+				id: 214068,
+				image_id: "ts8wtae3t6aghttvtt2s",
+			},
+			{
+				id: 214069,
+				image_id: "vnv5cd9kvonsjvazpotx",
+			},
+			{
+				id: 214070,
+				image_id: "w4plqrhe04byymfksmux",
+			},
+			{
+				id: 214071,
+				image_id: "ubbe5gewccx5ig3xy30t",
+			},
+		],
 		summary:
 			"Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.",
 	},
@@ -231,6 +367,28 @@ const games = [
 				name: "Mac",
 			},
 		],
+		screenshots: [
+			{
+				id: 725,
+				image_id: "i9ys3zdhph1mh3futdit",
+			},
+			{
+				id: 726,
+				image_id: "rvrge8js7xnhr4z1vrbk",
+			},
+			{
+				id: 727,
+				image_id: "cmxaa4r52exlqvzwtxkh",
+			},
+			{
+				id: 728,
+				image_id: "vghkwbdabx0cri7thb9y",
+			},
+			{
+				id: 729,
+				image_id: "m4hdhjptmmwvrjbojzp0",
+			},
+		],
 		summary:
 			"Sequel to the acclaimed Portal (2007), Portal 2 pits the protagonist of the original game, Chell, and her new robot friend, Wheatley, against more puzzles conceived by GLaDOS, an A.I. with the sole purpose of testing the Portal Gun's mechanics and taking revenge on Chell for the events of Portal. As a result of several interactions and revelations, Chell once again pushes to escape Aperture Science Labs.",
 	},
@@ -257,6 +415,28 @@ const games = [
 			{
 				id: 9,
 				name: "PlayStation 3",
+			},
+		],
+		screenshots: [
+			{
+				id: 236,
+				image_id: "upogjfthdffjlzfi26xe",
+			},
+			{
+				id: 237,
+				image_id: "emvrwg5vhpfcmn9loxgu",
+			},
+			{
+				id: 238,
+				image_id: "kdt90b2rbx4tmewaxur9",
+			},
+			{
+				id: 239,
+				image_id: "oon90tsbpin8qae3rldz",
+			},
+			{
+				id: 240,
+				image_id: "rta7qwesachxsykzwokf",
 			},
 		],
 		summary:
@@ -297,6 +477,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 892,
+				image_id: "bk0fi4frntydsqma0g0q",
+			},
+			{
+				id: 893,
+				image_id: "k22nwxzx6eb4ek7xbjps",
+			},
+			{
+				id: 8205,
+				image_id: "gzp0z0rcwlw3symd33gy",
+			},
+			{
+				id: 8206,
+				image_id: "xsdmofyywtzsgrcadaym",
+			},
+			{
+				id: 8218,
+				image_id: "wvtfwo7zwey0j3mzvlbv",
 			},
 		],
 		summary:
@@ -343,6 +545,56 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 43482,
+				image_id: "xegpfnsvlyeld0zkjnrc",
+			},
+			{
+				id: 43485,
+				image_id: "c9xalka7stjkx4mes7kp",
+			},
+			{
+				id: 181619,
+				image_id: "qg7gx276z3hsqlr9xpt6",
+			},
+			{
+				id: 181620,
+				image_id: "x8xczj2a0y6g9rnhboko",
+			},
+			{
+				id: 181621,
+				image_id: "dhw6ucx9laj5esv6rngn",
+			},
+			{
+				id: 181622,
+				image_id: "h8f9uojkzvaau8pxsyxi",
+			},
+			{
+				id: 181623,
+				image_id: "tdxv4zzkqyjnm9pmwxw0",
+			},
+			{
+				id: 211553,
+				image_id: "kcfpf8wa8esalk0qkpo5",
+			},
+			{
+				id: 212061,
+				image_id: "uyaminfh8sugglvt247u",
+			},
+			{
+				id: 212062,
+				image_id: "banftd8fgfytbsfx6mjz",
+			},
+			{
+				id: 212063,
+				image_id: "dorsz0jbcecmkxvzi3t8",
+			},
+			{
+				id: 212064,
+				image_id: "mptosgjarjlyqxy7lqsm",
+			},
+		],
 		summary: "Red Dead Redemption 2 is the epic tale of outlaw Arthur Morgan and the infamous Van der Linde gang, on the run across America at the dawn of the modern age.",
 	},
 	{
@@ -372,6 +624,44 @@ const games = [
 			{
 				id: 130,
 				name: "Nintendo Switch",
+			},
+		],
+		screenshots: [
+			{
+				id: 957969,
+				image_id: "sckj69",
+			},
+			{
+				id: 957970,
+				image_id: "sckj6a",
+			},
+			{
+				id: 957971,
+				image_id: "sckj6b",
+			},
+			{
+				id: 957972,
+				image_id: "sckj6c",
+			},
+			{
+				id: 957973,
+				image_id: "sckj6d",
+			},
+			{
+				id: 957974,
+				image_id: "sckj6e",
+			},
+			{
+				id: 957975,
+				image_id: "sckj6f",
+			},
+			{
+				id: 957976,
+				image_id: "sckj6g",
+			},
+			{
+				id: 957977,
+				image_id: "sckj6h",
 			},
 		],
 		summary:
@@ -410,6 +700,28 @@ const games = [
 				name: "Xbox 360",
 			},
 		],
+		screenshots: [
+			{
+				id: 1282,
+				image_id: "kwjtiwnlluu30knt0grv",
+			},
+			{
+				id: 1283,
+				image_id: "kvq6cqtwbrt7hqtl04pv",
+			},
+			{
+				id: 1284,
+				image_id: "hterz13rpaszugt8spxs",
+			},
+			{
+				id: 1285,
+				image_id: "h3iymjjobo27kmyg649y",
+			},
+			{
+				id: 6458,
+				image_id: "yxe6aqle2hup54tlhche",
+			},
+		],
 		summary:
 			"Beyond the reach of civilization lies a lawless island ruled by violence. This is where you find yourself stranded, caught in a bloody conflict between the island’s psychotic warlords and indigenous rebels. Struggling to survive, your only hope of escape is through the muzzle of a gun. Discover the island’s dark secrets and take the fight to the enemy; improvise and use your environment to your advantage; and outwit its cast of ruthless, deranged inhabitants. Beware the beauty and mystery of this island of insanity… Where nothing is what is seems, you’ll need more than luck to escape alive.",
 	},
@@ -444,6 +756,48 @@ const games = [
 			{
 				id: 14,
 				name: "Mac",
+			},
+		],
+		screenshots: [
+			{
+				id: 390199,
+				image_id: "sc8d2v",
+			},
+			{
+				id: 390200,
+				image_id: "sc8d2w",
+			},
+			{
+				id: 390201,
+				image_id: "sc8d2x",
+			},
+			{
+				id: 390202,
+				image_id: "sc8d2y",
+			},
+			{
+				id: 390203,
+				image_id: "sc8d2z",
+			},
+			{
+				id: 390204,
+				image_id: "sc8d30",
+			},
+			{
+				id: 390205,
+				image_id: "sc8d31",
+			},
+			{
+				id: 390206,
+				image_id: "sc8d32",
+			},
+			{
+				id: 390207,
+				image_id: "sc8d33",
+			},
+			{
+				id: 1010716,
+				image_id: "sclnvg",
 			},
 		],
 		summary:
@@ -496,6 +850,28 @@ const games = [
 			{
 				id: 14,
 				name: "Mac",
+			},
+		],
+		screenshots: [
+			{
+				id: 1733,
+				image_id: "lq9a31uqkexzf1gpclti",
+			},
+			{
+				id: 1734,
+				image_id: "dsrqmixzfddse3oscing",
+			},
+			{
+				id: 1735,
+				image_id: "lgkgtrli8zkqnn8fnwrv",
+			},
+			{
+				id: 1736,
+				image_id: "esryx4vgbsz9pkwhov66",
+			},
+			{
+				id: 1737,
+				image_id: "ft2zywudfmu7xsipcsj2",
 			},
 		],
 		summary:
@@ -554,6 +930,44 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 865035,
+				image_id: "scijgr",
+			},
+			{
+				id: 865036,
+				image_id: "scijgs",
+			},
+			{
+				id: 865037,
+				image_id: "scijgt",
+			},
+			{
+				id: 865038,
+				image_id: "scijgu",
+			},
+			{
+				id: 865039,
+				image_id: "scijgv",
+			},
+			{
+				id: 865040,
+				image_id: "scijgw",
+			},
+			{
+				id: 865041,
+				image_id: "scijgx",
+			},
+			{
+				id: 865042,
+				image_id: "scijgy",
+			},
+			{
+				id: 865043,
+				image_id: "scijgz",
+			},
+		],
 		summary:
 			"BioShock Infinite is the third game in the BioShock series. It is not a direct sequel/prequel to any of the previous BioShock games but takes place in an entirely different setting, although it shares similar features, gameplay and concepts with the previous games. BioShock Infinite features a range of environments that force the player to adapt, with different weapons and strategies for each situation. Interior spaces feature close combat with enemies, but unlike previous games set in Rapture, the setting of Infinite contains open spaces with emphasis on sniping and ranged combat against as many as fifteen enemies at once.",
 	},
@@ -590,6 +1004,28 @@ const games = [
 				name: "PlayStation 4",
 			},
 		],
+		screenshots: [
+			{
+				id: 10700,
+				image_id: "fmvburhlunnhs3mdqysc",
+			},
+			{
+				id: 10701,
+				image_id: "o7ehlmbjcvkeeltwreeg",
+			},
+			{
+				id: 10702,
+				image_id: "gdc15kvjedin5c4v6cce",
+			},
+			{
+				id: 10703,
+				image_id: "gko0jchtb85kbsc1dg9l",
+			},
+			{
+				id: 10704,
+				image_id: "llwixfa0dy8fpex3tcwr",
+			},
+		],
 		summary:
 			"Welcome to a vibrant world rich with the beauty of nature – but inhabited by awe-inspiring, highly advanced machines. As a young machine hunter named Aloy, you must unravel the mysteries of this world and find your own destiny.",
 	},
@@ -616,6 +1052,28 @@ const games = [
 			{
 				id: 48,
 				name: "PlayStation 4",
+			},
+		],
+		screenshots: [
+			{
+				id: 11575,
+				image_id: "fn1wbuvikoacxt4zvfxl",
+			},
+			{
+				id: 11576,
+				image_id: "b41umzxjcehm8fozl3gf",
+			},
+			{
+				id: 11577,
+				image_id: "tqt0sxjytiovh3g96cl0",
+			},
+			{
+				id: 11578,
+				image_id: "rtu8k7vm5x4mw5hilh2z",
+			},
+			{
+				id: 23584,
+				image_id: "qwytrspu8brvow9x9y15",
 			},
 		],
 		summary:
@@ -658,6 +1116,28 @@ const games = [
 				name: "OnLive Game System",
 			},
 		],
+		screenshots: [
+			{
+				id: 350,
+				image_id: "optmyqz2utbniy4abipu",
+			},
+			{
+				id: 351,
+				image_id: "zogoamnedpsulpqblwfn",
+			},
+			{
+				id: 352,
+				image_id: "ephvdh5mjs2jdadxzw4u",
+			},
+			{
+				id: 354,
+				image_id: "ygltnojhp2e8dvo8yapm",
+			},
+			{
+				id: 40724,
+				image_id: "mpgh7k42h4gpg9saizpr",
+			},
+		],
 		summary:
 			"After the events of Batman: Arkham Asylum (2009), a section of the city of Gotham has been turned into a prison, designed to keep the scum of the city away from the people. Bruce Wayne protests this prison but is shortly kidnapped by the despicable Hugo Strange, thus having to face the city's most powerful villains as the Batman while trying to uncover Strange's plans.",
 	},
@@ -692,6 +1172,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 1244,
+				image_id: "eaj8ukcnb9pqrupxxr5g",
+			},
+			{
+				id: 1246,
+				image_id: "kb2l3ty0uwvktogoiicx",
+			},
+			{
+				id: 1248,
+				image_id: "dn5pz8gvd4jobsqrcjy3",
+			},
+			{
+				id: 3651,
+				image_id: "q7homzi5rjybswimfakb",
+			},
+			{
+				id: 3652,
+				image_id: "b8hdl5qreh7cnce6ste8",
 			},
 		],
 		summary:
@@ -738,6 +1240,52 @@ const games = [
 				name: "Wii U",
 			},
 		],
+		screenshots: [
+			{
+				id: 251,
+				image_id: "lmvgtguef4qt5moqdywg",
+			},
+			{
+				id: 252,
+				image_id: "oswmovlpgvm8bv6aqixd",
+			},
+			{
+				id: 253,
+				image_id: "u4s5xujuojx2aoxp64db",
+			},
+			{
+				id: 254,
+				image_id: "fuvw6ovhzymcnkqizlxc",
+			},
+			{
+				id: 255,
+				image_id: "b8awpofzslalvoupx7er",
+			},
+			{
+				id: 182407,
+				image_id: "foz4feni33hcjkl935xe",
+			},
+			{
+				id: 182408,
+				image_id: "m4pxyygigwayr8in1rsa",
+			},
+			{
+				id: 182409,
+				image_id: "vbdw4lnfztl9lgw5du3h",
+			},
+			{
+				id: 182410,
+				image_id: "tqavuhopswznjqwzx01s",
+			},
+			{
+				id: 182411,
+				image_id: "sxh0r6qmiobnwgbcvfln",
+			},
+			{
+				id: 182412,
+				image_id: "z6ghg8n8zp8rvg3x8jf5",
+			},
+		],
 		summary:
 			"Earth is burning. The Reapers have taken over and other civilizations are falling like dominoes. Lead the final fight to save humanity and take back Earth from these terrifying machines, Commander Shepard. You'll need backup for these battles. Fortunately, the galaxy has a habit of sending unexpected species your way. Recruit team members and forge new alliances, but be prepared to say goodbye at any time as partners make the ultimate sacrifice. It's time for Commander Shepard to fight for the fate of the human race and save the galaxy. No pressure, Commander.\n\nFight smarter. Take advantage of new powers and combat moves. Shepard can now blind fire at enemies and build tougher melee attacks. Plus, when you fight as a team you can combine new biotic and tech powers to unleash devastating Power Combos.\n\nBuild the final force. Build a team from a variety of races and classes and combine their skills to overcome impossible odds. You'll be joined by newcomers like James Vega, a tough-as-nails soldier, as well as EDI, a trusted AI in a newly acquired physical form. Keep an eye out for beloved characters from your past, but beware. Some may not survive the final battle...\n\nFace off against friends. Enjoy an integrated co-op multiplayer mode and team up with friends online to liberate key conflict zones from increasingly tough opponents. Customize your warrior and earn new weapons, armor, and abilities to build war preparedness stats in your single player campaign.",
 	},
@@ -764,6 +1312,56 @@ const games = [
 			{
 				id: 48,
 				name: "PlayStation 4",
+			},
+		],
+		screenshots: [
+			{
+				id: 34673,
+				image_id: "oh8a5shtmdbqx73cv765",
+			},
+			{
+				id: 34674,
+				image_id: "rqr5dxxw97zikyhdn2tq",
+			},
+			{
+				id: 34675,
+				image_id: "mobc8z5fnxljhadccvy6",
+			},
+			{
+				id: 34677,
+				image_id: "kazgjykzu18dhqjpspko",
+			},
+			{
+				id: 214555,
+				image_id: "rdonk4uvyh8ijanrbs46",
+			},
+			{
+				id: 214556,
+				image_id: "dbqn4wax78tgvplrpf1m",
+			},
+			{
+				id: 214557,
+				image_id: "mmenctgbvassqs1uepax",
+			},
+			{
+				id: 396903,
+				image_id: "sc8i93",
+			},
+			{
+				id: 396904,
+				image_id: "sc8i94",
+			},
+			{
+				id: 396905,
+				image_id: "sc8i95",
+			},
+			{
+				id: 396906,
+				image_id: "sc8i96",
+			},
+			{
+				id: 396907,
+				image_id: "sc8i97",
 			},
 		],
 		summary:
@@ -802,6 +1400,56 @@ const games = [
 				name: "PlayStation 4",
 			},
 		],
+		screenshots: [
+			{
+				id: 25153,
+				image_id: "qseegzssgetrybgbplrv",
+			},
+			{
+				id: 25154,
+				image_id: "rm35ytrytuka9qkylqyk",
+			},
+			{
+				id: 25155,
+				image_id: "ywrkjcrbeemmb51flsfj",
+			},
+			{
+				id: 44388,
+				image_id: "jvdoaxza3cawklvof1sl",
+			},
+			{
+				id: 44389,
+				image_id: "gpt3d0gpue5mat4kkso6",
+			},
+			{
+				id: 208194,
+				image_id: "mzg7f3xx57sf8rt7tja8",
+			},
+			{
+				id: 208195,
+				image_id: "nee23o7rtpaqbu8g7byx",
+			},
+			{
+				id: 208196,
+				image_id: "o4mg2wvhlcikaogvvzqe",
+			},
+			{
+				id: 208197,
+				image_id: "w5eazrrf4wdxjl4idfya",
+			},
+			{
+				id: 208198,
+				image_id: "s2zdtxopibrfjbxvpj5h",
+			},
+			{
+				id: 208199,
+				image_id: "wunlbofh23trw0u67gms",
+			},
+			{
+				id: 208200,
+				image_id: "r7hpzsqic1bjwyzn1bnq",
+			},
+		],
 		summary:
 			"God of War is the sequel to God of War III as well as a continuation of the canon God of War chronology. Unlike previous installments, this game focuses on Norse mythology and follows an older and more seasoned Kratos and his son Atreus in the years since the third game. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.",
 	},
@@ -836,6 +1484,36 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 43,
+				image_id: "tiaygjcahvaxjsn9zlih",
+			},
+			{
+				id: 866,
+				image_id: "btzvsqq7lqpeffwsayni",
+			},
+			{
+				id: 867,
+				image_id: "drhrr5rfvavb1xiyxnr6",
+			},
+			{
+				id: 210798,
+				image_id: "yoqtxqgcq6ceoegzi5ii",
+			},
+			{
+				id: 210799,
+				image_id: "mvu2bm1u1jz4lgp9qrwg",
+			},
+			{
+				id: 210802,
+				image_id: "xgoin1cr0uh9o26auuns",
+			},
+			{
+				id: 210803,
+				image_id: "jomecpizlep5k6jcaye7",
 			},
 		],
 		summary:
@@ -876,6 +1554,28 @@ const games = [
 			{
 				id: 170,
 				name: "Google Stadia",
+			},
+		],
+		screenshots: [
+			{
+				id: 24896,
+				image_id: "jaj2rfqtl1sy7kpscva5",
+			},
+			{
+				id: 24897,
+				image_id: "un0qlfwn5i5roafrqwfk",
+			},
+			{
+				id: 24898,
+				image_id: "mfuq53zm8lhzlshmqrux",
+			},
+			{
+				id: 27241,
+				image_id: "ooubot1nhubptdxtnruw",
+			},
+			{
+				id: 27242,
+				image_id: "symavesoxuljlslcw0jo",
 			},
 		],
 		summary:
@@ -936,6 +1636,56 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 6554,
+				image_id: "azrk1nu49s6o75bb962n",
+			},
+			{
+				id: 9015,
+				image_id: "nw8gupltr8pejuf0wlbs",
+			},
+			{
+				id: 9018,
+				image_id: "b5qtx5jvklrvchh21isj",
+			},
+			{
+				id: 9019,
+				image_id: "b6rjjpluz7vzprxny8oi",
+			},
+			{
+				id: 9020,
+				image_id: "lszanbcwri0hqwpktbk0",
+			},
+			{
+				id: 189157,
+				image_id: "a25lj1d3nxhaeiszfpgj",
+			},
+			{
+				id: 189158,
+				image_id: "mhb6anom7mapdlde2gry",
+			},
+			{
+				id: 189159,
+				image_id: "csa4mkepi7frqktztwdl",
+			},
+			{
+				id: 189160,
+				image_id: "oknhsz8s8z2ghyl3zjod",
+			},
+			{
+				id: 189161,
+				image_id: "awy9lkmi2cb1qnii7ro9",
+			},
+			{
+				id: 189162,
+				image_id: "q1b7qo2bnho6d6tas2wc",
+			},
+			{
+				id: 189163,
+				image_id: "g5ei35tmwtbcwn4xm11q",
 			},
 		],
 		summary:
@@ -1006,6 +1756,32 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 1869,
+				image_id: "lmogp7yqsnri3mrzgtsb",
+			},
+			{
+				id: 1870,
+				image_id: "de1mbpaem0ribfstomum",
+			},
+			{
+				id: 1871,
+				image_id: "h1uisnak6rzgnsu629ul",
+			},
+			{
+				id: 1872,
+				image_id: "m4gdjehicf1rd5wi7yyt",
+			},
+			{
+				id: 1873,
+				image_id: "cehlsygg5jing9mzct6x",
+			},
+			{
+				id: 212556,
+				image_id: "h7uzbpn60fh3djkb0but",
+			},
+		],
 		summary:
 			"The Walking Dead: Season One (also known as The Walking Dead: The Game) is an episodic interactive drama graphic adventure video game developed and published by Telltale Games. Based on Robert Kirkman's The Walking Dead comic book series, the game consists of five episodes, released between April and November 2012. It is available for Android, iOS, Kindle Fire HDX, Microsoft Windows, Mac OS X, PlayStation 3, PlayStation Vita, Xbox 360, PlayStation 4 and Xbox One. The game is the first of The Walking Dead video game series published by Telltale.",
 	},
@@ -1050,6 +1826,28 @@ const games = [
 				name: "Xbox Series X|S",
 			},
 		],
+		screenshots: [
+			{
+				id: 11187,
+				image_id: "twgwp1xobnae4kbky2hw",
+			},
+			{
+				id: 11188,
+				image_id: "ufocunt4ze1rjomybg2h",
+			},
+			{
+				id: 11189,
+				image_id: "xqhildldpukjvj9gcfmt",
+			},
+			{
+				id: 11190,
+				image_id: "whhptvhci1bdoqolofjo",
+			},
+			{
+				id: 16344,
+				image_id: "acrxfc2grr69wfbql8ax",
+			},
+		],
 		summary:
 			"Bethesda Game Studios welcome you to the world of Fallout 4, their most ambitious game ever, and the next generation of open-world gaming. As the sole survivor of Vault 111, you enter a world destroyed by nuclear war. Every second is a fight for survival, and every choice is yours. Only you can rebuild and determine the fate of the Wasteland. Welcome home.",
 	},
@@ -1084,6 +1882,28 @@ const games = [
 			{
 				id: 14,
 				name: "Mac",
+			},
+		],
+		screenshots: [
+			{
+				id: 102347,
+				image_id: "por5yntbtmllfy866fqc",
+			},
+			{
+				id: 102348,
+				image_id: "i6clwjatck5ffghjszjj",
+			},
+			{
+				id: 102349,
+				image_id: "wpuw0qdi6zp3waa0trob",
+			},
+			{
+				id: 102350,
+				image_id: "gcegtpcfkiqva1sup5ve",
+			},
+			{
+				id: 102351,
+				image_id: "kdwsevmwpzwhuiqhxftq",
 			},
 		],
 		summary:
@@ -1150,6 +1970,28 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 246,
+				image_id: "eocdvaynboqmud9hmysu",
+			},
+			{
+				id: 247,
+				image_id: "balxsfafzeyy3ki3sc0z",
+			},
+			{
+				id: 248,
+				image_id: "ithhctwgt8rsxbxe5uy5",
+			},
+			{
+				id: 249,
+				image_id: "ixynqzoedwo8vc5nzqma",
+			},
+			{
+				id: 250,
+				image_id: "bz4asonezfuq945jg1qr",
+			},
+		],
 		summary:
 			"A new era of shoot and loot is about to begin. Play as one of four new vault hunters facing off against a massive new world of creatures, psychos and the evil mastermind, Handsome Jack. Make new friends, arm them with a bazillion weapons and fight alongside them in 4 player co-op on a relentless quest for revenge and redemption across the undiscovered and unpredictable living planet.",
 	},
@@ -1202,6 +2044,28 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 104239,
+				image_id: "m9mdkmpv1efkc2nmxqlt",
+			},
+			{
+				id: 104240,
+				image_id: "d0s5upisfnao3h3jdsib",
+			},
+			{
+				id: 104241,
+				image_id: "ymxy2otllrluvcqwnyhk",
+			},
+			{
+				id: 104242,
+				image_id: "r3qos1ovmkboaskqmhtp",
+			},
+			{
+				id: 104243,
+				image_id: "nmuz3tmvxva1nqhjaxvn",
+			},
+		],
 		summary:
 			"Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your Guardian's look and playstyle. Enjoy Destiny 2’s cinematic story, challenging co-op missions, and a variety of PvP modes alone or with friends. Download for free today and write your legend in the stars.",
 	},
@@ -1232,6 +2096,56 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 42190,
+				image_id: "zum4prw3m27jsqv2lobq",
+			},
+			{
+				id: 42191,
+				image_id: "mno7spxuafapa8ajvixm",
+			},
+			{
+				id: 42192,
+				image_id: "vdmxnihoegzdbyahjpat",
+			},
+			{
+				id: 42193,
+				image_id: "o9mbl0rabu0sazsbxiji",
+			},
+			{
+				id: 42199,
+				image_id: "qslsn7dl1nmjvlidmlc6",
+			},
+			{
+				id: 211129,
+				image_id: "ccxizgajbolu4kw5iild",
+			},
+			{
+				id: 211130,
+				image_id: "snkucsvixsexyfcvi1ks",
+			},
+			{
+				id: 211131,
+				image_id: "uaxzlzruz9be57tq5ayf",
+			},
+			{
+				id: 211132,
+				image_id: "ijoenntauq5gfurpayt1",
+			},
+			{
+				id: 211436,
+				image_id: "fvyd4c4ybhw5asidd0tk",
+			},
+			{
+				id: 211437,
+				image_id: "duzljmjdctiljgu4bzkt",
+			},
+			{
+				id: 211438,
+				image_id: "m7j8nno7wpfdvxrvnam3",
 			},
 		],
 		summary:
@@ -1290,6 +2204,44 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 7553,
+				image_id: "klueeisww1wumxudur9l",
+			},
+			{
+				id: 152250,
+				image_id: "amoqttuiszhyd6s4tgg5",
+			},
+			{
+				id: 152251,
+				image_id: "xcxhhxv4vvevmstzxzz6",
+			},
+			{
+				id: 152253,
+				image_id: "jejhpngrm1kttpn03lol",
+			},
+			{
+				id: 152255,
+				image_id: "uiaywb4ybnqal47xgska",
+			},
+			{
+				id: 672404,
+				image_id: "sceetw",
+			},
+			{
+				id: 672405,
+				image_id: "sceetx",
+			},
+			{
+				id: 672406,
+				image_id: "sceety",
+			},
+			{
+				id: 672460,
+				image_id: "sceevg",
+			},
+		],
 		summary:
 			"Assassin’s Creed IV Black Flag begins in 1715, when pirates established a lawless republic in the Caribbean and ruled the land and seas. These outlaws paralyzed navies, halted international trade, and plundered vast fortunes. They threatened the power structures that ruled Europe, inspired the imaginations of millions, and left a legacy that still endures.",
 	},
@@ -1334,6 +2286,28 @@ const games = [
 				name: "Xbox Series X|S",
 			},
 		],
+		screenshots: [
+			{
+				id: 7311,
+				image_id: "xcyoi025lvvwnnrdargv",
+			},
+			{
+				id: 7312,
+				image_id: "qyardon47coclwtjfwwr",
+			},
+			{
+				id: 7313,
+				image_id: "bpcshm1ryzyf4nwu0rkt",
+			},
+			{
+				id: 7314,
+				image_id: "aq1xangaqzrlhgetcrop",
+			},
+			{
+				id: 7315,
+				image_id: "ao0jpev6qtvqlftjlhv5",
+			},
+		],
 		summary:
 			"Join the fight for the future in the world of Overwatch and choose your hero from a diverse cast of soldiers, scientists, adventurers, and oddities. Bend time, defy physics, and unleash a dizzying array of extraordinary powers and weapons. Engage your enemies in iconic locations from around the globe in the ultimate team-based shooter.",
 	},
@@ -1368,6 +2342,56 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 214456,
+				image_id: "z3z1odurhninhnorve6g",
+			},
+			{
+				id: 214457,
+				image_id: "njfbulzuivfqqtavv8pi",
+			},
+			{
+				id: 214458,
+				image_id: "qphzev6p9rdtqun10tnj",
+			},
+			{
+				id: 214459,
+				image_id: "es3bkhmszhr0lgfitds7",
+			},
+			{
+				id: 214460,
+				image_id: "gvexzjpbwq7aelsicwt1",
+			},
+			{
+				id: 214461,
+				image_id: "kgjnikufzrw1ahslkn69",
+			},
+			{
+				id: 214462,
+				image_id: "zy4zjqeydva5pw4afk9b",
+			},
+			{
+				id: 214463,
+				image_id: "wmryo6uxdy1opndpqzsg",
+			},
+			{
+				id: 214464,
+				image_id: "g6djmksheahgmj8qw4jh",
+			},
+			{
+				id: 214465,
+				image_id: "f7dtfyst1yempsfapqze",
+			},
+			{
+				id: 214466,
+				image_id: "ietlbq4wk9beejz4we8d",
+			},
+			{
+				id: 214467,
+				image_id: "hhpdzsjzt1rq0zfyztqh",
 			},
 		],
 		summary:
@@ -1410,6 +2434,28 @@ const games = [
 				name: "Mac",
 			},
 		],
+		screenshots: [
+			{
+				id: 327,
+				image_id: "few5b8tm9daauwv29opk",
+			},
+			{
+				id: 328,
+				image_id: "zb5whw2xb13yavuzqhhy",
+			},
+			{
+				id: 329,
+				image_id: "fujznpait3vgks1fsf8u",
+			},
+			{
+				id: 944,
+				image_id: "auslwvtps8woqdd5t0um",
+			},
+			{
+				id: 6520,
+				image_id: "qelsfsxjgnkz5zuvaat4",
+			},
+		],
 		summary:
 			"This third-person dark fantasy Western RPG and sequel to The Witcher (2007), featuring multiple endings and branching narrative paths, follows the travels of Geralt of Rivia, witcher, who, after being falsely accused of regicide, sets out to clear his name and find the real killer, in a time of political turmoil and the brink of war between the imperialistic Nilfgaardian Empire and the Four Kingdoms.",
 	},
@@ -1448,6 +2494,56 @@ const games = [
 			{
 				id: 170,
 				name: "Google Stadia",
+			},
+		],
+		screenshots: [
+			{
+				id: 44272,
+				image_id: "giqtb8y4awm9ibt942cn",
+			},
+			{
+				id: 151403,
+				image_id: "bdcceejc2e9vaimn0ngn",
+			},
+			{
+				id: 151404,
+				image_id: "l1nbqll4r42lqrz1wesv",
+			},
+			{
+				id: 151405,
+				image_id: "uaxy3tjubonooualy5x8",
+			},
+			{
+				id: 151406,
+				image_id: "gxadfrdicxjlraalvltb",
+			},
+			{
+				id: 151407,
+				image_id: "nfwxynqhormtovylykxr",
+			},
+			{
+				id: 151408,
+				image_id: "wzltqoi9xgmmgimnxsrq",
+			},
+			{
+				id: 151409,
+				image_id: "efqqm3t15ey0jlkv0xqv",
+			},
+			{
+				id: 151410,
+				image_id: "dxbpxe7xewmvkz8dnrgp",
+			},
+			{
+				id: 151411,
+				image_id: "wq0tjsduutk6jeaqakrh",
+			},
+			{
+				id: 151412,
+				image_id: "p5fjuotpkdecuturqw1c",
+			},
+			{
+				id: 151413,
+				image_id: "oh9o0c3d5eo7qnwkm9q2",
 			},
 		],
 		summary:
@@ -1494,6 +2590,56 @@ const games = [
 				name: "Mac",
 			},
 		],
+		screenshots: [
+			{
+				id: 383085,
+				image_id: "sc87l9",
+			},
+			{
+				id: 383086,
+				image_id: "sc87la",
+			},
+			{
+				id: 383087,
+				image_id: "sc87lb",
+			},
+			{
+				id: 383088,
+				image_id: "sc87lc",
+			},
+			{
+				id: 383089,
+				image_id: "sc87ld",
+			},
+			{
+				id: 642664,
+				image_id: "scdrvs",
+			},
+			{
+				id: 642665,
+				image_id: "scdrvt",
+			},
+			{
+				id: 642666,
+				image_id: "scdrvu",
+			},
+			{
+				id: 642667,
+				image_id: "scdrvv",
+			},
+			{
+				id: 642668,
+				image_id: "scdrvw",
+			},
+			{
+				id: 642669,
+				image_id: "scdrvx",
+			},
+			{
+				id: 642670,
+				image_id: "scdrvy",
+			},
+		],
 		summary:
 			"CS:GO is the fourth iteration of Valve's team-based modern-military first-person shooter that features new and updated versions of the classic CS content. While expanding the franchise, the game also introduces new gameplay modes, matchmaking and leader boards.",
 	},
@@ -1520,6 +2666,28 @@ const games = [
 			{
 				id: 48,
 				name: "PlayStation 4",
+			},
+		],
+		screenshots: [
+			{
+				id: 9530,
+				image_id: "adssvwsfbaxcrucjolv9",
+			},
+			{
+				id: 9531,
+				image_id: "bklmdxphzoflbgtushg0",
+			},
+			{
+				id: 9532,
+				image_id: "uqmif3sshdrbbcd0pu8l",
+			},
+			{
+				id: 9533,
+				image_id: "hc9nb80b0xni5wxm5zh3",
+			},
+			{
+				id: 9534,
+				image_id: "aokcsspzrqyaaoug7jnn",
 			},
 		],
 		summary:
@@ -1556,6 +2724,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 1261,
+				image_id: "g7gj1dq82qv2wvv3izxg",
+			},
+			{
+				id: 1262,
+				image_id: "gket6hnfqf2o6btpluck",
+			},
+			{
+				id: 1263,
+				image_id: "feem9stvuzbeuhue9itk",
+			},
+			{
+				id: 1264,
+				image_id: "tuxvvb4tqnnnatdy4c4b",
+			},
+			{
+				id: 1265,
+				image_id: "utk6olfwdeqkw7bwxbd7",
 			},
 		],
 		summary:
@@ -1598,6 +2788,56 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 43448,
+				image_id: "b2k0cvfbzprnuizutgow",
+			},
+			{
+				id: 43449,
+				image_id: "xeqtlwx9f80ekqiyh25w",
+			},
+			{
+				id: 43453,
+				image_id: "ikk26u9j3qpug39snuoj",
+			},
+			{
+				id: 43454,
+				image_id: "xrbujdrkuyta8cneqipz",
+			},
+			{
+				id: 43457,
+				image_id: "u5ldoak74o1yhl2gt6y7",
+			},
+			{
+				id: 193164,
+				image_id: "ndceepit98cuj5fbgjrs",
+			},
+			{
+				id: 193165,
+				image_id: "aa66xisnbagxsepnx2el",
+			},
+			{
+				id: 193166,
+				image_id: "xqw9h7z7psiuktt9dgos",
+			},
+			{
+				id: 208180,
+				image_id: "r72spvqvrzfyqncgbspw",
+			},
+			{
+				id: 208181,
+				image_id: "g1jcmromr4x3jwunyb0b",
+			},
+			{
+				id: 208182,
+				image_id: "rg4qqcigwxd9aa7zbsos",
+			},
+			{
+				id: 208183,
+				image_id: "sfchhwjgcyxtm8ceyj17",
+			},
+		],
 		summary:
 			"Welcome to Hope County, Montana, land of the free and the brave, but also home to a fanatical doomsday cult known as The Project at Eden’s Gate that is threatening the community's freedom. Stand up to the cult’s leader, Joseph Seed and the Heralds, and spark the fires of resistance that will liberate the besieged community.\n\nIn this expansive world, your limits and creativity will be tested against the biggest and most ruthless baddest enemy Far Cry has ever seen. It’ll be wild and it’ll get weird, but as long as you keep your wits about you, the residents of Hope County can rest assured knowing you’re their beacon of hope.",
 	},
@@ -1630,6 +2870,28 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 10815,
+				image_id: "z8hso07ic2nymktnrdgr",
+			},
+			{
+				id: 10819,
+				image_id: "ruihyw2ggun3g422i0cg",
+			},
+			{
+				id: 25076,
+				image_id: "ztefs6yagwsy7mqadtr6",
+			},
+			{
+				id: 25077,
+				image_id: "zvgdnda5xvoogorofvmr",
+			},
+			{
+				id: 25078,
+				image_id: "ae1m6xxg9tprlsh4gvd6",
+			},
+		],
 		summary:
 			"Developed by id software, the studio that pioneered the first-person shooter genre and created multiplayer Deathmatch, Doom returns as a brutally fun and challenging modern-day shooter experience. Relentless demons, impossibly destructive guns, and fast, fluid movement provide the foundation for intense, first-person combat – whether you’re obliterating demon hordes through the depths of Hell in the single-player campaign, or competing against your friends in numerous multiplayer modes. Expand your gameplay experience using Doom SnapMap game editor to easily create, play, and share your content with the world.",
 	},
@@ -1660,6 +2922,56 @@ const games = [
 			{
 				id: 9,
 				name: "PlayStation 3",
+			},
+		],
+		screenshots: [
+			{
+				id: 10913,
+				image_id: "htlgs12rau2b0ioyndhy",
+			},
+			{
+				id: 10914,
+				image_id: "dmosla0vizvx9rrpbqit",
+			},
+			{
+				id: 10915,
+				image_id: "emrydikio4zgsstvby0k",
+			},
+			{
+				id: 10916,
+				image_id: "j03srracbjrfzdvxinaz",
+			},
+			{
+				id: 10917,
+				image_id: "nzqyhy7lbovg7syqs2ad",
+			},
+			{
+				id: 403906,
+				image_id: "sc8nnm",
+			},
+			{
+				id: 403907,
+				image_id: "sc8nnn",
+			},
+			{
+				id: 403908,
+				image_id: "sc8nno",
+			},
+			{
+				id: 403909,
+				image_id: "sc8nnp",
+			},
+			{
+				id: 403910,
+				image_id: "sc8nnq",
+			},
+			{
+				id: 403911,
+				image_id: "sc8nnr",
+			},
+			{
+				id: 403912,
+				image_id: "sc8nns",
 			},
 		],
 		summary:
@@ -1718,6 +3030,28 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 5827,
+				image_id: "v8v20jlqyncrbfbftwrx",
+			},
+			{
+				id: 5828,
+				image_id: "anyfu26e1hfmr45gkozd",
+			},
+			{
+				id: 5829,
+				image_id: "gktc7tabdgnlaxectjgw",
+			},
+			{
+				id: 5830,
+				image_id: "wgnsn9c6svcie0od4vyb",
+			},
+			{
+				id: 5831,
+				image_id: "q6xqaduy589inatsefrj",
+			},
+		],
 		summary:
 			"Middle-earth: Shadow of Mordor is a open world third-person action role-playing video game developed by Monolith Productions and published by Warner Bros. Interactive Entertainment, which takes place in the world of J.R.R. Tolkien's Legendarium.\n\nThe game takes place in the 60-year gap between the events of Tolkien's The Hobbit and The Lord of The Rings. It is a story of revenge, slaughter, and mystery set entirely in Mordor, the Land of Shadows. At its center is Talion, an ordinary man who loses everything, including his mortal life.\n\nThe game is set in a fully open world, and features various role-playing game elements such as experience points and skills. There are various ways the player can complete their main objective. Aside from the main storyline, there are various side quests and random events the player can complete within Mordor.\n\nThe melee system is inspired by that of the Batman Arkham series. Getting into a good fighting rhythm, using both regular attacks and counter-attacks will improve the player's combo multiplier.\n\nA unique feature of Middle-earth: Shadow of Mordor is the Nemesis system. Every enemy in the game has their own name, rank, and memory. These enemies will continue to do their own jobs and tasks even when they're off screen. If the player does not kill an enemy in an encounter, this enemy will remember the player and change their tactics and conversations based on the encounter.",
 	},
@@ -1756,6 +3090,28 @@ const games = [
 			{
 				id: 14,
 				name: "Mac",
+			},
+		],
+		screenshots: [
+			{
+				id: 141,
+				image_id: "qyfmwjlwlm3ttvwjfhvg",
+			},
+			{
+				id: 2009,
+				image_id: "z163dgurfi253nzalfu8",
+			},
+			{
+				id: 2010,
+				image_id: "q5tu4kcbihvp2eyx5zss",
+			},
+			{
+				id: 2011,
+				image_id: "kxy47kwvh2rhvkossqdr",
+			},
+			{
+				id: 2012,
+				image_id: "hovtagtyld3aqxivfnf0",
 			},
 		],
 		summary:
@@ -1806,6 +3162,40 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 5727,
+				image_id: "cxbek9fkak6hedfaoyop",
+			},
+			{
+				id: 5728,
+				image_id: "azhsf6mpj4r6u5hs9qd7",
+			},
+			{
+				id: 5729,
+				image_id: "tjmwsltwywzysfmocp6j",
+			},
+			{
+				id: 5730,
+				image_id: "jujgir86uktohxkbkgy2",
+			},
+			{
+				id: 5769,
+				image_id: "i6fqqacohnotkuzs7wuo",
+			},
+			{
+				id: 211106,
+				image_id: "vuzj5sqkdob7rfdmuxpd",
+			},
+			{
+				id: 211107,
+				image_id: "gfmovsoiunzkkgqlnd5e",
+			},
+			{
+				id: 211108,
+				image_id: "h5kkauiod3jk2n9nlxqb",
+			},
+		],
 		summary:
 			"After a deadly pandemic sweeps through New York, it's up to Agents to save what remains. Complete missions, explore the Dark Zone, and fight back enemy factions alone or with 3 friends. Experience a full endgame offering you new PvP and PvE modes.",
 	},
@@ -1846,6 +3236,32 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 33938,
+				image_id: "zxhpemg4tyhgrce1lgne",
+			},
+			{
+				id: 33939,
+				image_id: "vnkudolgmkdmv0edwqqj",
+			},
+			{
+				id: 33941,
+				image_id: "mdi22rsmhd0eaepita2w",
+			},
+			{
+				id: 34896,
+				image_id: "og2vhbqftsdljfhornu1",
+			},
+			{
+				id: 376149,
+				image_id: "sc828l",
+			},
+			{
+				id: 376150,
+				image_id: "sc828m",
+			},
+		],
 		summary:
 			"A new adventure awaits in the Mass Effect universe. With stunning visuals and a new galaxy to discover, BioWare delivers the next generation of space exploration.\n\nCommander Shepard's story may be over, but there are many more stories to tell in the Mass Effect universe. Mass Effect Andromeda will be set in a new galaxy, with new characters, new quests and a whole load of new consequence-laden decisions to make.\n\nMass Effect: Andromeda takes you to the Andromeda galaxy, far beyond the Milky Way. There, you'll lead our fight for a new home in hostile territory - where WE are the aliens.\n\nPlay as the Pathfinder - a leader of a squad of military-trained explorers - with deep progression and customisation systems. This is the story of humanity’s next chapter, and your choices throughout the game will ultimately determine our survival in the Andromeda Galaxy.\n\nAs you unfold the mysteries of the Andromeda Galaxy and the hope for humanity lies on your shoulders – You must ask yourself… How far will you go?\n\nKey Features:\n\nReturn to the Mass Effect universe. Lead the first humans in Andromeda on a desperate search for our new home. In this new chapter of Mass Effect, meet and recruit all-new, interesting characters caught up in an epic space saga filled with mystery and galactic conflict.\n\nFight for survival. Battle with your Pathfinder team against terrifying enemies and creatures. New additions like destructible environments, boosted jumps for added verticality, and all-new weapons and Biotics make combat more thrilling than ever.\n\nBuild your hero. Create a formidable hero with amazing weapons, powers and tech. A much more flexible skill and weapon progression tree means you can replicate your play style to make you unstoppable against new, powerful alien enemies.\n\nExplore a new galaxy. Chart your own course in a dangerous new region. Unravel the mysteries of the Andromeda galaxy as you discover rich, alien worlds in the search for humanity’s new home.",
 	},
@@ -1880,6 +3296,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 2613,
+				image_id: "sylfmtzktmb4b0ext8nr",
+			},
+			{
+				id: 2614,
+				image_id: "nz70mpjc7kszcyesgmqw",
+			},
+			{
+				id: 4617,
+				image_id: "xov2ga3zkudrtr0sqp8n",
+			},
+			{
+				id: 6379,
+				image_id: "i16sgcogmkrvy0ixs0rt",
+			},
+			{
+				id: 9111,
+				image_id: "gdplcyvz8fvgxvgu2phn",
 			},
 		],
 		summary:
@@ -1932,6 +3370,48 @@ const games = [
 			{
 				id: 170,
 				name: "Google Stadia",
+			},
+		],
+		screenshots: [
+			{
+				id: 10685,
+				image_id: "qgbk3c7ws8mapylzswat",
+			},
+			{
+				id: 10686,
+				image_id: "mbidhmrrzdoxv6flh4x3",
+			},
+			{
+				id: 10687,
+				image_id: "s5wyp8ujrmjifueaypxl",
+			},
+			{
+				id: 10688,
+				image_id: "feoegrjyhepdrs5tubrr",
+			},
+			{
+				id: 10689,
+				image_id: "bymhdw6rhislriio8n0d",
+			},
+			{
+				id: 211018,
+				image_id: "friid2lfemtabcrby6zh",
+			},
+			{
+				id: 211019,
+				image_id: "htt4wmsndvo3el8xgcnv",
+			},
+			{
+				id: 211020,
+				image_id: "cdgscwy875dewjdxdfr7",
+			},
+			{
+				id: 211021,
+				image_id: "vwcam22erhj59b8wgwxi",
+			},
+			{
+				id: 211022,
+				image_id: "u3obs5jsfqponnkp3qp1",
 			},
 		],
 		summary:
@@ -1998,6 +3478,40 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 21243,
+				image_id: "y9s7qv25untipfcirlei",
+			},
+			{
+				id: 21435,
+				image_id: "dlnozlv1jmjv5zrm3iqt",
+			},
+			{
+				id: 21436,
+				image_id: "wwm17mai4r1jqaiggcvc",
+			},
+			{
+				id: 21437,
+				image_id: "mnokrxmkflaianxhsrkd",
+			},
+			{
+				id: 212577,
+				image_id: "kwdt3wa4rqagmy5pvzgm",
+			},
+			{
+				id: 212578,
+				image_id: "kito03qskgq8ht8dfpqa",
+			},
+			{
+				id: 212579,
+				image_id: "dykdvcmiwelebe2lff0v",
+			},
+			{
+				id: 212580,
+				image_id: "zb9ch1qw54a9rddvvbmo",
+			},
+		],
 		summary:
 			"Hello Neighbor is a stealth horror game about sneaking into Mr.Petersons house to figure out what horrible secrets he's hiding in the basement. You play against an advanced AI that learns from your every move. Really enjoying climbing through that backyard window? Expect a bear trap there. Sneaking through the front door? There'll be cameras there soon. Trying to escape? The Neighbor will find a shortcut and catch you.",
 	},
@@ -2024,6 +3538,56 @@ const games = [
 			{
 				id: 130,
 				name: "Nintendo Switch",
+			},
+		],
+		screenshots: [
+			{
+				id: 44370,
+				image_id: "hj3spi7odlvp4pfvnwtv",
+			},
+			{
+				id: 44371,
+				image_id: "kcapvog4g7ko1n21x57t",
+			},
+			{
+				id: 44372,
+				image_id: "tcgnbkmz7f0tgglfol9m",
+			},
+			{
+				id: 44373,
+				image_id: "q1ydkthtdtozqzw1tr2m",
+			},
+			{
+				id: 44374,
+				image_id: "kmbewcsuuytnsxvemltw",
+			},
+			{
+				id: 174797,
+				image_id: "ovib1jmt2wcifb8vvrl9",
+			},
+			{
+				id: 174798,
+				image_id: "eggangsrrexlrxekqn2f",
+			},
+			{
+				id: 174799,
+				image_id: "equ6v5psjfdq2sepgw41",
+			},
+			{
+				id: 174801,
+				image_id: "xugrhmbobkhqi2pgs0xs",
+			},
+			{
+				id: 174802,
+				image_id: "tznt5qzxdqdzqxsy1crl",
+			},
+			{
+				id: 174803,
+				image_id: "qgcn3akcfv4rvojqdbvb",
+			},
+			{
+				id: 1010715,
+				image_id: "sclnvf",
 			},
 		],
 		summary:
@@ -2086,6 +3650,88 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 20147,
+				image_id: "tz5ypjqhppmtypognq7o",
+			},
+			{
+				id: 20148,
+				image_id: "ze8i79ycm3gyymrjvxf0",
+			},
+			{
+				id: 20149,
+				image_id: "dp7ytj3ouesyoq7ddrrx",
+			},
+			{
+				id: 20150,
+				image_id: "njxoybaxsgaxso8qadmo",
+			},
+			{
+				id: 20151,
+				image_id: "thidwzj4rqnuurycg3dy",
+			},
+			{
+				id: 925093,
+				image_id: "scjtt1",
+			},
+			{
+				id: 925094,
+				image_id: "scjtt2",
+			},
+			{
+				id: 925095,
+				image_id: "scjtt3",
+			},
+			{
+				id: 925096,
+				image_id: "scjtt4",
+			},
+			{
+				id: 925097,
+				image_id: "scjtt5",
+			},
+			{
+				id: 925098,
+				image_id: "scjtt6",
+			},
+			{
+				id: 925099,
+				image_id: "scjtt7",
+			},
+			{
+				id: 925100,
+				image_id: "scjtt8",
+			},
+			{
+				id: 925101,
+				image_id: "scjtt9",
+			},
+			{
+				id: 925102,
+				image_id: "scjtta",
+			},
+			{
+				id: 925103,
+				image_id: "scjttb",
+			},
+			{
+				id: 925104,
+				image_id: "scjttc",
+			},
+			{
+				id: 925105,
+				image_id: "scjttd",
+			},
+			{
+				id: 925106,
+				image_id: "scjtte",
+			},
+			{
+				id: 925107,
+				image_id: "scjttf",
+			},
+		],
 		summary:
 			"A small child falls into the Underground, where monsters have long been banished by humans and are hunting every human that they find. The player controls the child as they try to make it back to the Surface through hostile environments, all the while engaging with a turn-based combat system with puzzle-solving and bullet hell elements, as well as other unconventional game mechanics.",
 	},
@@ -2136,6 +3782,36 @@ const games = [
 			{
 				id: 170,
 				name: "Google Stadia",
+			},
+		],
+		screenshots: [
+			{
+				id: 320880,
+				image_id: "sc6vlc",
+			},
+			{
+				id: 320881,
+				image_id: "sc6vld",
+			},
+			{
+				id: 320882,
+				image_id: "sc6vle",
+			},
+			{
+				id: 320883,
+				image_id: "sc6vlf",
+			},
+			{
+				id: 320884,
+				image_id: "sc6vlg",
+			},
+			{
+				id: 320885,
+				image_id: "sc6vlh",
+			},
+			{
+				id: 320886,
+				image_id: "sc6vli",
 			},
 		],
 		summary:
@@ -2190,6 +3866,28 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 1316,
+				image_id: "bvpwrzlwglbajs3dxzpk",
+			},
+			{
+				id: 1317,
+				image_id: "ijrnmongvn7vplw10bik",
+			},
+			{
+				id: 1318,
+				image_id: "vevt14vztlsidoewcrip",
+			},
+			{
+				id: 1319,
+				image_id: "bjwrnizsisnykyj2unls",
+			},
+			{
+				id: 1320,
+				image_id: "oyb4wcxtuc5egvqyw7u9",
+			},
+		],
 		summary:
 			"From the perilous battlefields of the fourth-grade playground, a young hero will rise, destined to be South Park’s savior. From the creators of South Park, Trey Parker and Matt Stone, comes an epic quest to become… cool. Introducing South Park: The Stick of Truth.You begin as the new kid in town facing a harrowing challenge: making friends.\n\nAs you start your quest the children of South Park are embroiled in a city-wide, live-action-role-playing game, casting imaginary spells and swinging fake swords. Over time the simple children’s game escalates into a battle of good and evil that threatens to consume the world.Arm yourself with weapons of legend to defeat crab people, underpants gnomes, hippies and other forces of evil.\n\nDiscover the lost Stick of Truth and earn your place at the side of Stan, Kyle, Cartman and Kenny as their new friend. Succeed, and you shall be South Park’s savior, cementing your social status in South Park Elementary. Fail, and you will forever be known… as a loser.",
 	},
@@ -2224,6 +3922,44 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 44383,
+				image_id: "c9rskkieuhapebstfxys",
+			},
+			{
+				id: 44384,
+				image_id: "nqmwzj4azjunajjlniy8",
+			},
+			{
+				id: 44385,
+				image_id: "oydgjnzydmdfwd3vtmp9",
+			},
+			{
+				id: 44386,
+				image_id: "ojdwmo8mhipudkalaxlo",
+			},
+			{
+				id: 44387,
+				image_id: "ghcjheumz1norh0rwaxk",
+			},
+			{
+				id: 256182,
+				image_id: "xcx4gvuehj9qzklnuadu",
+			},
+			{
+				id: 256183,
+				image_id: "imxdu1yovg9qvv85hidw",
+			},
+			{
+				id: 256184,
+				image_id: "afmdmszdechkmzrhq7zm",
+			},
+			{
+				id: 256185,
+				image_id: "nlkhosogz2ymgk9nypyq",
 			},
 		],
 		summary:
@@ -2278,6 +4014,28 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 44258,
+				image_id: "sqho6e7tv9verg6j1tvv",
+			},
+			{
+				id: 44259,
+				image_id: "r9zt66wdgqohmhuukiir",
+			},
+			{
+				id: 44260,
+				image_id: "ec5tsfhl7wjabwjnsshs",
+			},
+			{
+				id: 44261,
+				image_id: "eulkrcocd1zyuvvcv7k0",
+			},
+			{
+				id: 44262,
+				image_id: "sngyjwqwzzlciy0ko0sq",
+			},
+		],
 		summary:
 			"Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional cel animation (hand drawn & hand inked!), watercolor backgrounds, and original jazz recordings. Play as Cuphead or Mugman (in single player or co-op) as you traverse strange worlds, acquire new weapons, learn powerful super moves, and discover hidden secrets. Cuphead is all action, all the time.",
 	},
@@ -2326,6 +4084,36 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 888627,
+				image_id: "scj1o3",
+			},
+			{
+				id: 888628,
+				image_id: "scj1o4",
+			},
+			{
+				id: 888629,
+				image_id: "scj1o5",
+			},
+			{
+				id: 888630,
+				image_id: "scj1o6",
+			},
+			{
+				id: 888631,
+				image_id: "scj1o7",
+			},
+			{
+				id: 888632,
+				image_id: "scj1o8",
+			},
+			{
+				id: 888633,
+				image_id: "scj1o9",
+			},
+		],
 		summary:
 			"Metal Gear Solid V: The Phantom Pain is the final game in the Metal Gear series. It is the sequel to Metal Gear Solid V: Ground Zeroes released the year before and a prequel to the original Metal Gear. The game has a complex story with long cut-scene sequences, but there are fewer and they are shorter compared to earlier Metal Gear Solid titles. Most of the gameplay mechanics introduced in Ground Zeroes are carried over: it is still an action game and stealth oriented but replaces the linear corridor design from most earlier titles with large open world environments that offer the player unrestricted freedom for the approach. The world has now a real-time day and night cycle and various weather effects that influence enemy behaviour, visibility and sound. Sabotaging or destroying certain structures can also influence other parts of the map.",
 	},
@@ -2364,6 +4152,48 @@ const games = [
 			{
 				id: 130,
 				name: "Nintendo Switch",
+			},
+		],
+		screenshots: [
+			{
+				id: 4226,
+				image_id: "fzi1nrrphqfwwlwpko7u",
+			},
+			{
+				id: 4227,
+				image_id: "husdtaexowgllpe3ho5n",
+			},
+			{
+				id: 4228,
+				image_id: "rajzvbqovrcbdykkqpaz",
+			},
+			{
+				id: 4229,
+				image_id: "we7i6lksiieqlynlx1vf",
+			},
+			{
+				id: 210957,
+				image_id: "olbzvi6zau7seirs88e3",
+			},
+			{
+				id: 210958,
+				image_id: "d7xe9pzuqxeoqmrvt1me",
+			},
+			{
+				id: 211554,
+				image_id: "cnslqsgdvltzxl1f3bvz",
+			},
+			{
+				id: 211555,
+				image_id: "fxmxcj6jstrhop3gxjma",
+			},
+			{
+				id: 211557,
+				image_id: "cq2tqhx5vs7wcwsba8hu",
+			},
+			{
+				id: 211558,
+				image_id: "bxvwknezzljvoaw6inww",
 			},
 		],
 		summary:
@@ -2442,6 +4272,48 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 432791,
+				image_id: "sc99xz",
+			},
+			{
+				id: 432792,
+				image_id: "sc99y0",
+			},
+			{
+				id: 432793,
+				image_id: "sc99y1",
+			},
+			{
+				id: 432794,
+				image_id: "sc99y2",
+			},
+			{
+				id: 432795,
+				image_id: "sc99y3",
+			},
+			{
+				id: 432796,
+				image_id: "sc99y4",
+			},
+			{
+				id: 432797,
+				image_id: "sc99y5",
+			},
+			{
+				id: 432798,
+				image_id: "sc99y6",
+			},
+			{
+				id: 432799,
+				image_id: "sc99y7",
+			},
+			{
+				id: 432800,
+				image_id: "sc99y8",
+			},
+		],
 		summary: "Limbo is a black and white puzzle-platforming adventure. Play the role of a young boy traveling through an eerie and treacherous world in an attempt to discover the fate of his sister.",
 	},
 	{
@@ -2467,6 +4339,56 @@ const games = [
 			{
 				id: 48,
 				name: "PlayStation 4",
+			},
+		],
+		screenshots: [
+			{
+				id: 25151,
+				image_id: "gc3cpzbpddhfxj4nvaq1",
+			},
+			{
+				id: 25152,
+				image_id: "inft7cmgvqcionq0jtrn",
+			},
+			{
+				id: 44397,
+				image_id: "o25kbk0jom2uvfm37l62",
+			},
+			{
+				id: 44398,
+				image_id: "fozp4i9v0b1w0uucoii8",
+			},
+			{
+				id: 44399,
+				image_id: "fmjzieghsgjfks7akhhy",
+			},
+			{
+				id: 209487,
+				image_id: "buzcfrd5g9umokl8eyy0",
+			},
+			{
+				id: 209488,
+				image_id: "pegynjc4fge2jzwkqoqi",
+			},
+			{
+				id: 209489,
+				image_id: "ytkccnptotyzm9xuorks",
+			},
+			{
+				id: 214089,
+				image_id: "bjoksdiwvkatzql3gi95",
+			},
+			{
+				id: 214090,
+				image_id: "nofld5l3txxuqhp7j8cc",
+			},
+			{
+				id: 214091,
+				image_id: "kzjckffwuqaemo5rx6uu",
+			},
+			{
+				id: 244025,
+				image_id: "vfmpwxgrk6lubydwm4it",
 			},
 		],
 		summary:
@@ -2537,6 +4459,28 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 14086,
+				image_id: "qv1iqu0f1g1wmygyvsga",
+			},
+			{
+				id: 14087,
+				image_id: "oxtvgvfdli3odbcs03d8",
+			},
+			{
+				id: 14088,
+				image_id: "igebxlcq4lz9pqpam3bo",
+			},
+			{
+				id: 36079,
+				image_id: "xnzetcofuyj7oo9dtsjd",
+			},
+			{
+				id: 36080,
+				image_id: "czluiyzytlkkchwn1mga",
+			},
+		],
 		summary:
 			"A top-down slasher/shooter with unlockable gameplay-altering masks and weapons, featuring a neon-flavoured electronic aesthetic, in which a hitman receives anonymous calls ordering him to travel to certain residences and crime dens and massacre those within, as he stumbles through unreal visions and inconsistencies without any answers to how, why or who.",
 	},
@@ -2585,6 +4529,32 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 414515,
+				image_id: "sc8vub",
+			},
+			{
+				id: 414516,
+				image_id: "sc8vuc",
+			},
+			{
+				id: 414517,
+				image_id: "sc8vud",
+			},
+			{
+				id: 414518,
+				image_id: "sc8vue",
+			},
+			{
+				id: 414519,
+				image_id: "sc8vuf",
+			},
+			{
+				id: 414520,
+				image_id: "sc8vug",
+			},
+		],
 		summary:
 			"Dragon Age: Inquisition is a role-playing game and the third main game in the Dragon Age series. It is set in the Thedas continent, the same fantasy world as the two previous games. It consist of two large countries: Ferelden (from Dragon Age: Origins) and Orlais, as well as the land inbetween.\n\nTrue to the spirit of the series the character can be customized for appearance, sex, class and race. The available races are dwarf, elf, human, and Qunari and the classes are mage, rogue, and warrior with three specializations each. To grow the Inquisition experience needs to be earned by completing quests, which allows the player to further define allegiances and pursue romances.\n\nA custom party can be defined and each member benefits from experience as it opens up access to better weapons and more abilities. Power points open up new areas and Inquisition points define the influence over the region; each new level provides a perk that benefits the entire Inquisition.",
 	},
@@ -2629,6 +4599,28 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 4689,
+				image_id: "dq87ooxc88vl6hy2k8td",
+			},
+			{
+				id: 4690,
+				image_id: "qc2ebgvjqzrrsc9ecspf",
+			},
+			{
+				id: 4691,
+				image_id: "kmta1sv8rmkdm0rm3if8",
+			},
+			{
+				id: 4692,
+				image_id: "adjwlekkxco6w0d5ywdb",
+			},
+			{
+				id: 4693,
+				image_id: "nqrqacvu7a2l0whogkr3",
+			},
+		],
 		summary:
 			"Wolfenstein: The New Order is an action-adventure shooter game played from a first-person perspective. It is the semi-sequel to 2009's Wolfenstein, however utilizes very little from the game and drops any direct references to veil or supernatural.\n\nTo progress through the story, the player battle enemies throughout levels. The game utilizes a health system in which players' health is divided into separate sections that regenerate; if an entire section is lost, the player must use a health pack to replenish the missing health. In combat, a cover system can be used as assistance against enemies. The player have the ability to lean around, over, and under cover, which can be used as a tactical advantage during shootouts and stealth levels. The game gives the player a wide variety of weapon options—they can be found on the ground, retrieved from dead enemies, or removed from their stationary position and carried around.",
 	},
@@ -2663,6 +4655,32 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 11453,
+				image_id: "vdugyv42fp2jkh1w4lnz",
+			},
+			{
+				id: 11454,
+				image_id: "nwrsu8awczsx38hmnqx7",
+			},
+			{
+				id: 11455,
+				image_id: "dqyd3lhqnklcepe8dxw5",
+			},
+			{
+				id: 11456,
+				image_id: "acdyxftnekdkxob4leek",
+			},
+			{
+				id: 11457,
+				image_id: "wlefrkqqtxge3lo81cis",
+			},
+			{
+				id: 963885,
+				image_id: "scknql",
 			},
 		],
 		summary: "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and embrace the darkness!",
@@ -2732,6 +4750,28 @@ const games = [
 				name: "Xbox Series X|S",
 			},
 		],
+		screenshots: [
+			{
+				id: 2187,
+				image_id: "vqphwdpqcsk0yvo8sbhu",
+			},
+			{
+				id: 2188,
+				image_id: "xxta3pauqxscx89ou887",
+			},
+			{
+				id: 2189,
+				image_id: "fev4okgev4xmxdogdwdf",
+			},
+			{
+				id: 2190,
+				image_id: "yrhcvy88atrfuhfshj2b",
+			},
+			{
+				id: 2191,
+				image_id: "wklmdcc9vn93257yjg1c",
+			},
+		],
 		summary:
 			"Fortnite is the completely free online game where you and your friends fight to be the last one standing in Battle Royale, join forces to make your own Creative games, or catch a live show at Party Royale.",
 	},
@@ -2772,6 +4812,28 @@ const games = [
 				name: "Mac",
 			},
 		],
+		screenshots: [
+			{
+				id: 1076,
+				image_id: "mflw12xmyqdbipgkrf9l",
+			},
+			{
+				id: 1077,
+				image_id: "doylbeanofgprnvxduih",
+			},
+			{
+				id: 1078,
+				image_id: "g6oylozfnpyabrflolta",
+			},
+			{
+				id: 1079,
+				image_id: "qigvfnaabt9i05eekyvr",
+			},
+			{
+				id: 1080,
+				image_id: "hjychzk0rokufu8vwp8d",
+			},
+		],
 		summary:
 			"In Deus Ex: Human Revolution you play Adam Jensen, a security specialist, handpicked to oversee the defense of one of America's most experimental biotechnology firms. But when a black ops team breaks in and kills the scientists you were hired to protect, everything you thought you knew about your job changes. At a time when scientific advancements are routinely turning athletes, soldiers and spies into super-enhanced beings, someone is working very hard to ensure mankind's evolution follows a particular path. You need to discover why - because the decisions you take and the choices you make will be the only things that can determine mankind's future.",
 	},
@@ -2802,6 +4864,56 @@ const games = [
 			{
 				id: 48,
 				name: "PlayStation 4",
+			},
+		],
+		screenshots: [
+			{
+				id: 16200,
+				image_id: "wzgo0jtaajeq14vl4l0q",
+			},
+			{
+				id: 16201,
+				image_id: "amlt3ob9o48fubgfrt9i",
+			},
+			{
+				id: 16203,
+				image_id: "iux3644a2bewicybhcjo",
+			},
+			{
+				id: 44396,
+				image_id: "dwkgylckse3aewbv3lpr",
+			},
+			{
+				id: 192910,
+				image_id: "v1loppxzf43qvp7wt8gz",
+			},
+			{
+				id: 192911,
+				image_id: "k59thzeaqb9ul1pryxbq",
+			},
+			{
+				id: 192913,
+				image_id: "tefcnnribjp79ncp3ag2",
+			},
+			{
+				id: 192914,
+				image_id: "fx3ckwdhebpjvxlhq4bx",
+			},
+			{
+				id: 192915,
+				image_id: "e032aajjtvoakohuuac5",
+			},
+			{
+				id: 192916,
+				image_id: "sn6g2xe3dd1ip6cuotci",
+			},
+			{
+				id: 192917,
+				image_id: "v33h6a2od5folrdrsljm",
+			},
+			{
+				id: 211656,
+				image_id: "flij8fnx5drfqcrhjcv7",
 			},
 		],
 		summary:
@@ -2856,6 +4968,28 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 5731,
+				image_id: "rolghctvlbgis0iet6by",
+			},
+			{
+				id: 5732,
+				image_id: "m47pr24fdazdco3oajov",
+			},
+			{
+				id: 5733,
+				image_id: "mczvcq7qlfbvmqljgspe",
+			},
+			{
+				id: 5734,
+				image_id: "ivcnf7sy2ipudtpbqj9v",
+			},
+			{
+				id: 5735,
+				image_id: "fyf79knlrqa9cwru1ok3",
+			},
+		],
 		summary:
 			"In Far Cry 4, players find themselves in Kyrat, a wild region of the Himalayas struggling under the regime of a despotic self-appointed king. Using a vast array of weapons, vehicles and animals, players will write their own story across an exotic open-world landscape.",
 	},
@@ -2896,6 +5030,56 @@ const games = [
 				name: "Wii U",
 			},
 		],
+		screenshots: [
+			{
+				id: 1335,
+				image_id: "fjsea0ufemtie04czf9m",
+			},
+			{
+				id: 1336,
+				image_id: "mazwxafpn4trr1egmj7j",
+			},
+			{
+				id: 1337,
+				image_id: "nyy6injtxg9grtmuoa1m",
+			},
+			{
+				id: 1339,
+				image_id: "ccfvfvn8w5ucmtaw9uu2",
+			},
+			{
+				id: 5358,
+				image_id: "lwbc2mifimzfmyxt6r56",
+			},
+			{
+				id: 152242,
+				image_id: "okyz7qmbwrbqr7s3yxsh",
+			},
+			{
+				id: 152243,
+				image_id: "ok2u0qqlarohz7rx8eo7",
+			},
+			{
+				id: 152244,
+				image_id: "aghxxmr2mpygyq5ftldb",
+			},
+			{
+				id: 152245,
+				image_id: "tjocflec2doowuhlgt3b",
+			},
+			{
+				id: 152246,
+				image_id: "jmyedumbxkdyfudgzaay",
+			},
+			{
+				id: 152247,
+				image_id: "mlynnq49vemvljigsx79",
+			},
+			{
+				id: 152248,
+				image_id: "umu9a0ptzj84rdzc5wa0",
+			},
+		],
 		summary:
 			"The American Colonies, 1775. A brave young warrior fights to save his homeland. But what begins as a struggle over territory turns into an extraordinary journey that will transform him into a Master Assassin—and will forever change the destiny of a nation.\n\nYou are Connor, warrior son of a Native American mother and British father. As the colonies draw closer to revolution, you will dedicate your life to the freedom of your clan –becoming the spark that ignites the revolution into full blaze. Your crusade will take you through blood-soaked battlefields to crowded city streets, to perilous wilderness and beyond. You will not only witness history—you will make it.\nWelcome to an entirely new chapter in the Assassin’s Creed saga.",
 	},
@@ -2926,6 +5110,44 @@ const games = [
 			{
 				id: 48,
 				name: "PlayStation 4",
+			},
+		],
+		screenshots: [
+			{
+				id: 16254,
+				image_id: "gzkc9kfusk2qss9vnuj4",
+			},
+			{
+				id: 37447,
+				image_id: "m5ytymipeljiatfrblhs",
+			},
+			{
+				id: 37448,
+				image_id: "bgmyc8eupb0coy0giatf",
+			},
+			{
+				id: 37449,
+				image_id: "banme9peksg7gcxr26oa",
+			},
+			{
+				id: 37450,
+				image_id: "et43nztghwnyzqd0br9q",
+			},
+			{
+				id: 425173,
+				image_id: "sc942d",
+			},
+			{
+				id: 425174,
+				image_id: "sc942e",
+			},
+			{
+				id: 425175,
+				image_id: "sc942f",
+			},
+			{
+				id: 425176,
+				image_id: "sc942g",
 			},
 		],
 		summary: "NieR: Automata tells the story of androids 2B, 9S and A2 and their battle to reclaim the machine-driven dystopia overrun by powerful machines.",
@@ -2983,6 +5205,56 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 5739,
+				image_id: "z4fkserflyby1nv5ispe",
+			},
+			{
+				id: 5740,
+				image_id: "egrvtyqlcuc8phbwhay7",
+			},
+			{
+				id: 5741,
+				image_id: "zevsyjjfxmbljcmfhh8k",
+			},
+			{
+				id: 25092,
+				image_id: "ldbfqsvfeptbvguzaqdy",
+			},
+			{
+				id: 25093,
+				image_id: "kvxijejg9ueks3fowhv3",
+			},
+			{
+				id: 189989,
+				image_id: "r8hddnknfqul63fmquqh",
+			},
+			{
+				id: 189992,
+				image_id: "sz0lscqqkhsi7ceao6og",
+			},
+			{
+				id: 189994,
+				image_id: "ijf1mlv8dxfza2d2co1j",
+			},
+			{
+				id: 189997,
+				image_id: "juqasfaxktobte35l2hj",
+			},
+			{
+				id: 189999,
+				image_id: "d5989qwb1b9l3ag8n448",
+			},
+			{
+				id: 190000,
+				image_id: "guhljbryvlqg2kn25z7r",
+			},
+			{
+				id: 190003,
+				image_id: "wbmd7havifhasigwrfli",
+			},
+		],
 		summary: "An atmospheric 2D side-scroller in which, hunted and alone, a boy finds himself drawn into the center of a dark project and struggles to preserve his identity.",
 	},
 	{
@@ -3020,6 +5292,56 @@ const games = [
 			{
 				id: 130,
 				name: "Nintendo Switch",
+			},
+		],
+		screenshots: [
+			{
+				id: 5745,
+				image_id: "mflx0tyq2wusao1wq2ad",
+			},
+			{
+				id: 5746,
+				image_id: "v2pnld98yq2xvs788c4o",
+			},
+			{
+				id: 5747,
+				image_id: "qw0ciwlf01lqiutfg92c",
+			},
+			{
+				id: 5748,
+				image_id: "qg1jc1rqlwyp9bh4cyvz",
+			},
+			{
+				id: 5749,
+				image_id: "ritdwffctzicqdpz44lz",
+			},
+			{
+				id: 267707,
+				image_id: "sc5qkb",
+			},
+			{
+				id: 267708,
+				image_id: "sc5qkc",
+			},
+			{
+				id: 267709,
+				image_id: "sc5qkd",
+			},
+			{
+				id: 267710,
+				image_id: "sc5qke",
+			},
+			{
+				id: 267711,
+				image_id: "sc5qkf",
+			},
+			{
+				id: 267712,
+				image_id: "sc5qkg",
+			},
+			{
+				id: 267713,
+				image_id: "sc5qkh",
 			},
 		],
 		summary:
@@ -3090,6 +5412,48 @@ const games = [
 				name: "PlayStation VR2",
 			},
 		],
+		screenshots: [
+			{
+				id: 16616,
+				image_id: "slbfwlrvqjrgvrvfghrk",
+			},
+			{
+				id: 16617,
+				image_id: "xufkotfn5udk2aijb6f0",
+			},
+			{
+				id: 16618,
+				image_id: "kmyailnbyy0afbyqdfxn",
+			},
+			{
+				id: 16619,
+				image_id: "byull3k2xzfndgivkdlw",
+			},
+			{
+				id: 16620,
+				image_id: "o0pqdynpsv7vvziaxwzr",
+			},
+			{
+				id: 208488,
+				image_id: "hlv3vnzamh1l3pdc2omn",
+			},
+			{
+				id: 208489,
+				image_id: "wihfvjowvwt4lx0qw5eo",
+			},
+			{
+				id: 208490,
+				image_id: "s6p3zqbfof7kncyp7ocf",
+			},
+			{
+				id: 208491,
+				image_id: "bynzojxiouy00pqw1utm",
+			},
+			{
+				id: 208492,
+				image_id: "mdhzsdazyj8vyht9wnnj",
+			},
+		],
 		summary:
 			"Inspired by the adventure and imagination that we love from classic science-fiction, No Man's Sky presents you with a galaxy to explore, filled with unique planets and lifeforms, and constant danger and action.\n\nIn No Man's Sky, every star is the light of a distant sun, each orbited by planets filled with life, and you can go to any of them you choose. Fly smoothly from deep space to planetary surfaces, with no loading screens, and no limits. In this infinite procedurally generated universe, you'll discover places and creatures that no other players have seen before - and perhaps never will again.",
 	},
@@ -3124,6 +5488,28 @@ const games = [
 			{
 				id: 14,
 				name: "Mac",
+			},
+		],
+		screenshots: [
+			{
+				id: 101321,
+				image_id: "nt09vloq2eeo3lh0jmmf",
+			},
+			{
+				id: 101322,
+				image_id: "actq9drc05o5wqomeokp",
+			},
+			{
+				id: 101323,
+				image_id: "cxjrbykakjtcfji15zby",
+			},
+			{
+				id: 101324,
+				image_id: "frdhnv0fqfi90xjahqwk",
+			},
+			{
+				id: 101325,
+				image_id: "sagszjvrwbjxvcczg6ic",
 			},
 		],
 		summary:
@@ -3186,6 +5572,56 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 3246,
+				image_id: "mh2k4rrkrgtabcv9pqjn",
+			},
+			{
+				id: 3258,
+				image_id: "vjst5wbz5mo5trsjnqtx",
+			},
+			{
+				id: 3259,
+				image_id: "j5zhyfcszxmljqptfjnh",
+			},
+			{
+				id: 3260,
+				image_id: "dxeenymseuuo3t5csa6g",
+			},
+			{
+				id: 3261,
+				image_id: "yajqtyz4pgoyt8frutmo",
+			},
+			{
+				id: 212557,
+				image_id: "spek8ctgfneapp5ide90",
+			},
+			{
+				id: 212558,
+				image_id: "fcoax7d3izpjrssxxiic",
+			},
+			{
+				id: 212559,
+				image_id: "d5htuyopcah5gp3qytbt",
+			},
+			{
+				id: 212560,
+				image_id: "qgbhlqrukffrb3ebinhc",
+			},
+			{
+				id: 212561,
+				image_id: "tc4n9sspndrvjt8qdpgs",
+			},
+			{
+				id: 212562,
+				image_id: "gpao1mzffxp1o2cy7bqw",
+			},
+			{
+				id: 212563,
+				image_id: "c6dzp09wjsl10ytwjf48",
+			},
+		],
 		summary:
 			"The Wolf Among Us is a five episode series from the creators of the 2012 Game of the Year: The Walking Dead. Based on Fables (DC Comics/Vertigo), an award-winning comic book series, it is an often violent, mature and hard-boiled thriller where the characters and creatures of myth, lore and legend are real and exist in our world. As Bigby Wolf - The Big Bad Wolf in human form - you will discover that the brutal, bloody murder of a Fable is just a taste of things to come, in a game series where your every decision can have enormous consequences.",
 	},
@@ -3218,6 +5654,56 @@ const games = [
 				name: "PlayStation 4",
 			},
 		],
+		screenshots: [
+			{
+				id: 44402,
+				image_id: "kjrtfpaex7mwrjazwv1m",
+			},
+			{
+				id: 44403,
+				image_id: "r5mn9rt7aqvf5nrn8dqq",
+			},
+			{
+				id: 44404,
+				image_id: "msmuubbmqkosdwinh54f",
+			},
+			{
+				id: 44405,
+				image_id: "ukzjmwiud0hdn8jk5fkb",
+			},
+			{
+				id: 44406,
+				image_id: "zpddyocposjq6qm3ntek",
+			},
+			{
+				id: 212323,
+				image_id: "netptvmanlolewudyw45",
+			},
+			{
+				id: 212324,
+				image_id: "eqd6kktmq9dva0cd5clc",
+			},
+			{
+				id: 212326,
+				image_id: "jwayyepmsjnqoscmodjv",
+			},
+			{
+				id: 212327,
+				image_id: "tesebvw0eadixciqfalo",
+			},
+			{
+				id: 212328,
+				image_id: "kd9mk48xev3eisdev4sz",
+			},
+			{
+				id: 212329,
+				image_id: "kxgcsxrg5yeumz50ozg5",
+			},
+			{
+				id: 213661,
+				image_id: "tbueqwnebwlbax8dxgyv",
+			},
+		],
 		summary:
 			"Days Gone is an open-world action-adventure game set in a harsh wilderness two years after a devastating global pandemic. Play as Deacon St. John, a Drifter and bounty hunter who rides the broken road, fighting to survive while searching for a reason to live.\n\nAt its core, Days Gone is about survivors and what makes them human: desperation, loss, madness, betrayal, friendship, brotherhood, regret, love – and hope. It’s about how even when confronted with such enormous tragedy they find a reason to live. Hope never dies.",
 	},
@@ -3248,6 +5734,52 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 23501,
+				image_id: "ez6qfdwknjwshjkf5cvo",
+			},
+			{
+				id: 25044,
+				image_id: "jm9kereghangms42rrp3",
+			},
+			{
+				id: 25045,
+				image_id: "fsgtjoqvpwpcb7kbdayb",
+			},
+			{
+				id: 25046,
+				image_id: "qtw7wt4lzftyuadu7h8j",
+			},
+			{
+				id: 25047,
+				image_id: "njrtwbrbluzscozfzsac",
+			},
+			{
+				id: 257448,
+				image_id: "sc5inc",
+			},
+			{
+				id: 257449,
+				image_id: "sc5ind",
+			},
+			{
+				id: 257450,
+				image_id: "sc5ine",
+			},
+			{
+				id: 257451,
+				image_id: "sc5inf",
+			},
+			{
+				id: 257452,
+				image_id: "sc5ing",
+			},
+			{
+				id: 257453,
+				image_id: "sc5inh",
 			},
 		],
 		summary:
@@ -3290,6 +5822,48 @@ const games = [
 				name: "PlayStation 4",
 			},
 		],
+		screenshots: [
+			{
+				id: 1974,
+				image_id: "cjt1dvmwyz5qr0xmrkrs",
+			},
+			{
+				id: 1975,
+				image_id: "ndmhmgw0qfxrc4ajvbpk",
+			},
+			{
+				id: 1976,
+				image_id: "xyqfksubtonzdgzcs8fl",
+			},
+			{
+				id: 1977,
+				image_id: "ltdjvz1bhad8tdi07nj9",
+			},
+			{
+				id: 1978,
+				image_id: "o5jocbesmzd3ytiyea1q",
+			},
+			{
+				id: 404213,
+				image_id: "sc8nw5",
+			},
+			{
+				id: 404214,
+				image_id: "sc8nw6",
+			},
+			{
+				id: 404215,
+				image_id: "sc8nw7",
+			},
+			{
+				id: 404216,
+				image_id: "sc8nw8",
+			},
+			{
+				id: 404217,
+				image_id: "sc8nw9",
+			},
+		],
 		summary:
 			"A third-person adventure game in which the player, controlling a robed figure, makes a pilgrimage through a desert landscape to a rugged mountain with a beacon of light in the distance while uncovering the history of their people, rescuing and cooperating with friendly creatures, avoiding predatory ones and communicating with other travelers.",
 	},
@@ -3320,6 +5894,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 8219,
+				image_id: "y6o09sjwlpotulpkyi8v",
+			},
+			{
+				id: 8220,
+				image_id: "taqubzfll3c84co1v0a5",
+			},
+			{
+				id: 8221,
+				image_id: "djemthnshqygffcpas1w",
+			},
+			{
+				id: 8222,
+				image_id: "g6l3sr93xngc4b7wddvt",
+			},
+			{
+				id: 8223,
+				image_id: "jhbcpqlsowkfwwsyimnm",
 			},
 		],
 		summary:
@@ -3382,6 +5978,56 @@ const games = [
 				name: "Xbox Series X|S",
 			},
 		],
+		screenshots: [
+			{
+				id: 99705,
+				image_id: "x2ebxdsn5kfjcnjbo7q2",
+			},
+			{
+				id: 99706,
+				image_id: "ipnuinh71ny8bcblibgq",
+			},
+			{
+				id: 99707,
+				image_id: "zbk8r9mm9bb56duk5tjp",
+			},
+			{
+				id: 99708,
+				image_id: "w23nbjchdt6ulfxws9nt",
+			},
+			{
+				id: 99709,
+				image_id: "ygepetru87ka9nzqowr6",
+			},
+			{
+				id: 171294,
+				image_id: "kky41w6g87pnw8omnoff",
+			},
+			{
+				id: 171295,
+				image_id: "czksik7zl3tzb72jafhw",
+			},
+			{
+				id: 171296,
+				image_id: "k1hcu9flbu0tvheine15",
+			},
+			{
+				id: 171297,
+				image_id: "k8pr0aobdo3mquapdirk",
+			},
+			{
+				id: 171298,
+				image_id: "zrosrzhc8qxivegbqyl6",
+			},
+			{
+				id: 171299,
+				image_id: "obxqkxqtfhpvgd4wkb24",
+			},
+			{
+				id: 171300,
+				image_id: "qehejfbfvynrmjvnmxua",
+			},
+		],
 		summary:
 			"Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations.",
 	},
@@ -3434,6 +6080,36 @@ const games = [
 				name: "Xbox Series X|S",
 			},
 		],
+		screenshots: [
+			{
+				id: 395312,
+				image_id: "sc8h0w",
+			},
+			{
+				id: 395313,
+				image_id: "sc8h0x",
+			},
+			{
+				id: 395314,
+				image_id: "sc8h0y",
+			},
+			{
+				id: 395315,
+				image_id: "sc8h0z",
+			},
+			{
+				id: 797035,
+				image_id: "sch2zv",
+			},
+			{
+				id: 797036,
+				image_id: "sch2zw",
+			},
+			{
+				id: 797037,
+				image_id: "sch2zx",
+			},
+		],
 		summary:
 			"Fall Guys flings hordes of contestants together online in a mad dash through round after round of escalating chaos until one victor remains! Battle bizarre obstacles, shove through unruly competitors, and overcome the unbending laws of physics to avoid both humiliation and elimination. Leave your dignity at the door and prepare for hilarious failure in your quest for the crown.",
 	},
@@ -3472,6 +6148,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 591,
+				image_id: "xtmuuthx1emzj6qqscal",
+			},
+			{
+				id: 592,
+				image_id: "oyix5eyd58n8t1l7wwvu",
+			},
+			{
+				id: 593,
+				image_id: "lfjb1pgi8sbm2aa8puzo",
+			},
+			{
+				id: 594,
+				image_id: "ifqtss7nitwqb5cunkqi",
+			},
+			{
+				id: 595,
+				image_id: "xzakn2ei4k9laq7ya3qj",
 			},
 		],
 		summary:
@@ -3526,6 +6224,28 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 25115,
+				image_id: "io6hffcfxfgtibwwn9jl",
+			},
+			{
+				id: 25116,
+				image_id: "ctxtlpyzlo3q5hvshysw",
+			},
+			{
+				id: 36228,
+				image_id: "wyn4sipweizrkjvshid9",
+			},
+			{
+				id: 36229,
+				image_id: "tc63ssff6rzvaiq1xjuw",
+			},
+			{
+				id: 36230,
+				image_id: "r03xsdmmrxyddimojni1",
+			},
+		],
 		summary:
 			"Resident Evil 7: Biohazard is the first game of the Resident Evil series to switch from 3rd-person to fully 1st-person perspective. A complete refresh of gameplay systems simultaneously propels the survival horror experience to another level. It is as much horror as it is survival, boosting up scare elements and minimizing downright shooting action. The game allows use of Sony's PSVR Headset to play in VR mode.",
 	},
@@ -3560,6 +6280,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 6612,
+				image_id: "jmjhqyypk9xm3oeklqg0",
+			},
+			{
+				id: 6613,
+				image_id: "qgucar0njcwq9ty36pzb",
+			},
+			{
+				id: 6614,
+				image_id: "oit37pncl124uzspaxlu",
+			},
+			{
+				id: 6615,
+				image_id: "mpq9gqlzwcao6lyfuozm",
+			},
+			{
+				id: 6616,
+				image_id: "njbpnivas2duz9hxk54v",
 			},
 		],
 		summary:
@@ -3610,6 +6352,52 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 9381,
+				image_id: "bwpqwqxuiwc164v2kt73",
+			},
+			{
+				id: 9382,
+				image_id: "qlapgaeuto9xntsonbz3",
+			},
+			{
+				id: 9383,
+				image_id: "zmzwkye0dfbfzl4h6cz8",
+			},
+			{
+				id: 9384,
+				image_id: "lv39uamjbc0zb0vtu8bl",
+			},
+			{
+				id: 9385,
+				image_id: "opimnxkcrlmycittkjwy",
+			},
+			{
+				id: 212564,
+				image_id: "xtaqzyjki3cht8pk78jp",
+			},
+			{
+				id: 212565,
+				image_id: "txrgvyal0avsv8pq9kf4",
+			},
+			{
+				id: 212566,
+				image_id: "yhwlu7mkfnaeyu34y56c",
+			},
+			{
+				id: 212567,
+				image_id: "svdcnhawrdapmikkav3i",
+			},
+			{
+				id: 212568,
+				image_id: "psqoae3njgkmcn2vswhg",
+			},
+			{
+				id: 212569,
+				image_id: "dplkqbxlzu087ywsajxj",
+			},
+		],
 		summary:
 			"Firewatch is a single-player first-person video game where you, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout. What is supposed to be a peaceful respite from your complicated life takes a turn when you start to question some of the things that are happening to you.\n\nYour only human connection is over a handheld radio, which you’ll use to speak with your supervisor Delilah about the things both of you are experiencing.",
 	},
@@ -3640,6 +6428,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 5760,
+				image_id: "wfj4uguuur5idlyw6o1r",
+			},
+			{
+				id: 5761,
+				image_id: "hlu3aizx7iybhlbdgwwb",
+			},
+			{
+				id: 5762,
+				image_id: "vp5xovezrke5ndk5c1tq",
+			},
+			{
+				id: 5763,
+				image_id: "dmaijjdq8os2g50klrq8",
+			},
+			{
+				id: 6441,
+				image_id: "fog4gznwpq1ea1qbe0ni",
 			},
 		],
 		summary:
@@ -3686,6 +6496,28 @@ const games = [
 				name: "Mac",
 			},
 		],
+		screenshots: [
+			{
+				id: 865030,
+				image_id: "scijgm",
+			},
+			{
+				id: 865031,
+				image_id: "scijgn",
+			},
+			{
+				id: 865032,
+				image_id: "scijgo",
+			},
+			{
+				id: 865033,
+				image_id: "scijgp",
+			},
+			{
+				id: 865034,
+				image_id: "scijgq",
+			},
+		],
 		summary:
 			"BioShock 2 is the second game of the BioShock series and the sequel to BioShock. It continues the grand storyline of the underwater metropolis Rapture. BioShock 2 capitalizes and improves upon the high-quality effects, unique gameplay elements, and immersive atmosphere that defined the first game. It explores more brutal gameplay than its predecessor, with new enemies, weapons, Plasmids, and Gene Tonics.",
 	},
@@ -3726,6 +6558,36 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 44213,
+				image_id: "bwjri6c8g1n94haoztgm",
+			},
+			{
+				id: 44214,
+				image_id: "nknebu6mov0enphbwxib",
+			},
+			{
+				id: 44215,
+				image_id: "opsyuak5nsg11p9wvqcj",
+			},
+			{
+				id: 44216,
+				image_id: "ta5m1c6vp6226kdblwge",
+			},
+			{
+				id: 44217,
+				image_id: "uols5jinxtna1w9dgxdw",
+			},
+			{
+				id: 213489,
+				image_id: "f1pvnnlhyqvbtstk3zbj",
+			},
+			{
+				id: 213490,
+				image_id: "tp3tsdlzfkdp1hhofmb1",
+			},
+		],
 		summary:
 			"Anthem is a shared-world action RPG, where players can delve into a vast landscape teeming with amazing technology and forgotten treasures. This is a world where Freelancers are called upon to defeat savage beasts, ruthless marauders, and forces plotting to conquer humanity.",
 	},
@@ -3760,6 +6622,52 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 37186,
+				image_id: "lcak6gdsite8tqdhtawh",
+			},
+			{
+				id: 37268,
+				image_id: "bgrkid38ifj8szgdx9y8",
+			},
+			{
+				id: 43022,
+				image_id: "d5olq3gfovwdm8kifmav",
+			},
+			{
+				id: 43023,
+				image_id: "qrkvefuadtvpg5hbop5y",
+			},
+			{
+				id: 43024,
+				image_id: "qfxnxpyj7dnjfxcfbhvg",
+			},
+			{
+				id: 211038,
+				image_id: "fledxgtnwiyqramipjq6",
+			},
+			{
+				id: 211039,
+				image_id: "ijgi6z59kd9vxtb1djrt",
+			},
+			{
+				id: 211040,
+				image_id: "b2b97ug48cknkvdlt96w",
+			},
+			{
+				id: 211041,
+				image_id: "bzhreqzciyaheoourok7",
+			},
+			{
+				id: 211042,
+				image_id: "fr8s79zejqtqp4sfjblt",
+			},
+			{
+				id: 211043,
+				image_id: "jap8yvyzwjx6wez2m8cm",
 			},
 		],
 		summary:
@@ -3814,6 +6722,56 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 4661,
+				image_id: "jnevcwcfjeywmapglhec",
+			},
+			{
+				id: 4662,
+				image_id: "wqdyx9rx6mmhbrc9fzel",
+			},
+			{
+				id: 4663,
+				image_id: "otyao34szry2icwarsns",
+			},
+			{
+				id: 4664,
+				image_id: "lxmysvnpxlmiht3iq7ju",
+			},
+			{
+				id: 4665,
+				image_id: "jzehv6mqtb3glfbf3h6z",
+			},
+			{
+				id: 178157,
+				image_id: "wmjxtazw5pecs3avany4",
+			},
+			{
+				id: 178170,
+				image_id: "mqurt7yl18tx8qvzdaf5",
+			},
+			{
+				id: 178171,
+				image_id: "tbiqs7mtxxmkhnheghnp",
+			},
+			{
+				id: 178172,
+				image_id: "arinjhfinn6fui0i4f1c",
+			},
+			{
+				id: 178173,
+				image_id: "urjndvgzfaqhokcc2jeu",
+			},
+			{
+				id: 178176,
+				image_id: "acqyygtqibebss7l4ndk",
+			},
+			{
+				id: 178177,
+				image_id: "leriwrjsd2l9wihapzgs",
+			},
+		],
 		summary:
 			"Set in Chicago, where a central network of computers connects everyone and everything, Watch Dogs explores the impact of technology within our society. Using the city as your weapon, you will embark on a personal mission to inflict your own brand of justice. Chicago's overarching network is known as the Central Operating System (ctOS), and it controls almost all of the city's technology and information - including key data on all of the city's residents.",
 	},
@@ -3844,6 +6802,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 1220,
+				image_id: "mxscclds496mp4wqrhje",
+			},
+			{
+				id: 1221,
+				image_id: "yvbeukf7akfc2fkkzpmc",
+			},
+			{
+				id: 1222,
+				image_id: "u9z3xj0m1nragrlxnene",
+			},
+			{
+				id: 1223,
+				image_id: "vibjzy3bhdkevvz31cte",
+			},
+			{
+				id: 1224,
+				image_id: "o3bjopus7brxrqxqal3m",
 			},
 		],
 		summary:
@@ -3880,6 +6860,28 @@ const games = [
 			{
 				id: 14,
 				name: "Mac",
+			},
+		],
+		screenshots: [
+			{
+				id: 241,
+				image_id: "xaceurmpwijin0x7lszr",
+			},
+			{
+				id: 242,
+				image_id: "k5vsslwfcuevslbgnsup",
+			},
+			{
+				id: 243,
+				image_id: "fdilaf7wbwtbcppckzvc",
+			},
+			{
+				id: 244,
+				image_id: "exxw2bqmljwe47hwwu5p",
+			},
+			{
+				id: 245,
+				image_id: "hm5tkccid4wxgznrtsiz",
 			},
 		],
 		summary:
@@ -3942,6 +6944,56 @@ const games = [
 				name: "Nintendo Switch",
 			},
 		],
+		screenshots: [
+			{
+				id: 3704,
+				image_id: "agatqhsdwnr1oz5ghqdt",
+			},
+			{
+				id: 3705,
+				image_id: "c8g7g29d2n7iwf0mecwl",
+			},
+			{
+				id: 3706,
+				image_id: "hs0vtcqw6h2owf3m3in0",
+			},
+			{
+				id: 39188,
+				image_id: "awbgkxutchrptvs2d4ee",
+			},
+			{
+				id: 39189,
+				image_id: "bt4z8ujs6cccabs7sjyf",
+			},
+			{
+				id: 174848,
+				image_id: "uoahcu0eld7f7sbrtkvq",
+			},
+			{
+				id: 174849,
+				image_id: "loymuopes4xhofv5kstm",
+			},
+			{
+				id: 174850,
+				image_id: "ecjz4bjuamok2dogyugi",
+			},
+			{
+				id: 174851,
+				image_id: "cnlkisya5linmwub7zyq",
+			},
+			{
+				id: 174852,
+				image_id: "u9vr8zjntbmfbyhuu5kc",
+			},
+			{
+				id: 174853,
+				image_id: "ptlmm0yrdczb6esjnvno",
+			},
+			{
+				id: 174854,
+				image_id: "tqgcze2uofopxhenlhas",
+			},
+		],
 		summary:
 			"Super Meat Boy is a tough as nails platformer where you play as an animated cube of meat who's trying to save his girlfriend (who happens to be made of bandages) from an evil fetus in a jar wearing a tux.",
 	},
@@ -3972,6 +7024,28 @@ const games = [
 			{
 				id: 48,
 				name: "PlayStation 4",
+			},
+		],
+		screenshots: [
+			{
+				id: 18591,
+				image_id: "n79lclnyzkyg82iaotnp",
+			},
+			{
+				id: 18592,
+				image_id: "io5akxvdn7aosqdt82gs",
+			},
+			{
+				id: 18593,
+				image_id: "w7s3b3ylqststasevlpj",
+			},
+			{
+				id: 18594,
+				image_id: "k2zmtm03stdzyw9pqivu",
+			},
+			{
+				id: 18595,
+				image_id: "rvpqkdb8dp4bwrtq0ixl",
 			},
 		],
 		summary:
@@ -4014,6 +7088,52 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 115692,
+				image_id: "oxj8f3hdmwehkcruvwnv",
+			},
+			{
+				id: 115693,
+				image_id: "hxohr2c4he1ihtjlkmgf",
+			},
+			{
+				id: 115694,
+				image_id: "nuhxdqmns2qk17m80lsn",
+			},
+			{
+				id: 115695,
+				image_id: "tc0h3axfmy0gzorvuwgq",
+			},
+			{
+				id: 115696,
+				image_id: "syj5nxjqoqthtwzxx31z",
+			},
+			{
+				id: 211012,
+				image_id: "gggzxnyenxpmzeip2ck1",
+			},
+			{
+				id: 211013,
+				image_id: "uzwreby9o7duzzrkwrus",
+			},
+			{
+				id: 211014,
+				image_id: "fovl9fyq79camin87ljy",
+			},
+			{
+				id: 211015,
+				image_id: "rbabhd4gqbibzg4cho6w",
+			},
+			{
+				id: 211016,
+				image_id: "dwnzpnqwqqvkkz3wvlde",
+			},
+			{
+				id: 211017,
+				image_id: "t7gmtxixzahltbciikkb",
+			},
+		],
 		summary:
 			"Take the journey, now in ultimate quality. Boasting a wealth of bonus content and supporting ultra high-resolution graphical options and HDR 10, you can now enjoy the beautiful and carefully-crafted experience of FINAL FANTASY XV like never before.",
 	},
@@ -4048,6 +7168,56 @@ const games = [
 			{
 				id: 48,
 				name: "PlayStation 4",
+			},
+		],
+		screenshots: [
+			{
+				id: 213953,
+				image_id: "ot22cc6wsmhbrcnuo8ti",
+			},
+			{
+				id: 213954,
+				image_id: "u8ylruedniehtc18wzin",
+			},
+			{
+				id: 307162,
+				image_id: "sc6l0a",
+			},
+			{
+				id: 307163,
+				image_id: "sc6l0b",
+			},
+			{
+				id: 307164,
+				image_id: "sc6l0c",
+			},
+			{
+				id: 307165,
+				image_id: "sc6l0d",
+			},
+			{
+				id: 307166,
+				image_id: "sc6l0e",
+			},
+			{
+				id: 307167,
+				image_id: "sc6l0f",
+			},
+			{
+				id: 307168,
+				image_id: "sc6l0g",
+			},
+			{
+				id: 307169,
+				image_id: "sc6l0h",
+			},
+			{
+				id: 307170,
+				image_id: "sc6l0i",
+			},
+			{
+				id: 307171,
+				image_id: "sc6l0j",
 			},
 		],
 		summary:
@@ -4088,6 +7258,36 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 25059,
+				image_id: "rgh8d9ockrwnduixjc5d",
+			},
+			{
+				id: 25060,
+				image_id: "axfa10t9md3bcqvdyxlk",
+			},
+			{
+				id: 31317,
+				image_id: "zuia09etftbctjuxlkm2",
+			},
+			{
+				id: 31318,
+				image_id: "xrfbfmwnkacej9twdyuv",
+			},
+			{
+				id: 31319,
+				image_id: "gwzz1tjttrjdgoqokvdo",
+			},
+			{
+				id: 431552,
+				image_id: "sc98zk",
+			},
+			{
+				id: 431553,
+				image_id: "sc98zl",
 			},
 		],
 		summary:
@@ -4154,6 +7354,28 @@ const games = [
 				name: "Google Stadia",
 			},
 		],
+		screenshots: [
+			{
+				id: 92453,
+				image_id: "r96zj9bkejpttcuoo9pf",
+			},
+			{
+				id: 92454,
+				image_id: "x5rhyqreyktajtvzg91t",
+			},
+			{
+				id: 92455,
+				image_id: "zq4kpmk7tww73otsien2",
+			},
+			{
+				id: 92456,
+				image_id: "v15eycc2dqklnrj6643g",
+			},
+			{
+				id: 92457,
+				image_id: "qd48nns0djp93hygx1mv",
+			},
+		],
 		summary:
 			"SuperHot is the first person shooter where time moves only when you move. No regenerating health bars. No conveniently placed ammo drops. It's just you, outnumbered and outgunned, grabbing weapons off fallen enemies to shoot, slice, and maneuver through a hurricane of slow-motion bullets.\n\nWith its mesmerising gameplay and unique, stylized graphics SUPERHOT aims to finally add something new and disruptive to the FPS genre.\n\nSee the bullets crawling towards you as you carefully plan your steps and aim your gun. Enjoy the mayhem that is unleashed as you put that plan into motion.",
 	},
@@ -4190,6 +7412,28 @@ const games = [
 				name: "Xbox One",
 			},
 		],
+		screenshots: [
+			{
+				id: 41549,
+				image_id: "kdn9mk9gsdtgzmaqqvhp",
+			},
+			{
+				id: 41550,
+				image_id: "bfmh4zvh9ko9kbbfhjlr",
+			},
+			{
+				id: 41551,
+				image_id: "uivch74unugylmh3joqa",
+			},
+			{
+				id: 41552,
+				image_id: "a4bshpcah62lbxzxeyui",
+			},
+			{
+				id: 41553,
+				image_id: "mras4gtszut3dhwyq2n0",
+			},
+		],
 		summary:
 			"In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong. The space station has been overrun by hostile aliens and you are now being hunted. As you dig into the dark secrets of Talos I and your own past, you must survive using the tools found on the station, your wits, weapons, and mind-bending abilities.",
 	},
@@ -4220,6 +7464,28 @@ const games = [
 			{
 				id: 14,
 				name: "Mac",
+			},
+		],
+		screenshots: [
+			{
+				id: 596,
+				image_id: "adhx1okhll6bs7p5aprr",
+			},
+			{
+				id: 597,
+				image_id: "ol7tyhzuaqy0xdeedimc",
+			},
+			{
+				id: 598,
+				image_id: "aj9xp0caenpve0v4qav8",
+			},
+			{
+				id: 599,
+				image_id: "kysejwx3rgus2w79e6es",
+			},
+			{
+				id: 600,
+				image_id: "jidojbvgp9s5d6awun5n",
 			},
 		],
 		summary:
@@ -4256,6 +7522,28 @@ const games = [
 			{
 				id: 12,
 				name: "Xbox 360",
+			},
+		],
+		screenshots: [
+			{
+				id: 1158,
+				image_id: "yadkllvjpd1lnqlixxso",
+			},
+			{
+				id: 1159,
+				image_id: "wkypfjptjgqn6s0qrkbe",
+			},
+			{
+				id: 1160,
+				image_id: "o2dzissnnfnhy8zcmjzl",
+			},
+			{
+				id: 1161,
+				image_id: "s7y8lukfvl3vwfhobksu",
+			},
+			{
+				id: 1162,
+				image_id: "x6wtlvyuhtxnhgkce08e",
 			},
 		],
 		summary:
@@ -4312,6 +7600,28 @@ const games = [
 			{
 				id: 49,
 				name: "Xbox One",
+			},
+		],
+		screenshots: [
+			{
+				id: 5652,
+				image_id: "y3mcevfaze2vqv1qmapj",
+			},
+			{
+				id: 5653,
+				image_id: "yvstmj75wfqrtz4um8x0",
+			},
+			{
+				id: 5654,
+				image_id: "ldffm3ihtlvoqt9qtrnh",
+			},
+			{
+				id: 5655,
+				image_id: "uuotpnsbi3rgjcmxqjhl",
+			},
+			{
+				id: 5656,
+				image_id: "gsuyug4huoox1orousyo",
 			},
 		],
 		summary:
@@ -4380,6 +7690,28 @@ const games = [
 			{
 				id: 130,
 				name: "Nintendo Switch",
+			},
+		],
+		screenshots: [
+			{
+				id: 20037,
+				image_id: "rhxs1x9w5hf5kde2osf5",
+			},
+			{
+				id: 20038,
+				image_id: "sw7rtba7p1xs77klsime",
+			},
+			{
+				id: 20039,
+				image_id: "iwswpvxa9ytrpk8yjcyx",
+			},
+			{
+				id: 20040,
+				image_id: "ak7zmag7zztpqha1jjde",
+			},
+			{
+				id: 20041,
+				image_id: "g1aakqbkp2quq0krqeky",
 			},
 		],
 		summary:

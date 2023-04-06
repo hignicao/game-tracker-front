@@ -1,4 +1,5 @@
 import { createContext, useState, ReactNode } from "react";
+import useLocalStorage from "../hooks/useLocalStorage";
 
 type UserContextType = {
   userData: any; // replace "any" with the appropriate type for userData
@@ -11,11 +12,7 @@ export const UserContext = createContext<UserContextType>({
 });
 
 export function UserProvider({ children }: { children: ReactNode }) {
-  const item = window.localStorage.getItem("userData");
-  const [userData, setUserData] = useState(() => {
-    const storedData = item !== null ? JSON.parse(item) : undefined;
-    return storedData;
-  });
+  const [userData, setUserData] = useLocalStorage("userData", undefined);
 
   return (
     <UserContext.Provider value={{ userData, setUserData }}>
