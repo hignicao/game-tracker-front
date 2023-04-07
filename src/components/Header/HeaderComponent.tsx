@@ -3,18 +3,21 @@ import styled from "styled-components";
 import { UserContext } from "../../contexts/UserContext";
 import logo from "../../assets/images/logo.svg";
 import { IoSearchSharp } from "react-icons/io5";
-import { Avatar, Button } from "@mui/material";
+import { Avatar, Button, Menu, MenuItem } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { FaUserCircle } from "react-icons/fa";
+import { RiLogoutCircleRLine } from "react-icons/ri";
 
 interface ShowSearchBar {
 	show: boolean;
 }
 
 export default function Header() {
-	const { userData } = useContext(UserContext);
-	const avatarPicture = `https://source.boringavatars.com/beam/40/${userData?.user.username}}`;
+	const { userData, setUserData, avatarPicture } = useContext(UserContext);
 	const [showSearchBar, setShowSearchBar] = useState(false);
+	const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+	const open = Boolean(anchorEl);
 	const navigate = useNavigate();
 
 	function handleSearchBar() {
@@ -24,6 +27,19 @@ export default function Header() {
 		} else {
 			setShowSearchBar(true);
 		}
+	}
+
+	const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+		setAnchorEl(event.currentTarget);
+	};
+	const handleClose = () => {
+		setAnchorEl(null);
+	};
+
+	function handleLogout() {
+		localStorage.removeItem("userData");
+		setUserData(undefined);
+		navigate("/");
 	}
 
 	return (
@@ -38,12 +54,12 @@ export default function Header() {
 					<p>GT</p>
 				</LogoContainer>
 				<HiddenSearchBar show={showSearchBar}>
-					<input type="text" placeholder="Pesquisar" />
+					<input type="text" placeholder="Pesquisar..." />
 					<IoSearchSharp onClick={handleSearchBar} />
 				</HiddenSearchBar>
 				<DivCloseSearchBar show={showSearchBar} onClick={() => setShowSearchBar(false)} />
 				<SearchBarContainer>
-					<input type="text" placeholder="Pesquisar" />
+					<input type="text" placeholder="Pesquisar..." />
 					<IoSearchSharp onClick={() => alert("Pesquisar")} />
 				</SearchBarContainer>
 				<IoSearchSharp onClick={handleSearchBar} />
@@ -51,11 +67,25 @@ export default function Header() {
 			<RightHeader>
 				<MenuContainer>
 					<LinkText to={"/trending"}>trending</LinkText>
-					{userData && <LinkText to={"/profile"}>profile</LinkText>}
 				</MenuContainer>
 				<ProfileContainer>
 					{userData !== undefined ? (
-						<Avatar src={avatarPicture} />
+						<>
+							<Avatar src={avatarPicture} onClick={handleClick} />
+							<Menu anchorEl={anchorEl} open={open} onClick={handleClose}>
+								<MenuItem
+									onClick={() => {
+										navigate("/profile");
+									}}
+									selected={false}
+								>
+									Profile
+								</MenuItem>
+								<MenuItem selected={false} onClick={handleLogout}>
+									Logout
+								</MenuItem>
+							</Menu>
+						</>
 					) : (
 						<Button
 							variant="contained"
@@ -164,6 +194,7 @@ const SearchBarContainer = styled.div`
 		padding: 0px;
 		color: white;
 		::placeholder {
+			font-weight: 300;
 			color: #747474;
 		}
 		@media (max-width: 600px) {
@@ -204,6 +235,7 @@ const HiddenSearchBar = styled.div<ShowSearchBar>`
 		padding: 10px;
 		color: white;
 		::placeholder {
+			font-weight: 300;
 			color: #747474;
 		}
 	}
