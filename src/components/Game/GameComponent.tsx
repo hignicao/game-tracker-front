@@ -1,20 +1,25 @@
 import { Paper, Box, styled } from "@mui/material";
 
-export default function GameComponent({ game }: { game: any }) {
+interface SizeProps {
+	size: string;
+}
+
+export default function GameComponent({ game, size }: { game: any; size: string }) {
+
 	return (
-		<GamePaper elevation={3}>
+		<GamePaper elevation={3} size={size}>
 			<img src={`https://images.igdb.com/igdb/image/upload/t_1080p/${game.cover.image_id}.jpg`} alt="" />
-			<TitleBox>
+			<TitleBox size={size}>
 				<h3>{game.name}</h3>
 			</TitleBox>
 		</GamePaper>
 	);
 }
 
-const GamePaper = styled(Paper)`
+const GamePaper = styled(Paper)<SizeProps>`
 	position: relative;
-	height: 216px;
-	width: 162px;
+	height: ${(props) => (props.size === "s" ? "180px" : props.size === "m" ? "216px" : "324px")};
+	min-width: ${(props) => (props.size === "s" ? "135px" : props.size === "m" ? "162px" : "243px")};
 	border-radius: 5px;
 	cursor: pointer;
 	img {
@@ -24,7 +29,7 @@ const GamePaper = styled(Paper)`
 	}
 `;
 
-const TitleBox = styled(Box)`
+const TitleBox = styled(Box)<SizeProps>`
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -35,20 +40,20 @@ const TitleBox = styled(Box)`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  padding: 10px;
+	padding: 10px;
 	h3 {
-    display: none;
-    color: white;
-		font-size: 16px;
+		display: none;
+		color: white;
+		font-size: ${(props) => (props.size === "s" ? "12px" : props.size === "m" ? "16px" : "20px")};
 		font-weight: 500;
 		font-style: italic;
-    text-align: center;
-    text-shadow: 1px 1px 5px black;
+		text-align: center;
+		text-shadow: 1px 1px 5px black;
 	}
 	:hover {
 		background-color: #000000a9;
-    h3 {
-      display: block;
-    }
+		h3 {
+			display: block;
+		}
 	}
 `;

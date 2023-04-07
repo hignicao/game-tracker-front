@@ -10,6 +10,7 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Trending from "./pages/Trending";
 import Game from "./pages/Game";
+import Profile from "./pages/Profile";
 
 function App() {
 	return (
@@ -23,7 +24,7 @@ function App() {
 							<Route path="/" element={<Homepage />} />
 							<Route path="/sign-in" element={<SignIn />} />
 							<Route path="/sign-up" element={<SignUp />} />
-							<Route path="/profile" element={<h1>Profile</h1>} />
+							<Route path="/profile" element={<Profile />} />
 							<Route path="/trending" element={<Trending />} />
 							<Route path="/search/:search" element={<h1>Search</h1>} />
 							<Route path="/game/:gameId" element={<Game />} />

@@ -7720,13 +7720,14 @@ const games = [
 ];
 
 export default function Trending() {
+	const size = "m"
 	return (
 		<TrendingContainer>
 			<h2>Trending Games</h2>
 			<p>Os 100 jogos mais populares da comunidade.</p>
 			<GamesBox>
 				{games.map((game) => (
-					<GameComponent game={game} key={game.id} />
+					<GameComponent game={game} key={game.id} size={size}/>
 				))}
 			</GamesBox>
 		</TrendingContainer>
