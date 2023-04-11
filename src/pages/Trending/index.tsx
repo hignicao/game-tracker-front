@@ -5,10 +5,8 @@ const games = [
 	{
 		id: 1020,
 		aggregated_rating: 88.1379310344828,
-		cover: {
-			id: 120937,
-			image_id: "co2lbd",
-		},
+		cover: "co2lbd",
+
 		first_release_date: 1379376000,
 		genres: [
 			{
@@ -75,10 +73,8 @@ const games = [
 	{
 		id: 1942,
 		aggregated_rating: 91.72,
-		cover: {
-			id: 89386,
-			image_id: "co1wyy",
-		},
+		cover: "co1wyy",
+
 		first_release_date: 1431993600,
 		genres: [
 			{
@@ -165,10 +161,8 @@ const games = [
 	{
 		id: 472,
 		aggregated_rating: 96.1111111111111,
-		cover: {
-			id: 85100,
-			image_id: "co1tnw",
-		},
+		cover: "co1tnw",
+
 		first_release_date: 1320883200,
 		genres: [
 			{
@@ -223,10 +217,8 @@ const games = [
 	{
 		id: 1877,
 		aggregated_rating: 75.2380952380952,
-		cover: {
-			id: 209384,
-			image_id: "co4hk8",
-		},
+		cover: "co4hk8",
+
 		first_release_date: 1607472000,
 		genres: [
 			{
@@ -321,10 +313,8 @@ const games = [
 	{
 		id: 72,
 		aggregated_rating: 92.4444444444444,
-		cover: {
-			id: 82660,
-			image_id: "co1rs4",
-		},
+		cover: "co1rs4",
+
 		first_release_date: 1303084800,
 		genres: [
 			{
@@ -395,10 +385,8 @@ const games = [
 	{
 		id: 1009,
 		aggregated_rating: 91.5384615384615,
-		cover: {
-			id: 81915,
-			image_id: "co1r7f",
-		},
+		cover: "co1r7f",
+
 		first_release_date: 1371168000,
 		genres: [
 			{
@@ -445,10 +433,8 @@ const games = [
 	{
 		id: 74,
 		aggregated_rating: 95.6,
-		cover: {
-			id: 93684,
-			image_id: "co20ac",
-		},
+		cover: "co20ac",
+
 		first_release_date: 1264464000,
 		genres: [
 			{
@@ -507,10 +493,8 @@ const games = [
 	{
 		id: 25076,
 		aggregated_rating: 94.0588235294118,
-		cover: {
-			id: 80403,
-			image_id: "co1q1f",
-		},
+		cover: "co1q1f",
+
 		first_release_date: 1540512000,
 		genres: [
 			{
@@ -600,10 +584,8 @@ const games = [
 	{
 		id: 7346,
 		aggregated_rating: 97.5925925925926,
-		cover: {
-			id: 172453,
-			image_id: "co3p2d",
-		},
+		cover: "co3p2d",
+
 		first_release_date: 1488499200,
 		genres: [
 			{
@@ -670,10 +652,8 @@ const games = [
 	{
 		id: 529,
 		aggregated_rating: 89.5333333333333,
-		cover: {
-			id: 87745,
-			image_id: "co1vpd",
-		},
+		cover: "co1vpd",
+
 		first_release_date: 1354060800,
 		genres: [
 			{
@@ -728,10 +708,8 @@ const games = [
 	{
 		id: 121,
 		aggregated_rating: 84.3571428571429,
-		cover: {
-			id: 199481,
-			image_id: "co49x5",
-		},
+		cover: "co49x5",
+
 		first_release_date: 1321574400,
 		genres: [
 			{
@@ -806,10 +784,8 @@ const games = [
 	{
 		id: 1164,
 		aggregated_rating: 84.6428571428571,
-		cover: {
-			id: 82074,
-			image_id: "co1rbu",
-		},
+		cover: "co1rbu",
+
 		first_release_date: 1362355200,
 		genres: [
 			{
@@ -880,10 +856,8 @@ const games = [
 	{
 		id: 538,
 		aggregated_rating: 93.2142857142857,
-		cover: {
-			id: 123158,
-			image_id: "co2n12",
-		},
+		cover: "co2n12",
+
 		first_release_date: 1361836800,
 		genres: [
 			{
@@ -974,10 +948,8 @@ const games = [
 	{
 		id: 11156,
 		aggregated_rating: 88.8461538461538,
-		cover: {
-			id: 133030,
-			image_id: "co2una",
-		},
+		cover: "co2una",
+
 		first_release_date: 1488240000,
 		genres: [
 			{
@@ -1032,10 +1004,8 @@ const games = [
 	{
 		id: 7331,
 		aggregated_rating: 93.24,
-		cover: {
-			id: 81917,
-			image_id: "co1r7h",
-		},
+		cover: "co1r7h",
+
 		first_release_date: 1462838400,
 		genres: [
 			{
@@ -1082,10 +1052,8 @@ const games = [
 	{
 		id: 501,
 		aggregated_rating: 91.2,
-		cover: {
-			id: 87713,
-			image_id: "co1voh",
-		},
+		cover: "co1voh",
+
 		first_release_date: 1318896000,
 		genres: [
 			{
@@ -1144,10 +1112,8 @@ const games = [
 	{
 		id: 434,
 		aggregated_rating: 91.8,
-		cover: {
-			id: 120991,
-			image_id: "co2lcv",
-		},
+		cover: "co2lcv",
+
 		first_release_date: 1274140800,
 		genres: [
 			{
@@ -1202,10 +1168,8 @@ const games = [
 	{
 		id: 75,
 		aggregated_rating: 90.8125,
-		cover: {
-			id: 89702,
-			image_id: "co1x7q",
-		},
+		cover: "co1x7q",
+
 		first_release_date: 1330992000,
 		genres: [
 			{
@@ -1292,10 +1256,8 @@ const games = [
 	{
 		id: 26192,
 		aggregated_rating: 95.1818181818182,
-		cover: {
-			id: 279320,
-			image_id: "co5ziw",
-		},
+		cover: "co5ziw",
+
 		first_release_date: 1592524800,
 		genres: [
 			{
@@ -1370,10 +1332,8 @@ const games = [
 	{
 		id: 19560,
 		aggregated_rating: 96.2307692307692,
-		cover: {
-			id: 85062,
-			image_id: "co1tmu",
-		},
+		cover: "co1tmu",
+
 		first_release_date: 1524182400,
 		genres: [
 			{
@@ -1456,10 +1416,8 @@ const games = [
 	{
 		id: 16,
 		aggregated_rating: 81.9,
-		cover: {
-			id: 85752,
-			image_id: "co1u60",
-		},
+		cover: "co1u60",
+
 		first_release_date: 1287446400,
 		genres: [
 			{
@@ -1522,10 +1480,8 @@ const games = [
 	{
 		id: 19441,
 		aggregated_rating: 81.3333333333333,
-		cover: {
-			id: 125839,
-			image_id: "co2p3j",
-		},
+		cover: "co2p3j",
+
 		first_release_date: 1479168000,
 		genres: [
 			{
@@ -1584,10 +1540,8 @@ const games = [
 	{
 		id: 7599,
 		aggregated_rating: 78.8378378378378,
-		cover: {
-			id: 81950,
-			image_id: "co1r8e",
-		},
+		cover: "co1r8e",
+
 		first_release_date: 1422489600,
 		genres: [
 			{
@@ -1694,10 +1648,8 @@ const games = [
 	{
 		id: 1871,
 		aggregated_rating: 84.3529411764706,
-		cover: {
-			id: 117988,
-			image_id: "co2j1g",
-		},
+		cover: "co2j1g",
+
 		first_release_date: 1335225600,
 		genres: [
 			{
@@ -1788,10 +1740,8 @@ const games = [
 	{
 		id: 9630,
 		aggregated_rating: 84.6666666666667,
-		cover: {
-			id: 91158,
-			image_id: "co1yc6",
-		},
+		cover: "co1yc6",
+
 		first_release_date: 1447027200,
 		genres: [
 			{
@@ -1854,10 +1804,8 @@ const games = [
 	{
 		id: 113,
 		aggregated_rating: 83.3333333333333,
-		cover: {
-			id: 76391,
-			image_id: "co1mxz",
-		},
+		cover: "co1mxz",
+
 		first_release_date: 1289865600,
 		genres: [
 			{
@@ -1912,10 +1860,8 @@ const games = [
 	{
 		id: 1011,
 		aggregated_rating: 80.7058823529412,
-		cover: {
-			id: 94379,
-			image_id: "co20tn",
-		},
+		cover: "co20tn",
+
 		first_release_date: 1347926400,
 		genres: [
 			{
@@ -1998,10 +1944,8 @@ const games = [
 	{
 		id: 25657,
 		aggregated_rating: 82.44,
-		cover: {
-			id: 289955,
-			image_id: "co67qb",
-		},
+		cover: "co67qb",
+
 		first_release_date: 1504656000,
 		genres: [
 			{
@@ -2072,10 +2016,8 @@ const games = [
 	{
 		id: 28204,
 		aggregated_rating: 75.2777777777778,
-		cover: {
-			id: 82135,
-			image_id: "co1rdj",
-		},
+		cover: "co1rdj",
+
 		first_release_date: 1509580800,
 		genres: [
 			{
@@ -2154,10 +2096,8 @@ const games = [
 	{
 		id: 1970,
 		aggregated_rating: 84.5714285714286,
-		cover: {
-			id: 220883,
-			image_id: "co4qfn",
-		},
+		cover: "co4qfn",
+
 		first_release_date: 1383004800,
 		genres: [
 			{
@@ -2248,10 +2188,8 @@ const games = [
 	{
 		id: 8173,
 		aggregated_rating: 89.0833333333333,
-		cover: {
-			id: 82091,
-			image_id: "co1rcb",
-		},
+		cover: "co1rcb",
+
 		first_release_date: 1464048000,
 		genres: [
 			{
@@ -2314,10 +2252,8 @@ const games = [
 	{
 		id: 5503,
 		aggregated_rating: 91.8125,
-		cover: {
-			id: 77077,
-			image_id: "co1nh1",
-		},
+		cover: "co1nh1",
+
 		first_release_date: 1435017600,
 		genres: [
 			{
@@ -2400,10 +2336,8 @@ const games = [
 	{
 		id: 478,
 		aggregated_rating: 85.7142857142857,
-		cover: {
-			id: 89356,
-			image_id: "co1wy4",
-		},
+		cover: "co1wy4",
+
 		first_release_date: 1305590400,
 		genres: [
 			{
@@ -2462,10 +2396,8 @@ const games = [
 	{
 		id: 28540,
 		aggregated_rating: 85.9333333333333,
-		cover: {
-			id: 82058,
-			image_id: "co1rbe",
-		},
+		cover: "co1rbe",
+
 		first_release_date: 1508976000,
 		genres: [
 			{
@@ -2552,10 +2484,8 @@ const games = [
 	{
 		id: 1372,
 		aggregated_rating: 81,
-		cover: {
-			id: 291930,
-			image_id: "co6996",
-		},
+		cover: "co6996",
+
 		first_release_date: 1345507200,
 		genres: [
 			{
@@ -2646,10 +2576,8 @@ const games = [
 	{
 		id: 7334,
 		aggregated_rating: 91.1111111111111,
-		cover: {
-			id: 82054,
-			image_id: "co1rba",
-		},
+		cover: "co1rba",
+
 		first_release_date: 1427155200,
 		genres: [
 			{
@@ -2696,10 +2624,8 @@ const games = [
 	{
 		id: 533,
 		aggregated_rating: 90.3571428571429,
-		cover: {
-			id: 266140,
-			image_id: "co5pcs",
-		},
+		cover: "co5pcs",
+
 		first_release_date: 1349740800,
 		genres: [
 			{
@@ -2754,10 +2680,8 @@ const games = [
 	{
 		id: 28552,
 		aggregated_rating: 84.3333333333333,
-		cover: {
-			id: 94974,
-			image_id: "co21a6",
-		},
+		cover: "co21a6",
+
 		first_release_date: 1522022400,
 		genres: [
 			{
@@ -2844,10 +2768,8 @@ const games = [
 	{
 		id: 7351,
 		aggregated_rating: 86.96875,
-		cover: {
-			id: 76903,
-			image_id: "co1nc7",
-		},
+		cover: "co1nc7",
+
 		first_release_date: 1463011200,
 		genres: [
 			{
@@ -2898,10 +2820,8 @@ const games = [
 	{
 		id: 512,
 		aggregated_rating: 93.25,
-		cover: {
-			id: 85148,
-			image_id: "co1tp8",
-		},
+		cover: "co1tp8",
+
 		first_release_date: 1320105600,
 		genres: [
 			{
@@ -2980,10 +2900,8 @@ const games = [
 	{
 		id: 3025,
 		aggregated_rating: 83.8888888888889,
-		cover: {
-			id: 94225,
-			image_id: "co20pd",
-		},
+		cover: "co20pd",
+
 		first_release_date: 1412035200,
 		genres: [
 			{
@@ -3058,10 +2976,8 @@ const games = [
 	{
 		id: 866,
 		aggregated_rating: 86.6,
-		cover: {
-			id: 94417,
-			image_id: "co20up",
-		},
+		cover: "co20up",
+
 		first_release_date: 1285027200,
 		genres: [
 			{
@@ -3120,10 +3036,8 @@ const games = [
 	{
 		id: 2114,
 		aggregated_rating: 79.8181818181818,
-		cover: {
-			id: 91851,
-			image_id: "co1yvf",
-		},
+		cover: "co1yvf",
+
 		first_release_date: 1457308800,
 		genres: [
 			{
@@ -3202,10 +3116,8 @@ const games = [
 	{
 		id: 7349,
 		aggregated_rating: 73.2173913043478,
-		cover: {
-			id: 152768,
-			image_id: "co39vk",
-		},
+		cover: "co39vk",
+
 		first_release_date: 1490054400,
 		genres: [
 			{
@@ -3268,10 +3180,8 @@ const games = [
 	{
 		id: 2155,
 		aggregated_rating: 90.625,
-		cover: {
-			id: 89684,
-			image_id: "co1x78",
-		},
+		cover: "co1x78",
+
 		first_release_date: 1316649600,
 		genres: [
 			{
@@ -3326,10 +3236,8 @@ const games = [
 	{
 		id: 7323,
 		aggregated_rating: 87.04,
-		cover: {
-			id: 82594,
-			image_id: "co1rqa",
-		},
+		cover: "co1rqa",
+
 		first_release_date: 1447113600,
 		genres: [
 			{
@@ -3420,10 +3328,8 @@ const games = [
 	{
 		id: 18167,
 		aggregated_rating: 36.75,
-		cover: {
-			id: 81912,
-			image_id: "co1r7c",
-		},
+		cover: "co1r7c",
+
 		first_release_date: 1512691200,
 		genres: [
 			{
@@ -3518,10 +3424,8 @@ const games = [
 	{
 		id: 26758,
 		aggregated_rating: 96.7058823529412,
-		cover: {
-			id: 76371,
-			image_id: "co1mxf",
-		},
+		cover: "co1mxf",
+
 		first_release_date: 1509062400,
 		genres: [
 			{
@@ -3596,10 +3500,8 @@ const games = [
 	{
 		id: 12517,
 		aggregated_rating: 96.3846153846154,
-		cover: {
-			id: 103865,
-			image_id: "co2855",
-		},
+		cover: "co2855",
+
 		first_release_date: 1442275200,
 		genres: [
 			{
@@ -3738,10 +3640,8 @@ const games = [
 	{
 		id: 18866,
 		aggregated_rating: 67.1111111111111,
-		cover: {
-			id: 279394,
-			image_id: "co5zky",
-		},
+		cover: "co5zky",
+
 		first_release_date: 1465862400,
 		genres: [
 			{
@@ -3820,10 +3720,8 @@ const games = [
 	{
 		id: 1262,
 		aggregated_rating: 80.3571428571429,
-		cover: {
-			id: 87153,
-			image_id: "co1v8x",
-		},
+		cover: "co1v8x",
+
 		first_release_date: 1393804800,
 		genres: [
 			{
@@ -3894,10 +3792,8 @@ const games = [
 	{
 		id: 36926,
 		aggregated_rating: 93.25,
-		cover: {
-			id: 82685,
-			image_id: "co1rst",
-		},
+		cover: "co1rst",
+
 		first_release_date: 1516924800,
 		genres: [
 			{
@@ -3968,10 +3864,8 @@ const games = [
 	{
 		id: 9061,
 		aggregated_rating: 86.8823529411765,
-		cover: {
-			id: 282912,
-			image_id: "co62ao",
-		},
+		cover: "co62ao",
+
 		first_release_date: 1506643200,
 		genres: [
 			{
@@ -4042,10 +3936,8 @@ const games = [
 	{
 		id: 1985,
 		aggregated_rating: 95.7368421052632,
-		cover: {
-			id: 87125,
-			image_id: "co1v85",
-		},
+		cover: "co1v85",
+
 		first_release_date: 1441065600,
 		genres: [
 			{
@@ -4120,10 +4012,8 @@ const games = [
 	{
 		id: 4843,
 		aggregated_rating: 73.7272727272727,
-		cover: {
-			id: 200538,
-			image_id: "co4aqi",
-		},
+		cover: "co4aqi",
+
 		first_release_date: 1518480000,
 		genres: [
 			{
@@ -4202,10 +4092,8 @@ const games = [
 	{
 		id: 1331,
 		aggregated_rating: 84,
-		cover: {
-			id: 81352,
-			image_id: "co1qrs",
-		},
+		cover: "co1qrs",
+
 		first_release_date: 1279670400,
 		genres: [
 			{
@@ -4319,10 +4207,8 @@ const games = [
 	{
 		id: 19565,
 		aggregated_rating: 89.6875,
-		cover: {
-			id: 81907,
-			image_id: "co1r77",
-		},
+		cover: "co1r77",
+
 		first_release_date: 1536278400,
 		genres: [
 			{
@@ -4397,10 +4283,8 @@ const games = [
 	{
 		id: 1384,
 		aggregated_rating: 86.2,
-		cover: {
-			id: 87793,
-			image_id: "co1vqp",
-		},
+		cover: "co1vqp",
+
 		first_release_date: 1350950400,
 		genres: [
 			{
@@ -4487,10 +4371,8 @@ const games = [
 	{
 		id: 1887,
 		aggregated_rating: 87.9375,
-		cover: {
-			id: 122974,
-			image_id: "co2mvy",
-		},
+		cover: "co2mvy",
+
 		first_release_date: 1416268800,
 		genres: [
 			{
@@ -4561,10 +4443,8 @@ const games = [
 	{
 		id: 2031,
 		aggregated_rating: 77.3125,
-		cover: {
-			id: 95040,
-			image_id: "co21c0",
-		},
+		cover: "co21c0",
+
 		first_release_date: 1400544000,
 		genres: [
 			{
@@ -4627,10 +4507,8 @@ const games = [
 	{
 		id: 11133,
 		aggregated_rating: 86.0769230769231,
-		cover: {
-			id: 87279,
-			image_id: "co1vcf",
-		},
+		cover: "co1vcf",
+
 		first_release_date: 1458777600,
 		genres: [
 			{
@@ -4688,10 +4566,8 @@ const games = [
 	{
 		id: 1905,
 		aggregated_rating: 82.6,
-		cover: {
-			id: 112205,
-			image_id: "co2ekt",
-		},
+		cover: "co2ekt",
+
 		first_release_date: 1500940800,
 		genres: [
 			{
@@ -4778,10 +4654,8 @@ const games = [
 	{
 		id: 43,
 		aggregated_rating: 92.1111111111111,
-		cover: {
-			id: 82118,
-			image_id: "co1rd2",
-		},
+		cover: "co1rd2",
+
 		first_release_date: 1314057600,
 		genres: [
 			{
@@ -4840,10 +4714,8 @@ const games = [
 	{
 		id: 14362,
 		aggregated_rating: 77.6153846153846,
-		cover: {
-			id: 122294,
-			image_id: "co2md2",
-		},
+		cover: "co2md2",
+
 		first_release_date: 1527206400,
 		genres: [
 			{
@@ -4922,10 +4794,8 @@ const games = [
 	{
 		id: 6801,
 		aggregated_rating: 86.4210526315789,
-		cover: {
-			id: 124030,
-			image_id: "co2npa",
-		},
+		cover: "co2npa",
+
 		first_release_date: 1416268800,
 		genres: [
 			{
@@ -4996,10 +4866,8 @@ const games = [
 	{
 		id: 1266,
 		aggregated_rating: 81.1764705882353,
-		cover: {
-			id: 90090,
-			image_id: "co1xii",
-		},
+		cover: "co1xii",
+
 		first_release_date: 1351555200,
 		genres: [
 			{
@@ -5086,10 +4954,8 @@ const games = [
 	{
 		id: 11208,
 		aggregated_rating: 85.72,
-		cover: {
-			id: 266131,
-			image_id: "co5pcj",
-		},
+		cover: "co5pcj",
+
 		first_release_date: 1487808000,
 		genres: [
 			{
@@ -5155,10 +5021,8 @@ const games = [
 	{
 		id: 7342,
 		aggregated_rating: 92.4871794871795,
-		cover: {
-			id: 113194,
-			image_id: "co2fca",
-		},
+		cover: "co2fca",
+
 		first_release_date: 1467158400,
 		genres: [
 			{
@@ -5260,10 +5124,8 @@ const games = [
 	{
 		id: 7344,
 		aggregated_rating: 88.2857142857143,
-		cover: {
-			id: 90865,
-			image_id: "co1y41",
-		},
+		cover: "co1y41",
+
 		first_release_date: 1426032000,
 		genres: [
 			{
@@ -5350,10 +5212,8 @@ const games = [
 	{
 		id: 3225,
 		aggregated_rating: 73.8421052631579,
-		cover: {
-			id: 258126,
-			image_id: "co5j66",
-		},
+		cover: "co5j66",
+
 		first_release_date: 1470700800,
 		genres: [
 			{
@@ -5460,10 +5320,8 @@ const games = [
 	{
 		id: 3035,
 		aggregated_rating: 88.5,
-		cover: {
-			id: 82089,
-			image_id: "co1rc9",
-		},
+		cover: "co1rc9",
+
 		first_release_date: 1381968000,
 		genres: [
 			{
@@ -5518,10 +5376,8 @@ const games = [
 	{
 		id: 2993,
 		aggregated_rating: 79.5227272727273,
-		cover: {
-			id: 82114,
-			image_id: "co1rcy",
-		},
+		cover: "co1rcy",
+
 		first_release_date: 1381449600,
 		genres: [
 			{
@@ -5628,10 +5484,8 @@ const games = [
 	{
 		id: 19561,
 		aggregated_rating: 74.6875,
-		cover: {
-			id: 71279,
-			image_id: "co1izz",
-		},
+		cover: "co1izz",
+
 		first_release_date: 1556236800,
 		genres: [
 			{
@@ -5710,10 +5564,8 @@ const games = [
 	{
 		id: 18320,
 		aggregated_rating: 89.0952380952381,
-		cover: {
-			id: 123457,
-			image_id: "co2n9d",
-		},
+		cover: "co2n9d",
+
 		first_release_date: 1477008000,
 		genres: [
 			{
@@ -5788,10 +5640,8 @@ const games = [
 	{
 		id: 1352,
 		aggregated_rating: 93.8571428571429,
-		cover: {
-			id: 80666,
-			image_id: "co1q8q",
-		},
+		cover: "co1q8q",
+
 		first_release_date: 1331596800,
 		genres: [
 			{
@@ -5870,10 +5720,8 @@ const games = [
 	{
 		id: 537,
 		aggregated_rating: 81.7142857142857,
-		cover: {
-			id: 90089,
-			image_id: "co1xih",
-		},
+		cover: "co1xih",
+
 		first_release_date: 1321228800,
 		genres: [
 			{
@@ -5924,10 +5772,8 @@ const games = [
 	{
 		id: 11198,
 		aggregated_rating: 88.7058823529412,
-		cover: {
-			id: 274784,
-			image_id: "co5w0w",
-		},
+		cover: "co5w0w",
+
 		first_release_date: 1436140800,
 		genres: [
 			{
@@ -6034,10 +5880,8 @@ const games = [
 	{
 		id: 119313,
 		aggregated_rating: 76.6,
-		cover: {
-			id: 227811,
-			image_id: "co4vs3",
-		},
+		cover: "co4vs3",
+
 		first_release_date: 1596499200,
 		genres: [
 			{
@@ -6116,10 +5960,8 @@ const games = [
 	{
 		id: 40,
 		aggregated_rating: 72.625,
-		cover: {
-			id: 123159,
-			image_id: "co2n13",
-		},
+		cover: "co2n13",
+
 		first_release_date: 1282608000,
 		genres: [
 			{
@@ -6178,10 +6020,8 @@ const games = [
 	{
 		id: 19562,
 		aggregated_rating: 88.4615384615385,
-		cover: {
-			id: 238676,
-			image_id: "co545w",
-		},
+		cover: "co545w",
+
 		first_release_date: 1485216000,
 		genres: [
 			{
@@ -6252,10 +6092,8 @@ const games = [
 	{
 		id: 109,
 		aggregated_rating: 89.375,
-		cover: {
-			id: 121019,
-			image_id: "co2ldn",
-		},
+		cover: "co2ldn",
+
 		first_release_date: 1305590400,
 		genres: [
 			{
@@ -6310,10 +6148,8 @@ const games = [
 	{
 		id: 9730,
 		aggregated_rating: 79.2777777777778,
-		cover: {
-			id: 75281,
-			image_id: "co1m35",
-		},
+		cover: "co1m35",
+
 		first_release_date: 1454976000,
 		genres: [
 			{
@@ -6404,10 +6240,8 @@ const games = [
 	{
 		id: 343,
 		aggregated_rating: 85,
-		cover: {
-			id: 89850,
-			image_id: "co1xbu",
-		},
+		cover: "co1xbu",
+
 		first_release_date: 1319500800,
 		genres: [
 			{
@@ -6458,10 +6292,8 @@ const games = [
 	{
 		id: 21,
 		aggregated_rating: 87,
-		cover: {
-			id: 122599,
-			image_id: "co2mlj",
-		},
+		cover: "co2mlj",
+
 		first_release_date: 1265673600,
 		genres: [
 			{
@@ -6524,10 +6356,8 @@ const games = [
 	{
 		id: 36950,
 		aggregated_rating: 60.1333333333333,
-		cover: {
-			id: 123448,
-			image_id: "co2n94",
-		},
+		cover: "co2n94",
+
 		first_release_date: 1550793600,
 		genres: [
 			{
@@ -6594,10 +6424,8 @@ const games = [
 	{
 		id: 27421,
 		aggregated_rating: 83.8947368421053,
-		cover: {
-			id: 94238,
-			image_id: "co20pq",
-		},
+		cover: "co20pq",
+
 		first_release_date: 1507593600,
 		genres: [
 			{
@@ -6676,10 +6504,8 @@ const games = [
 	{
 		id: 1121,
 		aggregated_rating: 81.0952380952381,
-		cover: {
-			id: 125924,
-			image_id: "co2p5w",
-		},
+		cover: "co2p5w",
+
 		first_release_date: 1401062400,
 		genres: [
 			{
@@ -6778,10 +6604,8 @@ const games = [
 	{
 		id: 1062,
 		aggregated_rating: 83,
-		cover: {
-			id: 110729,
-			image_id: "co2dft",
-		},
+		cover: "co2dft",
+
 		first_release_date: 1273795200,
 		genres: [
 			{
@@ -6832,10 +6656,8 @@ const games = [
 	{
 		id: 960,
 		aggregated_rating: 89.3333333333333,
-		cover: {
-			id: 122532,
-			image_id: "co2mjo",
-		},
+		cover: "co2mjo",
+
 		first_release_date: 1337040000,
 		genres: [
 			{
@@ -6890,10 +6712,8 @@ const games = [
 	{
 		id: 885,
 		aggregated_rating: 85.25,
-		cover: {
-			id: 102622,
-			image_id: "co276m",
-		},
+		cover: "co276m",
+
 		first_release_date: 1287532800,
 		genres: [
 			{
@@ -7000,10 +6820,8 @@ const games = [
 	{
 		id: 493,
 		aggregated_rating: 80.25,
-		cover: {
-			id: 175606,
-			image_id: "co3rhy",
-		},
+		cover: "co3rhy",
+
 		first_release_date: 1266451200,
 		genres: [
 			{
@@ -7054,10 +6872,8 @@ const games = [
 	{
 		id: 359,
 		aggregated_rating: 81.44,
-		cover: {
-			id: 85214,
-			image_id: "co1tr2",
-		},
+		cover: "co1tr2",
+
 		first_release_date: 1480377600,
 		genres: [
 			{
@@ -7140,10 +6956,8 @@ const games = [
 	{
 		id: 19564,
 		aggregated_rating: 84.4117647058823,
-		cover: {
-			id: 274400,
-			image_id: "co5vq8",
-		},
+		cover: "co5vq8",
+
 		first_release_date: 1573171200,
 		genres: [
 			{
@@ -7226,10 +7040,8 @@ const games = [
 	{
 		id: 11118,
 		aggregated_rating: 85.85,
-		cover: {
-			id: 266148,
-			image_id: "co5pd0",
-		},
+		cover: "co5pd0",
+
 		first_release_date: 1478822400,
 		genres: [
 			{
@@ -7296,10 +7108,8 @@ const games = [
 	{
 		id: 7205,
 		aggregated_rating: 84.7222222222222,
-		cover: {
-			id: 101274,
-			image_id: "co2656",
-		},
+		cover: "co2656",
+
 		first_release_date: 1456358400,
 		genres: [
 			{
@@ -7382,10 +7192,8 @@ const games = [
 	{
 		id: 19531,
 		aggregated_rating: 75.8125,
-		cover: {
-			id: 39984,
-			image_id: "pzgwdpvoww1nrlkv7d5x",
-		},
+		cover: "pzgwdpvoww1nrlkv7d5x",
+
 		first_release_date: 1493856000,
 		genres: [
 			{
@@ -7440,10 +7248,8 @@ const games = [
 	{
 		id: 239,
 		aggregated_rating: 89.4,
-		cover: {
-			id: 85091,
-			image_id: "co1tnn",
-		},
+		cover: "co1tnn",
+
 		first_release_date: 1280188800,
 		genres: [
 			{
@@ -7494,10 +7300,8 @@ const games = [
 	{
 		id: 38,
 		aggregated_rating: 90,
-		cover: {
-			id: 94526,
-			image_id: "co20xq",
-		},
+		cover: "co20xq",
+
 		first_release_date: 1295913600,
 		genres: [
 			{
@@ -7552,10 +7356,8 @@ const games = [
 	{
 		id: 3042,
 		aggregated_rating: 72.0588235294118,
-		cover: {
-			id: 287666,
-			image_id: "co65yq",
-		},
+		cover: "co65yq",
+
 		first_release_date: 1422230400,
 		genres: [
 			{
@@ -7630,10 +7432,8 @@ const games = [
 	{
 		id: 17000,
 		aggregated_rating: 90.5384615384615,
-		cover: {
-			id: 14012,
-			image_id: "xrpmydnu9rpxvxfjkiu7",
-		},
+		cover: "xrpmydnu9rpxvxfjkiu7",
+
 		first_release_date: 1456444800,
 		genres: [
 			{
@@ -7720,14 +7520,14 @@ const games = [
 ];
 
 export default function Trending() {
-	const size = "m"
+
 	return (
 		<TrendingContainer>
 			<h2>Trending Games</h2>
-			<p>Os 100 jogos mais populares da comunidade.</p>
+			<p>The top 100 trending games around the community.</p>
 			<GamesBox>
 				{games.map((game) => (
-					<GameComponent game={game} key={game.id} size={size}/>
+					<GameComponent game={game} key={game.id} location="t" status={0} />
 				))}
 			</GamesBox>
 		</TrendingContainer>
