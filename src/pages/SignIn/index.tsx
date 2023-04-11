@@ -12,6 +12,7 @@ export default function SignIn() {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 	const [disabled, setDisabled] = useState(false);
+	const [remember, setRemember] = useState(false);
 	const navigate = useNavigate();
 
 	async function handleLogIn(event: FormEvent<HTMLFormElement>) {
@@ -20,9 +21,9 @@ export default function SignIn() {
 		setDisabled(true);
 
 		try {
-			const userData = await signIn(username, password);
+			const userData = await signIn(username, password, remember);
 			setUserData(userData);
-			navigate("/profile");
+			navigate(`/profile/${userData.user.username}`);
 		} catch (err) {
 			toast.error("Não foi possível fazer o login, tente novamente!", {
 				position: "top-right",
@@ -36,7 +37,7 @@ export default function SignIn() {
 			});
 			setDisabled(false);
 		}
-	};
+	}
 
 	return (
 		<Container maxWidth="xs">
@@ -70,7 +71,7 @@ export default function SignIn() {
 						type="password"
 						autoComplete="current-password"
 					/>
-					<FormControlLabel control={<Checkbox value="remember" color="secondary" />} label="Lembrar meus dados" />
+					<FormControlLabel control={<Checkbox value={remember} onChange={(e) => setRemember(!remember)} color="secondary" />} label="Lembrar meus dados" />
 					<LoginButton type="submit" variant="contained" disabled={disabled}>
 						Entrar
 					</LoginButton>
