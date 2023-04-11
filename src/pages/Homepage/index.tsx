@@ -23,7 +23,7 @@ export default function Homepage() {
 						navigate("/sign-up");
 					}}
 				>
-					Cadastrar
+					Sign-Up
 				</Button>
 			</AppInfoContainer>
 			<AppFeaturesContainer maxWidth="md">

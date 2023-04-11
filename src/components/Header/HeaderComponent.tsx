@@ -50,16 +50,16 @@ export default function Header() {
 						navigate("/");
 					}}
 				>
-					<img src={logo} alt="" />
+					<img src={logo} alt="game-tracker logo" />
 					<p>GT</p>
 				</LogoContainer>
 				<HiddenSearchBar show={showSearchBar}>
-					<input type="text" placeholder="Pesquisar..." />
+					<input type="text" placeholder="Search..." />
 					<IoSearchSharp onClick={handleSearchBar} />
 				</HiddenSearchBar>
 				<DivCloseSearchBar show={showSearchBar} onClick={() => setShowSearchBar(false)} />
 				<SearchBarContainer>
-					<input type="text" placeholder="Pesquisar..." />
+					<input type="text" placeholder="Search..." />
 					<IoSearchSharp onClick={() => alert("Pesquisar")} />
 				</SearchBarContainer>
 				<IoSearchSharp onClick={handleSearchBar} />
@@ -75,7 +75,7 @@ export default function Header() {
 							<Menu anchorEl={anchorEl} open={open} onClick={handleClose}>
 								<MenuItem
 									onClick={() => {
-										navigate("/profile");
+										navigate(`/profile/${userData.user.username}`);
 									}}
 									selected={false}
 								>
