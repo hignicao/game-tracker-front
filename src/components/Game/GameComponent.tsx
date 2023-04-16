@@ -2,13 +2,14 @@ import { Paper, Box, styled } from "@mui/material";
 import { useState } from "react";
 import { HiPlusCircle } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
+import { GameComponentType } from "../../utils/protocols";
 import PopupStatus from "../PopupStatus/PopupStatus";
 interface GameProps {
 	location: string;
 	status: number;
 }
 
-export default function GameComponent({ game, location }: { game: any; location: string }) {
+export default function GameComponent({ game, location }: { game: GameComponentType; location: string }) {
 	const [showPopup, setShowPopup] = useState(false);
 	const navigate = useNavigate();
 

@@ -5,8 +5,9 @@ import { UserContext } from "../../contexts/UserContext";
 import { deleteGameFromCollection, updateGameCollection } from "../../services/collectionApi";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
+import { GameComponentType } from "../../utils/protocols";
 
-export default function PopupStatus({ game, setShowPopup }: { game: any; setShowPopup: (data: boolean) => void }) {
+export default function PopupStatus({ game, setShowPopup }: { game: GameComponentType; setShowPopup: (data: boolean) => void }) {
 	const [newStatus, setNewStatus] = useState("0");
 	const { userData } = useContext(UserContext);
 

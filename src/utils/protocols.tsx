@@ -25,6 +25,8 @@ export type SimplifiedCollectionGameType = Pick<GameType, "id" | "statusId">;
 
 export type SearchedGameType = Pick<GameType, "id" | "name" | "cover" | "summary" | "genres" | "statusId" | "releaseDate">;
 
+export type GameComponentType = Pick<GameType, "id" | "name" | "cover" | "statusId">;
+
 export type UserType = {
 	id: number;
 	username: string;
