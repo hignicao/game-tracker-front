@@ -7,7 +7,7 @@ export default function Collection({ games }: { games: CollectionGameType[] }) {
 		<GameBox>
 			<GamesMapped>
 				{games.map((game) => (
-					<GameComponent game={game} key={game.id} location="p" status={game.statusId} />
+					<GameComponent game={game} key={game.id} location="p"/>
 				))}
 			</GamesMapped>
 		</GameBox>
