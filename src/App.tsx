@@ -12,6 +12,8 @@ import Trending from "./pages/Trending";
 import Game from "./pages/Game";
 import Profile from "./pages/Profile";
 import Footer from "./components/Footer/FooterComponent";
+import ScrollToTop from "./hooks/useScrollToTop";
+import Search from "./pages/Search";
 
 function App() {
 	return (
@@ -19,6 +21,7 @@ function App() {
 			<ThemeProvider theme={theme}>
 				<GlobalStyle />
 				<BrowserRouter>
+					<ScrollToTop />
 					<Header />
 					<Container maxWidth="xl">
 						<Routes>
@@ -27,7 +30,7 @@ function App() {
 							<Route path="/sign-up" element={<SignUp />} />
 							<Route path="/profile/:username" element={<Profile />} />
 							<Route path="/trending" element={<Trending />} />
-							<Route path="/search/:search" element={<h1>Search</h1>} />
+							<Route path="/search/:search" element={<Search />} />
 							<Route path="/game/:gameId" element={<Game />} />
 						</Routes>
 					</Container>
