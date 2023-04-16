@@ -1,3 +1,4 @@
+import { UserType } from '../utils/protocols';
 import api from './api';
 
 export async function signUp(name: string, username: string, email: string, password: string) {
@@ -5,7 +6,7 @@ export async function signUp(name: string, username: string, email: string, pass
   return response.data;
 }
 
-export async function getProfileInfo(username: string) {
+export async function getProfileInfo(username: string): Promise<UserType> {
   const response = await api.get(`/users/profile/${username}`);
   return response.data;
 }
