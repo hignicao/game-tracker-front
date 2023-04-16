@@ -15,6 +15,7 @@ interface ShowSearchBar {
 
 export default function Header() {
 	const { userData, setUserData, avatarPicture } = useContext(UserContext);
+	const [search, setSearch] = useState("");
 	const [showSearchBar, setShowSearchBar] = useState(false);
 	const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 	const open = Boolean(anchorEl);
@@ -22,7 +23,8 @@ export default function Header() {
 
 	function handleSearchBar() {
 		if (showSearchBar) {
-			// search()
+			navigate(`/search/${search}`);
+			setSearch("");
 			setShowSearchBar(false);
 		} else {
 			setShowSearchBar(true);
@@ -54,13 +56,23 @@ export default function Header() {
 					<p>GT</p>
 				</LogoContainer>
 				<HiddenSearchBar show={showSearchBar}>
-					<input type="text" placeholder="Search..." />
-					<IoSearchSharp onClick={handleSearchBar} />
+					<BackGroundHiddenSearchBar>
+						<form onSubmit={handleSearchBar}>
+							<input type="text" placeholder="Search..." value={search} onChange={(e) => setSearch(e.target.value)} />
+							<button type="submit">
+								<IoSearchSharp />
+							</button>
+						</form>
+					</BackGroundHiddenSearchBar>
 				</HiddenSearchBar>
 				<DivCloseSearchBar show={showSearchBar} onClick={() => setShowSearchBar(false)} />
 				<SearchBarContainer>
-					<input type="text" placeholder="Search..." />
-					<IoSearchSharp onClick={() => alert("Pesquisar")} />
+					<form onSubmit={() => navigate(`/search/${search}`)}>
+						<input type="text" placeholder="Search..." value={search} onChange={(e) => setSearch(e.target.value)} />
+						<button type="submit">
+							<IoSearchSharp />
+						</button>
+					</form>
 				</SearchBarContainer>
 				<IoSearchSharp onClick={handleSearchBar} />
 			</LeftHeader>
@@ -172,16 +184,17 @@ const SearchBarContainer = styled.div`
 	height: 40px;
 	max-width: 300px;
 	background-color: #151323;
-	border-radius: 8px;
-	color: white;
+	border-radius: 5px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	gap: 10px;
 	padding: 0px 10px;
-	@media (max-width: 600px) {
-		background: none;
-		padding: 0px;
+	form {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		justify-content: space-between;
 	}
 	input {
 		height: 100%;
@@ -189,7 +202,7 @@ const SearchBarContainer = styled.div`
 		background: none;
 		border: none;
 		outline: none;
-		font-family: "Roboto", sans-serif;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 		font-size: 18px;
 		padding: 0px;
 		color: white;
@@ -197,14 +210,27 @@ const SearchBarContainer = styled.div`
 			font-weight: 300;
 			color: #747474;
 		}
-		@media (max-width: 600px) {
-			display: none;
-		}
 	}
 	svg {
+		margin-top: 3px;
 		font-size: 20px;
 		cursor: pointer;
-		@media (max-width: 600px) {
+		color: white;
+	}
+	button {
+		background: none;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 0px;
+	}
+	@media (max-width: 600px) {
+		background: none;
+		padding: 0px;
+		input {
+			display: none;
+		}
+		svg {
 			display: none;
 		}
 	}
@@ -216,21 +242,40 @@ const HiddenSearchBar = styled.div<ShowSearchBar>`
 	align-items: center;
 	justify-content: center;
 	position: fixed;
-	z-index: 1;
+	z-index: 3;
 	top: -70px;
 	left: 0;
 	height: 70px;
 	width: 100%;
 	padding: 0 20px;
-	input {
-		height: 35px;
+	@media (max-width: 600px) {
+		top: ${(props) => (props.show ? "0" : "-70px;")};
+		transition: top 0.5s ease-in-out;
+	}
+`;
+
+const BackGroundHiddenSearchBar = styled.div`
+	display: flex;
+	align-items: center;
+	background: #262349;
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 5px;
+	form {
+		height: 100%;
 		width: 100%;
-		background: #262349;
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		justify-content: space-between;
+	}
+	input {
+		flex-grow: 1;
+		background-color: transparent;
+		height: 35px;
 		border: none;
-		border-top-left-radius: 5px;
-		border-bottom-left-radius: 5px;
 		outline: none;
-		font-family: "Roboto", sans-serif;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 		font-size: 18px;
 		padding: 10px;
 		color: white;
@@ -239,16 +284,19 @@ const HiddenSearchBar = styled.div<ShowSearchBar>`
 			color: #747474;
 		}
 	}
-	svg {
-		background-color: #262349;
-		border-top-right-radius: 5px;
-		border-bottom-right-radius: 5px;
-		padding: 5px;
-		font-size: 35px;
+	button {
+		height: 100%;
+		background: none;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 0px;
+		margin: 0px;
 	}
-	@media (max-width: 600px) {
-		top: ${(props) => (props.show ? "0" : "-70px;")};
-		transition: top 0.5s ease-in-out;
+	svg {
+		margin-top: 3px;
+		font-size: 25px;
+		color: white;
 	}
 `;
 
@@ -287,5 +335,6 @@ const ProfileContainer = styled.div`
 		height: 40px;
 		width: 40px;
 		border-radius: 50%;
+		cursor: pointer;
 	}
 `;

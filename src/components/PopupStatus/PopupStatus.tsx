@@ -1,15 +1,111 @@
-import { Box, Button, FormControl, FormControlLabel, FormLabel, Paper, Radio, RadioGroup, styled } from "@mui/material";
+import { Box, Button, FormControlLabel, Paper, Radio, RadioGroup, styled } from "@mui/material";
+import { FormEvent, useContext, useState } from "react";
 import { HiXCircle } from "react-icons/hi";
+import { UserContext } from "../../contexts/UserContext";
+import { deleteGameFromCollection, updateGameCollection } from "../../services/collectionApi";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
 
-export default function PopupStatus({ game, setShowPopup, status }: { game: any; setShowPopup: (data: boolean) => void; status: number }) {
+export default function PopupStatus({ game, setShowPopup }: { game: any; setShowPopup: (data: boolean) => void }) {
+	const [newStatus, setNewStatus] = useState("0");
+	const { userData } = useContext(UserContext);
 
-	const handleFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+	async function handleNewStatus(event: FormEvent<HTMLFormElement>) {
 		event.preventDefault();
-	};
 
-	const removeGame = () => {
-		alert("Remover jogo");
-		setShowPopup(false);
+		try {
+			if (userData) {
+				await updateGameCollection(game.id, Number(newStatus), userData.token);
+				toast.success("Jogo salvo com sucesso!", {
+					position: "top-right",
+					autoClose: 2000,
+					hideProgressBar: true,
+					closeOnClick: true,
+					pauseOnHover: false,
+					draggable: true,
+					progress: undefined,
+					theme: "dark",
+				});
+				setShowPopup(false);
+			} else {
+				toast.info("Você precisa estar logado para fazer isso!", {
+					position: "top-right",
+					autoClose: 2000,
+					hideProgressBar: true,
+					closeOnClick: true,
+					pauseOnHover: false,
+					draggable: true,
+					progress: undefined,
+					theme: "dark",
+				});
+			}
+		} catch (err) {
+			toast.error("Não foi possível salvar o jogo, tente novamente!", {
+				position: "top-right",
+				autoClose: 2000,
+				hideProgressBar: true,
+				closeOnClick: true,
+				pauseOnHover: false,
+				draggable: true,
+				progress: undefined,
+				theme: "dark",
+			});
+			setShowPopup(false);
+		}
+	}
+
+	async function removeGame() {
+		try {
+			if (userData) {
+				if (game.statusId === 0) {
+					toast.info("Esse jogo não está na sua collecão!", {
+						position: "top-right",
+						autoClose: 2000,
+						hideProgressBar: true,
+						closeOnClick: true,
+						pauseOnHover: false,
+						draggable: true,
+						progress: undefined,
+						theme: "dark",
+					});
+					return;
+				}
+				await deleteGameFromCollection(game.id, userData.token);
+				toast.success("Jogo removido com sucesso!", {
+					position: "top-right",
+					autoClose: 2000,
+					hideProgressBar: true,
+					closeOnClick: true,
+					pauseOnHover: false,
+					draggable: true,
+					progress: undefined,
+					theme: "dark",
+				});
+				setShowPopup(false);
+			} else {
+				toast.info("Você precisa estar logado para fazer isso!", {
+					position: "top-right",
+					autoClose: 2000,
+					hideProgressBar: true,
+					closeOnClick: true,
+					pauseOnHover: false,
+					draggable: true,
+					progress: undefined,
+					theme: "dark",
+				});
+			}
+		} catch (err) {
+			toast.error("Não foi possível remover o jogo, tente novamente!", {
+				position: "top-right",
+				autoClose: 2000,
+				hideProgressBar: true,
+				closeOnClick: true,
+				pauseOnHover: false,
+				draggable: true,
+				progress: undefined,
+				theme: "dark",
+			});
+		}
 	}
 
 	return (
@@ -21,11 +117,9 @@ export default function PopupStatus({ game, setShowPopup, status }: { game: any;
 					}}
 				/>
 				<h2>{game.name}</h2>
-				<StatusFormControl>
-					<FormLabel component="legend" focused={false}>
-						Defina o novo status:
-					</FormLabel>
-					<StatusRadioGroup defaultValue={status} name="status">
+				<p>Defina o novo status:</p>
+				<Box component="form" onSubmit={handleNewStatus} sx={{ mt: 1 }}>
+					<StatusRadioGroup defaultValue={game.statusId} name="status" onChange={(e) => setNewStatus(e.target.value)}>
 						<FormControlLabel
 							value={1}
 							control={
@@ -80,17 +174,18 @@ export default function PopupStatus({ game, setShowPopup, status }: { game: any;
 									}}
 								/>
 							}
-							color="error"
 							label="Abandonado - Jogos que parei de jogar."
 						/>
 					</StatusRadioGroup>
 					<ButtonsBox>
-						<Button variant="outlined" onClick={removeGame}>Remover</Button>
+						<Button variant="outlined" onClick={removeGame} color="secondary">
+							Remover
+						</Button>
 						<Button type="submit" variant="contained">
 							Salvar
 						</Button>
 					</ButtonsBox>
-				</StatusFormControl>
+				</Box>
 			</PopupPaper>
 			<PopupBackground
 				onClick={() => {
@@ -138,6 +233,7 @@ const PopupPaper = styled(Paper)`
 	> h2 {
 		font-size: 30px;
 		font-weight: 500;
+		text-align: center;
 	}
 `;
 
@@ -150,35 +246,20 @@ const PopupBackground = styled(Box)`
 	background-color: rgba(0, 0, 0, 0.75);
 `;
 
-const StatusFormControl = styled(FormControl)`
-	flex-grow: 1;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	gap: 40px;
-	legend {
-		font-size: 18px;
-		font-weight: 300;
-		color: white;
-		text-align: center;
-	}
-`;
-
 const StatusRadioGroup = styled(RadioGroup)`
 	flex-grow: 1;
 	display: flex;
 	flex-direction: column;
 	gap: 35px;
 	justify-content: center;
-	margin: 0px 10px;
+	margin: 30px 16px;
 `;
 
 const ButtonsBox = styled(Box)`
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	button:nth-child(1) {
-		color: #dadada;
+	button:nth-of-type(1) {
+		color: #686588;
 	}
 `;

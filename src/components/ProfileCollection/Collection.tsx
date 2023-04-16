@@ -1,12 +1,13 @@
 import { Box, styled } from "@mui/material";
+import { CollectionGameType } from "../../utils/protocols";
 import GameComponent from "../Game/GameComponent";
 
-export default function Collection({ games }: { games: any }) {
+export default function Collection({ games }: { games: CollectionGameType[] }) {
 	return (
 		<GameBox>
 			<GamesMapped>
 				{games.map((game) => (
-					<GameComponent game={game.Games} key={game.Games.id} location="p" status={game.statusId} />
+					<GameComponent game={game} key={game.id} location="p" status={game.statusId} />
 				))}
 			</GamesMapped>
 		</GameBox>
