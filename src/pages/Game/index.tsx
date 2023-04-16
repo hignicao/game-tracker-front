@@ -1,75 +1,157 @@
-import { Box, Container, styled } from "@mui/material";
+import { Box, Button, Container, Paper, Rating, Skeleton, styled } from "@mui/material";
+import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { getGameInfo } from "../../services/gameApi";
+import { GameType } from "../../utils/protocols";
+import { format, intlFormatDistance } from "date-fns";
+import ScreenshotsGrid from "../../components/ScreenshotsGrid/Screenshots";
+import PopupStatus from "../../components/PopupStatus/PopupStatus";
+import { HiPlusCircle } from "react-icons/hi";
+import { getCollection } from "../../services/collectionApi";
+import { UserContext } from "../../contexts/UserContext";
 
-const game = {
-	id: 472,
-	rating: 96.1111111111111,
-	cover: "co1tnw",
-	releaseDate: 1320883200,
-	genres: [
-		{
-			id: 12,
-			name: "Role-playing (RPG)",
-		},
-		{
-			id: 31,
-			name: "Adventure",
-		},
-	],
-	name: "The Elder Scrolls V: Skyrim",
-	platforms: [
-		{
-			id: 6,
-			name: "PC (Microsoft Windows)",
-		},
-		{
-			id: 9,
-			name: "PlayStation 3",
-		},
-		{
-			id: 12,
-			name: "Xbox 360",
-		},
-	],
-	screenshots: [
-		{
-			id: 345,
-			image_id: "muv70yw3rds1cw8ymr5v",
-		},
-		{
-			id: 346,
-			image_id: "xzk2h41fiye7uwbhc6ub",
-		},
-		{
-			id: 347,
-			image_id: "urqw7ltwmhr39gkidsih",
-		},
-		{
-			id: 348,
-			image_id: "t0mus35qrgclafo1ql8k",
-		},
-		{
-			id: 349,
-			image_id: "x5bbaqvgbpaz4hzlfeqb",
-		},
-	],
-	summary:
-		"Skyrim reimagines and revolutionizes the open-world fantasy epic, bringing to life a complete virtual world open for you to explore any way you choose. Play any type of character you can imagine, and do whatever you want; the legendary freedom of choice, storytelling, and adventure of The Elder Scrolls is realized like never before.",
-};
+interface GameProps {
+	status: number;
+}
 
 export default function Game() {
+	const { userData } = useContext(UserContext);
 	const { gameId } = useParams() as { gameId: string };
+	const [game, setGame] = useState() as [GameType, (game: GameType) => void];
+	const [isReadMore, setIsReadMore] = useState(true);
+	const [randomBackground, setRandomBackground] = useState(0);
+	const [showPopup, setShowPopup] = useState(false);
+
+	const togglePopup = () => {
+		setShowPopup(!showPopup);
+	};
+
+	const toggleReadMore = () => {
+		setIsReadMore(!isReadMore);
+	};
+
+	async function getGame() {
+		const gameApi = await getGameInfo(Number(gameId));
+		if (userData) {
+			const collection = await getCollection(userData.token);
+			const foundGame = collection.find((game) => game.id === Number(gameApi.id));
+			if (foundGame) {
+				gameApi.statusId = foundGame.statusId;
+			}
+		}
+		setGame(gameApi);
+		setRandomBackground(Math.floor(Math.random() * gameApi.screenshots.length));
+	}
+
+	useEffect(() => {
+		getGame();
+	}, [gameId, showPopup]);
+
+	if (!game) {
+		return (
+			<Container>
+				<GameInfoBox>
+					<CoverBox>
+						<CoverPaper>
+						</CoverPaper>
+						<NameRatingSummaryBox status={0}>
+							<Skeleton sx={{ bgcolor: "#705f91" }} variant="text" width={300} height={80} />
+							<RatingBox>
+								<Skeleton sx={{ bgcolor: "#705f91" }} variant="rectangular" width={150} height={30} />
+							</RatingBox>
+							<SummaryBox>
+								<Skeleton sx={{ bgcolor: "#705f91" }} variant="text" width={500} height={120} />
+							</SummaryBox>
+						</NameRatingSummaryBox>
+					</CoverBox>
+					<InfoBox>
+						<InfoBoxLeft>
+							<GenresBox>
+								<Skeleton sx={{ bgcolor: "#705f91" }} variant="rounded" width={80} height={30} />
+								<Skeleton sx={{ bgcolor: "#705f91" }} variant="rounded" width={80} height={30} />
+							</GenresBox>
+							<ReleaseBox>
+								<Skeleton sx={{ bgcolor: "#705f91" }} variant="text" width={150} height={50} />
+							</ReleaseBox>
+							<PlatformsBox>
+								<Skeleton sx={{ bgcolor: "#705f91" }} variant="text" width={150} height={50} />
+							</PlatformsBox>
+						</InfoBoxLeft>
+						<InfoBoxRight>
+							<Skeleton sx={{ bgcolor: "#705f91" }} variant="rounded" width={300} height={200} />
+							<Skeleton sx={{ bgcolor: "#705f91" }} variant="rounded" width={150} height={100} />
+						</InfoBoxRight>
+					</InfoBox>
+				</GameInfoBox>
+			</Container>
+		);
+	}
 
 	return (
-		<>
+		<Container>
 			<GameBackground>
-				<img src={`https://images.igdb.com/igdb/image/upload/t_1080p_2x/${game.screenshots[0].image_id}.jpg`} alt="Screenshot of the game being used to be the background of the page" />
+				{game.screenshots.length > 0 && (
+					<img src={`https://images.igdb.com/igdb/image/upload/t_1080p/${game.screenshots[randomBackground]}.jpg`} alt="Screenshot of the game being used to be the background of the page" />
+				)}
 				<GradientDiv />
 			</GameBackground>
-			<GameContainer>
-				<h1>{game.name}</h1>
-			</GameContainer>
-		</>
+			<GameInfoBox>
+				<CoverBox>
+					<CoverPaper elevation={3}>
+						<img src={`https://images.igdb.com/igdb/image/upload/t_1080p_2x/${game.cover}.jpg`} alt="" />
+					</CoverPaper>
+					<NameRatingSummaryBox status={game.statusId}>
+						<HiPlusCircle onClick={togglePopup} />
+						<h1>{game.name}</h1>
+						<RatingBox>
+							<Rating name="read-only" value={game.rating / 20} precision={0.1} readOnly size="medium" />
+							<p>{game.rating === null ? "N/A" : (game.rating / 20).toFixed(1)}</p>
+						</RatingBox>
+						<SummaryBox>
+							<p>
+								{isReadMore ? game.summary.slice(0, 250) : game.summary}
+								{game.summary.length > 250 && <span onClick={toggleReadMore}>{isReadMore ? "...read more" : " show less"}</span>}
+							</p>
+						</SummaryBox>
+					</NameRatingSummaryBox>
+				</CoverBox>
+				<InfoBox>
+					<InfoBoxLeft>
+						<GenresBox>
+							{game.genres.map((genre) => (
+								<Button variant="outlined" size="small" color="secondary">
+									{genre.name}
+								</Button>
+							))}
+						</GenresBox>
+						<ReleaseBox>
+							<p>Release Date:</p>
+							<span>
+								{game.releaseDate === null ? (
+									"N/A"
+								) : (
+									<>
+										{format(new Date(game.releaseDate), "LLL dd, yyyy")} ({intlFormatDistance(new Date(game.releaseDate), new Date())})
+									</>
+								)}
+							</span>
+						</ReleaseBox>
+						<PlatformsBox>
+							<p>Platforms:</p>
+							{game.platforms.length === 0 && <span>N/A</span>}
+							{game.platforms.map((platform) => (
+								<span>- {platform.name}</span>
+							))}
+						</PlatformsBox>
+						<Button variant="contained" color="secondary" onClick={togglePopup}>+ Add to Collection</Button>
+					</InfoBoxLeft>
+					<InfoBoxRight>
+						<ScreenshotsGrid screenshots={game.screenshots} />
+					</InfoBoxRight>
+				</InfoBox>
+			</GameInfoBox>
+			{showPopup && <PopupStatus game={game} setShowPopup={setShowPopup} />}
+		</Container>
 	);
 }
 
@@ -97,6 +179,177 @@ const GradientDiv = styled(Box)`
 	background: linear-gradient(180deg, rgba(11, 10, 18, 0.75) 0%, rgba(11, 10, 18, 0.8) 75%, rgba(31, 28, 51, 1) 100%);
 `;
 
-const GameContainer = styled(Container)`
-	border: 1px solid red;
+const GameInfoBox = styled(Box)`
+	align-self: center;
+	margin: 250px 0px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	@media (max-width: 600px) {
+		margin: 100px 0px;
+	}
+`;
+
+const CoverBox = styled(Box)`
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	gap: 30px;
+	@media (max-width: 600px) {
+		flex-direction: column;
+	}
+`;
+
+const CoverPaper = styled(Paper)`
+	align-self: flex-start;
+	min-width: 243px;
+	height: 324px;
+	border-radius: 10px;
+	img {
+		width: 100%;
+		height: 100%;
+		border-radius: 8px;
+	}
+	@media (max-width: 600px) {
+		align-self: center;
+		min-width: 187px;
+		height: 250px;
+	}
+`;
+
+const NameRatingSummaryBox = styled(Box)<GameProps>`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	h1 {
+		font-size: 40px;
+		font-weight: 600;
+	}
+	> svg {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		font-size: 35px;
+		background: ${(props) => (props.status === 1 ? "#479B42" : props.status === 2 ? "#438EB9" : props.status === 3 ? "#EDA55D" : props.status === 4 ? "#EF525C" : "black")};
+		border-radius: 50%;
+		box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+		cursor: pointer;
+	}
+	@media (max-width: 600px) {
+		align-items: center;
+		text-align: center;
+		h1 {
+			font-size: 32px;
+		}
+	}
+`;
+
+const RatingBox = styled(Box)`
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	p {
+		font-size: 18px;
+		font-weight: 300;
+		font-family: "Audiowide", cursive;
+	}
+	@media (min-width: 600px) {
+		svg {
+			font-size: 30px;
+		}
+	}
+`;
+
+const SummaryBox = styled(Box)`
+	p {
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 25px;
+	}
+	span {
+		cursor: pointer;
+		color: #ab99ca;
+	}
+	@media (max-width: 600px) {
+		p {
+			text-align: justify;
+			font-size: 16px;
+			line-height: 20px;
+		}
+	}
+`;
+
+const InfoBox = styled(Box)`
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	@media (max-width: 600px) {
+		flex-direction: column;
+	}
+`;
+
+const InfoBoxLeft = styled(Box)`
+	min-width: 243px;
+	width: 243px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	@media (max-width: 600px) {
+		width: 100%;
+	}
+`;
+
+const GenresBox = styled(Box)`
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
+	button {
+		font-size: 12px;
+		color: #827ea8;
+	}
+`;
+
+const ReleaseBox = styled(Box)`
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	p {
+		font-size: 14px;
+		color: #9793b8;
+	}
+	span {
+		font-size: 16px;
+		font-family: "Audiowide", cursive;
+	}
+`;
+
+const PlatformsBox = styled(Box)`
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	p {
+		font-size: 14px;
+		color: #9793b8;
+	}
+	span {
+		font-size: 16px;
+		font-family: "Audiowide", cursive;
+	}
+`;
+
+const InfoBoxRight = styled(Box)`
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 25px;
+	p {
+		font-size: 22px;
+		font-weight: 600;
+	}
 `;

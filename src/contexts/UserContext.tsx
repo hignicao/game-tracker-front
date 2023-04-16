@@ -1,7 +1,7 @@
 import { createContext, useState, ReactNode, useEffect } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 
-type UserDataType = {
+export type UserDataType = {
 	user: {
 		id: number;
 		name: string;
