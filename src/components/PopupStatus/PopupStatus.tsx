@@ -10,9 +10,18 @@ import { GameComponentType } from "../../utils/protocols";
 export default function PopupStatus({ game, setShowPopup }: { game: GameComponentType; setShowPopup: (data: boolean) => void }) {
 	const [newStatus, setNewStatus] = useState("0");
 	const { userData } = useContext(UserContext);
+	const [disabled, setDisabled] = useState(false);
+
+	const handlePopupClose = () => {
+		if (!disabled) {
+			setShowPopup(false);
+		}
+	};
 
 	async function handleNewStatus(event: FormEvent<HTMLFormElement>) {
 		event.preventDefault();
+
+		setDisabled(true);
 
 		try {
 			if (userData) {
@@ -27,6 +36,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 					progress: undefined,
 					theme: "dark",
 				});
+				setDisabled(false);
 				setShowPopup(false);
 			} else {
 				toast.info("Você precisa estar logado para fazer isso!", {
@@ -39,6 +49,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 					progress: undefined,
 					theme: "dark",
 				});
+				setDisabled(false);
 			}
 		} catch (err) {
 			toast.error("Não foi possível salvar o jogo, tente novamente!", {
@@ -51,11 +62,13 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 				progress: undefined,
 				theme: "dark",
 			});
-			setShowPopup(false);
+			setDisabled(false);
 		}
 	}
 
 	async function removeGame() {
+		setDisabled(true);
+
 		try {
 			if (userData) {
 				if (game.statusId === 0) {
@@ -69,6 +82,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 						progress: undefined,
 						theme: "dark",
 					});
+					setDisabled(false);
 					return;
 				}
 				await deleteGameFromCollection(game.id, userData.token);
@@ -82,6 +96,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 					progress: undefined,
 					theme: "dark",
 				});
+				setDisabled(false);
 				setShowPopup(false);
 			} else {
 				toast.info("Você precisa estar logado para fazer isso!", {
@@ -94,6 +109,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 					progress: undefined,
 					theme: "dark",
 				});
+				setDisabled(false);
 			}
 		} catch (err) {
 			toast.error("Não foi possível remover o jogo, tente novamente!", {
@@ -106,17 +122,14 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 				progress: undefined,
 				theme: "dark",
 			});
+			setDisabled(false);
 		}
 	}
 
 	return (
 		<PopupContainer>
 			<PopupPaper elevation={7}>
-				<HiXCircle
-					onClick={() => {
-						setShowPopup(false);
-					}}
-				/>
+				<HiXCircle onClick={handlePopupClose} />
 				<h2>{game.name}</h2>
 				<p>Defina o novo status:</p>
 				<Box component="form" onSubmit={handleNewStatus} sx={{ mt: 1 }}>
@@ -179,20 +192,16 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 						/>
 					</StatusRadioGroup>
 					<ButtonsBox>
-						<Button variant="outlined" onClick={removeGame} color="secondary">
+						<Button variant="outlined" onClick={removeGame} color="secondary" disabled={disabled}>
 							Remover
 						</Button>
-						<Button type="submit" variant="contained">
+						<Button type="submit" variant="contained" disabled={disabled}>
 							Salvar
 						</Button>
 					</ButtonsBox>
 				</Box>
 			</PopupPaper>
-			<PopupBackground
-				onClick={() => {
-					setShowPopup(false);
-				}}
-			/>
+			<PopupBackground onClick={handlePopupClose} />
 		</PopupContainer>
 	);
 }

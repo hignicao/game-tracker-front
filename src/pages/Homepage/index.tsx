@@ -194,6 +194,9 @@ const GamesMapped = styled(Box)`
 		flex-wrap: nowrap;
 		overflow-x: scroll;
 		overflow-y: hidden;
+		::-webkit-scrollbar {
+			display: none;
+		}
 	}
 `;
 
