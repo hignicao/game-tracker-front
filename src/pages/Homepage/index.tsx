@@ -29,8 +29,8 @@ export default function Homepage() {
 					<img src={logo} alt="logo" />
 					<h1>GameTracker</h1>
 				</LogoBox>
-				<h2>Descubra novos jogos, acompanhe os que deseja jogar e organize a sua coleção de um jeito fácil e intuitivo.</h2>
-				<p>Cadastre-se agora e começe a trackear!</p>
+				<h2>Discover new games, track the ones you want to play and organize your collection in an easy and intuitive way.</h2>
+				<p>Register now and start tracking!</p>
 				<Button
 					variant="contained"
 					onClick={() => {
@@ -43,18 +43,18 @@ export default function Homepage() {
 			<AppFeaturesBox maxWidth="md">
 				<FeaturePaper elevation={3}>
 					<VscCompass />
-					<h6>Descubra</h6>
-					<p>Navegue por uma banco de dados extenso a procura do seu próximo jogo</p>
+					<h6>Discover</h6>
+					<p>Browse an extensive database looking for your next game.</p>
 				</FeaturePaper>
 				<FeaturePaper>
 					<BsStarHalf />
-					<h6>Avalie</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quis iusto.</p>
+					<h6>Rate</h6>
+					<p>Evaluate the games you've already zeroed and see the total score.</p>
 				</FeaturePaper>
 				<FeaturePaper>
 					<FaListUl />
 					<h6>Organize</h6>
-					<p>Navegue por uma banco de dados extenso a procura do seu próximo jogo</p>
+					<p>Browse an extensive database looking for your next game.</p>
 				</FeaturePaper>
 			</AppFeaturesBox>
 			<GameBox>
