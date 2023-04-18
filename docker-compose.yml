@@ -13,7 +13,7 @@ services:
     networks:
       - gametracker-network
     ports:
-      - "80:80"
+      - 80:80
     volumes:
       - react-volume:/var/www/html
     depends_on:
