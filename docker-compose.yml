@@ -1,0 +1,28 @@
+services:
+  react:
+    container_name: react
+    build: ./front-end
+    image: gametracker/front
+    volumes:
+      - react-volume:/var/www/html
+
+  nginx:
+    container_name: nginx
+    build: ./nginx
+    image: gametracker/nginx
+    networks:
+      - gametracker-network
+    ports:
+      - "80:80"
+    volumes:
+      - react-volume:/var/www/html
+    depends_on:
+      - react
+
+networks:
+  gametracker-network:
+    name: gametracker-network
+    external: true
+
+volumes:
+  react-volume:
