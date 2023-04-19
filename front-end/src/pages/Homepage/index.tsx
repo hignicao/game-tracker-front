@@ -37,7 +37,7 @@ export default function Homepage() {
 						navigate("/sign-up");
 					}}
 				>
-					Sign-Up
+					REGISTER
 				</Button>
 			</AppInfoBox>
 			<AppFeaturesBox maxWidth="md">

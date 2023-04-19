@@ -78,7 +78,7 @@ export default function Header() {
 			</LeftHeader>
 			<RightHeader>
 				<MenuContainer>
-					<LinkText to={"/trending"}>trending</LinkText>
+					<LinkText to={"/trending"}>TRENDING</LinkText>
 				</MenuContainer>
 				<ProfileContainer>
 					{userData !== undefined ? (
@@ -94,7 +94,7 @@ export default function Header() {
 									Profile
 								</MenuItem>
 								<MenuItem selected={false} onClick={handleLogout}>
-									Logout
+									Log-Out
 								</MenuItem>
 							</Menu>
 						</>
@@ -105,7 +105,7 @@ export default function Header() {
 								navigate("/sign-in");
 							}}
 						>
-							LogIn
+							LOG IN
 						</Button>
 					)}
 				</ProfileContainer>

@@ -30,7 +30,7 @@ export default function SignUp() {
 		setDisabled(true);
 
 		if (password !== confirmPassword) {
-			toast.error("As senhas devem ser iguais!", {
+			toast.error("Passwords must match!", {
 				position: "top-right",
 				autoClose: 1800,
 				hideProgressBar: true,
@@ -48,7 +48,7 @@ export default function SignUp() {
 		} else {
 			try {
 				await signUp(name, username, email, password);
-				toast.success(`Cadastro criado com sucesso!`, {
+				toast.success(`Registration successfully created!`, {
 					position: "top-right",
 					autoClose: 2000,
 					hideProgressBar: true,
@@ -60,7 +60,7 @@ export default function SignUp() {
 				});
 				navigate("/sign-in");
 			} catch (error) {
-				toast.error("Não foi possível fazer o cadastro, tente novamente!", {
+				toast.error("Unable to register, please try again!", {
 					position: "top-right",
 					autoClose: 2000,
 					hideProgressBar: true,
@@ -73,7 +73,7 @@ export default function SignUp() {
 				setDisabled(false);
 			}
 		}
-	};
+	}
 
 	const handleClickShowPassword = () => {
 		setShowPassword(!showPassword);
@@ -83,21 +83,11 @@ export default function SignUp() {
 		<Container maxWidth="xs">
 			<SignUpBox>
 				<Avatar sx={{ m: 1, bgcolor: "secondary.main" }} />
-				<h5>Cadastre-se</h5>
+				<h5>Create Your Account</h5>
 				<SignUpForm onSubmit={handleSubmit}>
 					<Grid container spacing={2}>
 						<Grid item xs={12} sm={6}>
-							<FormTextField
-								color="secondary"
-								required
-								fullWidth
-								id="name"
-								label="Nome"
-								name="name"
-								value={name}
-								onChange={(e) => setName(e.target.value)}
-								autoComplete="name"
-							/>
+							<FormTextField color="secondary" required fullWidth id="name" label="Name" name="name" value={name} onChange={(e) => setName(e.target.value)} autoComplete="name" />
 						</Grid>
 						<Grid item xs={12} sm={6}>
 							<FormTextField
@@ -105,7 +95,7 @@ export default function SignUp() {
 								required
 								fullWidth
 								id="username"
-								label="Nome de usuário"
+								label="Username"
 								name="username"
 								value={username}
 								onChange={(e) => setUsername(e.target.value)}
@@ -113,18 +103,7 @@ export default function SignUp() {
 							/>
 						</Grid>
 						<Grid item xs={12}>
-							<FormTextField
-								color="secondary"
-								required
-								fullWidth
-								id="email"
-								label="E-mail"
-								name="email"
-								type="email"
-								value={email}
-								onChange={(e) => setEmail(e.target.value)}
-								autoComplete="email"
-							/>
+							<FormTextField color="secondary" required fullWidth id="email" label="E-mail" name="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" />
 						</Grid>
 						<Grid item xs={12} sm={6}>
 							<FormTextField
@@ -133,7 +112,7 @@ export default function SignUp() {
 								required
 								fullWidth
 								id="password"
-								label="Senha"
+								label="Password"
 								name="password"
 								type={showPassword ? "text" : "password"}
 								value={password}
@@ -153,7 +132,7 @@ export default function SignUp() {
 								required
 								fullWidth
 								id="confirmPassword"
-								label="Repita sua senha"
+								label="Confirm Password"
 								name="confirmPassword"
 								type={showPassword ? "text" : "password"}
 								value={confirmPassword}
@@ -163,10 +142,13 @@ export default function SignUp() {
 						</Grid>
 					</Grid>
 					<SignUpButton type="submit" variant="contained" disabled={disabled}>
-						Cadastrar
+						Register
 					</SignUpButton>
 				</SignUpForm>
-				<LinkText to={"/sign-in"}>Já tem uma conta? Entre agora!</LinkText>
+				<LoginBox>
+					<span>Already have an account? </span>
+					<LinkText to={"/sign-in"}>Log in</LinkText>
+				</LoginBox>
 			</SignUpBox>
 		</Container>
 	);
@@ -185,7 +167,13 @@ const SignUpBox = styled2(Box)`
   align-items: center;
   h5 {
     font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 10px;
   }
+	span {
+		align-self: flex-start;
+		tex-align: start;
+	}
 `;
 
 const SignUpForm = styled.form`
@@ -197,10 +185,14 @@ const SignUpForm = styled.form`
 	}
 `;
 
+const LoginBox = styled2(Box)`
+
+`
+
 const LinkText = styled2(Link)`
   align-self: flex-start;
   text-decoration: none;
-	color: #ffffff;
+	color: #a99cc2;
 `;
 
 const FormTextField = styled2(TextField)`

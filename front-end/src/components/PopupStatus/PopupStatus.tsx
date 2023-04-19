@@ -26,7 +26,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 		try {
 			if (userData) {
 				await updateGameCollection(game.id, Number(newStatus), userData.token);
-				toast.success("Jogo salvo com sucesso!", {
+				toast.success("Game saved with success!", {
 					position: "top-right",
 					autoClose: 2000,
 					hideProgressBar: true,
@@ -39,7 +39,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 				setDisabled(false);
 				setShowPopup(false);
 			} else {
-				toast.info("Você precisa estar logado para fazer isso!", {
+				toast.info("You must be logged in to do that!", {
 					position: "top-right",
 					autoClose: 2000,
 					hideProgressBar: true,
@@ -52,7 +52,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 				setDisabled(false);
 			}
 		} catch (err) {
-			toast.error("Não foi possível salvar o jogo, tente novamente!", {
+			toast.error("There was an error, try again", {
 				position: "top-right",
 				autoClose: 2000,
 				hideProgressBar: true,
@@ -72,7 +72,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 		try {
 			if (userData) {
 				if (game.statusId === 0) {
-					toast.info("Esse jogo não está na sua collecão!", {
+					toast.info("This game isnt in your collection!", {
 						position: "top-right",
 						autoClose: 2000,
 						hideProgressBar: true,
@@ -86,7 +86,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 					return;
 				}
 				await deleteGameFromCollection(game.id, userData.token);
-				toast.success("Jogo removido com sucesso!", {
+				toast.success("Game removed with success!", {
 					position: "top-right",
 					autoClose: 2000,
 					hideProgressBar: true,
@@ -99,7 +99,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 				setDisabled(false);
 				setShowPopup(false);
 			} else {
-				toast.info("Você precisa estar logado para fazer isso!", {
+				toast.info("You must be logged in to do that!", {
 					position: "top-right",
 					autoClose: 2000,
 					hideProgressBar: true,
@@ -112,7 +112,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 				setDisabled(false);
 			}
 		} catch (err) {
-			toast.error("Não foi possível remover o jogo, tente novamente!", {
+			toast.error("Unable to remove the game, please try again!", {
 				position: "top-right",
 				autoClose: 2000,
 				hideProgressBar: true,
@@ -131,7 +131,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 			<PopupPaper elevation={7}>
 				<HiXCircle onClick={handlePopupClose} />
 				<h2>{game.name}</h2>
-				<p>Defina o novo status:</p>
+				<p>Set a new status:</p>
 				<Box component="form" onSubmit={handleNewStatus} sx={{ mt: 1 }}>
 					<StatusRadioGroup defaultValue={game.statusId} name="status" onChange={(e) => setNewStatus(e.target.value)}>
 						<FormControlLabel
@@ -146,7 +146,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 									}}
 								/>
 							}
-							label="Wishlist - Jogos que pretendo jogar/comprar."
+							label="Wishlist - Games I want to play/buy."
 						/>
 						<FormControlLabel
 							value={2}
@@ -160,7 +160,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 									}}
 								/>
 							}
-							label="Jogando - Jogos que estou jogando no momento."
+							label="Playing - Games I'm currently playing."
 						/>
 						<FormControlLabel
 							value={3}
@@ -174,7 +174,7 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 									}}
 								/>
 							}
-							label="Zerado - Jogos que já joguei e terminei."
+							label="Finished - Games I've played and finished."
 						/>
 						<FormControlLabel
 							value={4}
@@ -188,15 +188,15 @@ export default function PopupStatus({ game, setShowPopup }: { game: GameComponen
 									}}
 								/>
 							}
-							label="Abandonado - Jogos que parei de jogar."
+							label="Dropped - Games I stopped playing."
 						/>
 					</StatusRadioGroup>
 					<ButtonsBox>
 						<Button variant="outlined" onClick={removeGame} color="secondary" disabled={disabled}>
-							Remover
+							Remove
 						</Button>
 						<Button type="submit" variant="contained" disabled={disabled}>
-							Salvar
+							Save
 						</Button>
 					</ButtonsBox>
 				</Box>

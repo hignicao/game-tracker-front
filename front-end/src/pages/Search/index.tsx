@@ -83,7 +83,7 @@ const SearchContainer = styled(Container)`
 	@media (max-width: 600px) {
 		align-items: center;
 		gap: 5px;
-		text-align: center;
+		text-align: justify;
 	}
 `;
 

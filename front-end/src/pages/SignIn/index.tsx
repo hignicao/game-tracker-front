@@ -25,7 +25,7 @@ export default function SignIn() {
 			setUserData(userData);
 			navigate(`/profile/${userData.user.username}`);
 		} catch (err) {
-			toast.error("Não foi possível fazer o login, tente novamente!", {
+			toast.error("Unable to login, please try again!", {
 				position: "top-right",
 				autoClose: 2000,
 				hideProgressBar: true,
@@ -43,7 +43,7 @@ export default function SignIn() {
 		<Container maxWidth="xs">
 			<LoginBox>
 				<Avatar sx={{ m: 1, bgcolor: "secondary.main" }} />
-				<h5>Já tem uma conta?</h5>
+				<h5>Log In To Your Account</h5>
 				<Box component="form" onSubmit={handleLogIn} sx={{ mt: 1 }}>
 					<FormTextField
 						color="secondary"
@@ -51,7 +51,7 @@ export default function SignIn() {
 						required
 						fullWidth
 						id="username"
-						label="Nome de usuário"
+						label="Username"
 						name="username"
 						value={username}
 						onChange={(e) => setUsername(e.target.value)}
@@ -64,18 +64,19 @@ export default function SignIn() {
 						required
 						fullWidth
 						id="password"
-						label="Senha"
+						label="Password"
 						name="password"
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
 						type="password"
 						autoComplete="current-password"
 					/>
-					<FormControlLabel control={<Checkbox value={remember} onChange={(e) => setRemember(!remember)} color="secondary" />} label="Lembrar meus dados" />
+					<FormControlLabel control={<Checkbox value={remember} onChange={(e) => setRemember(!remember)} color="secondary" />} label="Remember my data" />
 					<LoginButton type="submit" variant="contained" disabled={disabled}>
-						Entrar
+						LOG IN
 					</LoginButton>
-					<LinkText to={"/sign-up"}>Não tem uma conta? Cadastre-se</LinkText>
+					<span>Need an account? </span>
+					<LinkText to={"/sign-up"}>Register here!</LinkText>
 				</Box>
 			</LoginBox>
 		</Container>
@@ -90,16 +91,17 @@ const LoginButton = styled(Button)`
 
 const LinkText = styled(Link)`
 	text-decoration: none;
-	color: #ffffff;
+	color: #a99cc2;
 `;
 
 const LoginBox = styled(Box)`
-	margin-top: 8px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	h5 {
 		font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 10px;
 	}
 `;
 
