@@ -15,26 +15,27 @@ Configuração
 
 Para começar, faça o clone do repositório e execute o seguinte comando na pasta raiz do projeto para instalar as dependências:
 
-bashCopy code
-
-`npm install`
+```
+npm install
+```
 
 Executando o aplicativo
 -----------------------
 
 Para executar o aplicativo em modo de desenvolvimento, execute o seguinte comando:
 
-bashCopy code
-
-`npm run dev`
+```
+npm run dev
+```
 
 Este comando irá iniciar o servidor de desenvolvimento do Vite e abrirá uma janela do navegador na porta padrão do Vite (geralmente [http://localhost:3000](http://localhost:3000/)). O aplicativo será atualizado automaticamente conforme você fizer alterações no código.
 
 Para compilar o aplicativo para produção, execute o seguinte comando:
 
-bashCopy code
 
-`npm run build`
+```
+npm run build
+```
 
 Este comando irá gerar os arquivos estáticos do aplicativo na pasta `dist`, prontos para serem implantados em um servidor web.
 
