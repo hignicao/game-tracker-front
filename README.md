@@ -1,6 +1,7 @@
 # Game Tracker
 
 Este é um projeto de front-end para um gerenciador de jogos criado usando React e TypeScript. O objetivo do projeto é ajudar os usuários a gerenciar os jogos que eles pretendem jogar ou já jogaram.
+Link para o repositório back-end: https://github.com/hignicao/game-tracker-back
 
 Pré-requisitos
 --------------
