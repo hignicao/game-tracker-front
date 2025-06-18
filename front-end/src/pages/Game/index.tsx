@@ -52,8 +52,7 @@ export default function Game() {
 			<Container>
 				<GameInfoBox>
 					<CoverBox>
-						<CoverPaper>
-						</CoverPaper>
+						<CoverPaper status={0}></CoverPaper>
 						<NameRatingSummaryBox status={0}>
 							<Skeleton sx={{ bgcolor: "#705f91" }} variant="text" width={300} height={80} />
 							<RatingBox>
@@ -97,7 +96,7 @@ export default function Game() {
 			</GameBackground>
 			<GameInfoBox>
 				<CoverBox>
-					<CoverPaper elevation={3}>
+					<CoverPaper elevation={3} status={game.statusId}>
 						<img src={`https://images.igdb.com/igdb/image/upload/t_1080p_2x/${game.cover}.jpg`} alt="" />
 					</CoverPaper>
 					<NameRatingSummaryBox status={game.statusId}>
@@ -143,7 +142,9 @@ export default function Game() {
 								<span>- {platform.name}</span>
 							))}
 						</PlatformsBox>
-						<Button variant="contained" color="secondary" onClick={togglePopup}>+ Add to Collection</Button>
+						<Button variant="contained" color="secondary" onClick={togglePopup}>
+							+ Add to Collection
+						</Button>
 					</InfoBoxLeft>
 					<InfoBoxRight>
 						<ScreenshotsGrid screenshots={game.screenshots} />
@@ -201,15 +202,17 @@ const CoverBox = styled(Box)`
 	}
 `;
 
-const CoverPaper = styled(Paper)`
+const CoverPaper = styled(Paper)<GameProps>`
 	align-self: flex-start;
 	min-width: 243px;
 	height: 324px;
 	border-radius: 10px;
+	border: ${(props) =>
+		props.status === 1 ? "4px solid #479B42" : props.status === 2 ? "4px solid #438EB9" : props.status === 3 ? "4px solid #EDA55D" : props.status === 4 ? "4px solid #EF525C" : "0px solid #000000"};
 	img {
 		width: 100%;
 		height: 100%;
-		border-radius: 8px;
+		border-radius: 6px;
 	}
 	@media (max-width: 600px) {
 		align-self: center;
