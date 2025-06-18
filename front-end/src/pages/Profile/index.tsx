@@ -71,7 +71,7 @@ export default function Profile() {
 		<ProfileContainer>
 			<UserBox>
 				<Left>
-					<img src={`https://source.boringavatars.com/beam/120/${user?.username}}`} alt="user profile picture" />
+					<img src={`https://api.dicebear.com/6.x/thumbs/svg?seed=${user?.username}`} alt="user profile picture" />
 					<UserInfo>
 						<p>{user?.name}</p>
 						<p>@{user?.username}</p>

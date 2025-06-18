@@ -40,7 +40,7 @@ export function UserProvider({ children }: { children: ReactNode }) {
 
 	useEffect(() => {
 		if (userData) {
-			setAvatarPicture(`https://source.boringavatars.com/beam/120/${userData?.user.username}}`);
+			setAvatarPicture(`https://api.dicebear.com/6.x/thumbs/svg?seed=${userData?.user.username}`);
 		}
 	}, [userData]);
 
