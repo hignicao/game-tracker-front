@@ -45,6 +45,22 @@ export default function SignUp() {
 				setPasswordNotMatch(false);
 				setDisabled(false);
 			}, 2500);
+		} else if (password.length < 8) {
+			toast.error("Password must be at least 8 characters long!", {
+				position: "top-right",
+				autoClose: 1800,
+				hideProgressBar: true,
+				closeOnClick: true,
+				pauseOnHover: false,
+				draggable: true,
+				progress: undefined,
+				theme: "dark",
+			});
+			setPasswordNotMatch(true);
+			setTimeout(() => {
+				setPasswordNotMatch(false);
+				setDisabled(false);
+			}, 2500);
 		} else {
 			try {
 				await signUp(name, username, email, password);
